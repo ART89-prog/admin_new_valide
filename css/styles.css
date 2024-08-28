@@ -39719,3 +39719,33 @@ bottom: 20px;
     line-height: 16px;
     color: #3F4572;
 }
+
+
+
+.shop_modal-greeting .shop_modal-icon {
+    width: 115px;
+    height: 115px;
+    margin: 0 auto 13px;
+}
+.shop_modal-greeting {
+    padding: 44px 24px 28px;
+}
+.shop_modal-btns {
+    display: flex;
+    gap: 10px;
+}
+.shop_modal-btn {
+    border-radius: 71px;
+    background: var(--main_color);
+    text-decoration: none;
+    color: #fff;
+    padding: 9px 20px;
+    font-weight: 500;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+}
+.shop_modal-btn:last-child {
+    background: #D5D2EE;
+    color: #3A3379;
+}

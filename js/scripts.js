@@ -64,6 +64,12 @@ $(() => {
 		$(this).hide().prev().css("height", "100%");
 	});
 
+	$('body').on('click', '.shop_modal-btn', function (e) {
+		e.preventDefault()
+		Fancybox.close()
+	});
+
+
 	$('.addition_btn').click(function (e) {
 		e.preventDefault();
 		$('.addition form').addClass('active');
