@@ -16936,7 +16936,7 @@ background: #64C841;
     margin-top: 10px;
 }
 .dialog .message .prompt .text-information {
-    width: 368px;
+     max-width: 100%;
     background: #F0F0FC;
     border: 1px solid #E7E7F2;
     border-radius: 21px;
@@ -16967,8 +16967,8 @@ background: #64C841;
     display: flex;
 }
 .dialog .message .prompt .likes button {
-    width: 28px;
-    height: 28px;
+    width: 39px;
+    height: 39px;
     border-radius: 50%;
     background: #ECEBF5;
     display: flex;
@@ -16977,8 +16977,8 @@ background: #64C841;
     padding: 6px;
 }
 .dialog .message .prompt .likes .icon {
-    width: 17px;
-    height: 19px;
+    width: 24px;
+    height: 24px;
     fill: #64698F;
 }
 .dialog .message .prompt .likes .like.active {
@@ -29513,15 +29513,21 @@ bottom: 20px;
 }
 
 .step_stage_img{
-	width: 100%;
-	margin-top: 50px;		
+    width: 100%;
+    margin-top: 50px;
     position: relative;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .step_stage_video{
     width: 100%;
-    margin-top: 50px;       
+    margin-top: 50px;
     position: relative;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .step_stage_video:before {
@@ -29713,6 +29719,7 @@ bottom: 20px;
 .trainer_step_video a img{
 	display: block;
     height: 137px;
+    object-fit: cover;
 }
 
 .trainer_step_video a:after{
@@ -34781,6 +34788,20 @@ bottom: 20px;
     gap: 3px;
 }
 
+.shop_top .shop_link{
+    text-decoration: none;
+    padding: 10px 12px;
+    background: var(--main_color);
+    border-radius: 60px;    
+    margin-left: auto;
+    display: block;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    text-align: center;
+}
 
 .shop_items {
     display: flex;
@@ -35085,7 +35106,7 @@ bottom: 20px;
 }
 
 .shop_modal {
-    max-width: 360px;
+    max-width: 420px;
     width: 100%;
     padding: 47px 35px 34px;
     border-radius: 15px;
@@ -35099,8 +35120,8 @@ bottom: 20px;
     margin: 0 auto 30px;
 }
 .shop_modal-title {
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 24px;
+    line-height: 27px;
     font-style: normal;
     font-weight: 700;
     margin-bottom: 6px;
@@ -39338,7 +39359,7 @@ bottom: 20px;
 
 
 .income {
-    padding: 16px 20px 33px;
+    padding: 16px 20px 53px;
     border-radius: 15px;
     background: #fff;
 }
@@ -39476,13 +39497,7 @@ bottom: 20px;
 .income2 .irs--flat .irs-single {
     display: none;
 }
-.income .irs--flat .irs-max,
-.income2 .irs--flat .irs-max {
-    visibility: visible !important;
-}
-.income .irs--flat .irs-min {
-    visibility: visible !important;
-}
+
 .irs--flat .irs-handle {
     top: 25px;
     width: 18px;
@@ -39505,7 +39520,7 @@ bottom: 20px;
 .event-feed .page_title {
     margin-bottom: 25px;
 }
-.tabs_container .event-feeв_head button.active {
+.tabs_container .event-feed_head button.active {
     background: var(--main_color);
     color: #fff;
     font-size: 14px;
@@ -39519,7 +39534,7 @@ bottom: 20px;
     margin-right: 0;
     letter-spacing: inherit;
 }
-.tabs_container .event-feeв_head button {
+.tabs_container .event-feed_head button {
     background: #D5D2EE;
     color: #3A3379;
     font-size: 14px;
@@ -39668,10 +39683,24 @@ bottom: 20px;
 .event-feed_item-images {
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
+}
+
+.event-feed_item-images img{
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.event-feed_item-images a{  
+    width: 225px;
+    height: 140px;
+
 }
 .event-feed .trainer_step_video a img {
-    width: 132px;
-    height: 88px;
+    width: 100%;
+    height: 100%;
 }
 .event-feed .trainer_step_video a:after {
     display: none;
@@ -39683,6 +39712,9 @@ bottom: 20px;
     width: 32px;
     height: 32px;
     z-index: 100;
+}
+.event-feed .trainer_step_video{
+    max-width: 100%;
 }
 .event-feed_item-images {
     margin-top: 15px;
@@ -39723,12 +39755,17 @@ bottom: 20px;
 
 
 .shop_modal-greeting .shop_modal-icon {
-    width: 115px;
-    height: 115px;
-    margin: 0 auto 13px;
+    width: 175px;
+    height: 175px;
+    margin: 0 auto 25px;
+}
+.shop_modal-greeting .shop_modal-icon img{
+	background: #F3F4F9;
+    padding: 30px;
+    border-radius: 48px;
 }
 .shop_modal-greeting {
-    padding: 44px 24px 28px;
+    padding: 64px 24px 44px;
 }
 .shop_modal-btns {
     display: flex;
@@ -39739,13 +39776,88 @@ bottom: 20px;
     background: var(--main_color);
     text-decoration: none;
     color: #fff;
-    padding: 9px 20px;
+    padding: 12px 23px;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 17px;
     display: block;
     text-align: center;
 }
 .shop_modal-btn:last-child {
     background: #D5D2EE;
     color: #3A3379;
+}
+
+.shop_accrual_title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1px;
+    margin-bottom: 16px;
+}
+
+.warning_training_list_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.warning_training_list_image, .warning_training_list_video{
+    margin-left: 0;
+    margin-top: 0;
+    width: 140px;
+}
+
+.simulator-quiz_images{
+    display: flex;
+    gap:15px;
+    margin-top: 15px;
+}
+
+.content_flex.content_flex_full_action .simulator-quiz_images img, 
+.content_flex.content_flex_full_action .simulator-quiz_images img{
+    height: 100%;
+}
+
+.simulator-quiz_images a{width: calc(100% / 3 - 10px);}
+
+.step_stage_img_wrapper{
+    display: flex;
+    gap:15px;
+    flex-wrap: wrap;
+}
+
+
+.fix_video.step_stage_img_wrap a:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.fix_video.step_stage_img_wrap .icon {
+    position: absolute;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    z-index: 1;
+}
+
+.simulator-quiz_images .simulator-quiz_video-wrap .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 57px;
+    height: 57px;
+}
+
+.simulator-quiz_img_wrap{
+    position: relative;
 }

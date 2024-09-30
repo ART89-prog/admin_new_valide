@@ -867,6 +867,7 @@
     
     .dialog .message .prompt .text-information {
         width: 200px;
+        flex-shrink: 0;
     }
 
 
@@ -1967,6 +1968,7 @@
     }
     .shop_head-links {
         width: 100%;
+        margin-bottom: 20px;
     }
     .shop_card-title {
         flex-direction: column;
@@ -2095,6 +2097,9 @@
         padding: 16px 20px;
     }
     
+    .shop_modal-btn{
+        font-size: 12px;
+    }
 
 
     
