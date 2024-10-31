@@ -3435,12 +3435,18 @@
         margin: 15px auto 0;
     }
 
+    .trainer_ai_body{
+        flex-direction: column;
+    }
 
+    .trainer_ai_body_left{
+        width: 100%;
+    }
 
-
-
-
-
+    .trainer_ai_body_right{
+        border-radius: 20px;
+        width: 100%;
+    }
 
 
 }
