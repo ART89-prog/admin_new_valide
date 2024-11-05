@@ -41015,10 +41015,12 @@ a.back_link_right{
 .passing-head {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 20px;
 }
-
 .passing_items {
-    column-count: 3;    
+    column-count: 3;   
+    column-gap: 15px; 
 }
 .passing_item {
     padding: 15px 15px 20px 15px;
@@ -41027,10 +41029,26 @@ a.back_link_right{
     page-break-inside: avoid;
     break-inside: avoid;
 }
+.passing_item + .passing_item {
+    margin-top: 15px;
+}
 .passing_item-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 15px;
+    position: relative;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+.passing_item-top:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 30px);
+    height: 1px;
+    background: #E0DEF4;
+    bottom: 0;
+    left: -15px;
 }
 .passing_item-box {
     display: flex;
@@ -41040,6 +41058,7 @@ a.back_link_right{
 .passing_item-avatar {
     width: 37px;
     height: 37px;
+    flex-shrink: 0;
 }
 .passing_item-avatar img {
     width: 100%;
@@ -41047,19 +41066,72 @@ a.back_link_right{
     border-radius: 50%;
     object-fit: cover;
 }
-.passing_item-info {
-}
 .passing_item-name {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #2D335B;
 }
 .passing_item-date {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #7178AD;
 }
 .passing_item-rating {
+    width: 45px;
+    height: 45px;
+    border-radius: 11px;
+    background: #60C73026;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #5EC62D;
+    flex-shrink: 0;
 }
 .passing_item-text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1C2038;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    position: relative;
 }
-.passing_item-bottom {
+.passing_item-text:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 30px);
+    height: 1px;
+    background: #E0DEF4;
+    bottom: 0;
+    left: -15px;
 }
 .passing_item-bottom-title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 19px;
+    color: #7178AD;
+    margin-bottom: 5px;
 }
 .passing_item-bottom-text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1C2038;
+}
+.page_title {
+    flex-wrap: nowrap;
 }
