@@ -40670,6 +40670,7 @@ bottom: 20px;
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    object-fit: cover;
 }
 .person_item-name {
     margin-top: 17px;
@@ -40849,8 +40850,8 @@ bottom: 20px;
     gap: 8px;
 }
 .chat_item-right-photo {
-    width: 22px;
-    height: 22px;
+    width: 36px;
+    height: 36px;
     flex-shrink: 0;
 }
 .chat_item-right-photo img {
@@ -40948,4 +40949,23 @@ bottom: 20px;
 }
 .person_edit .modal_cont.langs .btn .icon {
     margin-left: auto;
+}
+
+a.back_link_right{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 146px;
+    height: 34px;
+    background: var(--main_color);
+    border-radius: 55px;
+    display: block;
+}
+
+.back_link:has(.back_link_right){
+    display: flex;
+    justify-content: space-between;
 }
