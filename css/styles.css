@@ -260,6 +260,8 @@ input[type=number]
     --color_light: linear-gradient(0deg, rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), var(--main_color);
     --color_light_anima: rgba(255, 0, 0, .05);
     --border: var(--main_color);
+    --text_page1: #312C5C;
+    --text_page2: #443E73;
 }
 
 
@@ -41309,7 +41311,7 @@ a.back_link_right{
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    color: #312C5C;
+    color: var(--text_page1);
     margin-bottom: 15px;
 }
 .reassurance ul {
@@ -41326,7 +41328,7 @@ a.back_link_right{
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    color: #312C5C;  
+    color: var(--text_page1);  
     position: relative;   
 }
 .reassurance ul li + li {
@@ -41350,7 +41352,7 @@ a.back_link_right{
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    color: #312C5C;  
+    color: var(--text_page1);
     position: relative;   
 }
 .reassurance ol li + li {
@@ -41396,7 +41398,7 @@ a.back_link_right{
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    color: #443E73;
+    color: var(--text_page2);
     position: relative;
     margin-bottom: 20px;
 }
@@ -41416,7 +41418,7 @@ a.back_link_right{
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    color: #312C5C;  
+    color: var(--text_page1); 
     position: relative;   
 }
 .conversation ul li + li {
@@ -41536,7 +41538,7 @@ a.back_link_right{
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    color: #443E73;
+    color: var(--text_page2);
     position: relative;
     margin-bottom: 20px;
     display: inline-block;
@@ -41561,7 +41563,7 @@ a.back_link_right{
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    color: #443E73;
+    color: var(--text_page2);
     margin-left: 22px;
 }
 .reaction_item-answer:before {
@@ -41627,14 +41629,14 @@ a.back_link_right{
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    color: #443E73;
+    color: var(--text_page2);
 }
 .objection_item-answer .objection_item-text {
     font-family: 'Ubuntu';
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    color: #443E73;
+    color: var(--text_page2);
 }
 .momentous_box {
     padding: 20px 18px;
