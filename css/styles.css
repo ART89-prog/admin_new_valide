@@ -41248,7 +41248,7 @@ a.back_link_right{
     font-size: 13px;
     line-height: 15px;
     text-decoration: none;
-    border-radius: 55px;
+     border-radius: 55px;
 }
 .chekboxses .checkbox + .checkbox {
     margin-top: 20px;
@@ -41272,4 +41272,184 @@ a.back_link_right{
 }
 .trainer_ai-task .custom-checkbox:disabled+label::before {
     background-color: #e9ecef;
+}
+
+
+
+.text-page_block {
+    margin-top: 40px;
+    padding: 25px 20px;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .05);
+}
+.text-page_title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.text-page_box {
+    padding: 20px 18px;
+    background-color: color-mix(in srgb, var(--main_color) 15%, #fff);
+    border-radius: 6px;
+}
+.text-page_subtitle {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #181818;
+    margin-bottom: 15px;
+}
+.text-page_text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #312C5C;
+    margin-bottom: 15px;
+}
+.reassurance ul {
+    list-style: none;  
+    padding-left: 27px;  
+}
+.reassurance ol {
+    counter-reset: section;
+    padding-left: 34px;  
+    list-style: none;
+}
+.reassurance ul li {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #312C5C;  
+    position: relative;   
+}
+.reassurance ul li + li {
+    margin-top: 10px;
+}
+.reassurance ul li:before {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--main_color);
+    left: -15px;
+    top: 4px;
+}
+.text-page_list + .text-page_list {
+    margin-top: 20px;
+}
+.reassurance ol li {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #312C5C;  
+    position: relative;   
+}
+.reassurance ol li + li {
+    margin-top: 10px;
+}
+.reassurance ol li:before {
+    position: absolute;
+    content: "";
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: var(--main_color);
+    left: -20px;
+    top: 1px;
+    counter-increment: section;
+    content: counters(section,".") " ";
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conversation_audio {
+    margin-bottom: 25px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: color-mix(in srgb, var(--main_color) 5%, #fff);
+}
+.conversation_audio.audio_media .media-range {
+    background-color: color-mix(in srgb, var(--main_color) 35%, #fff);
+}
+.conversation blockquote {
+    padding: 14px 60px 14px 16px;
+    border-radius: 5px;
+    background-color: color-mix(in srgb, var(--main_color) 5%, #fff);
+    border-left: 4px solid var(--main_color);
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #443E73;
+    position: relative;
+    margin-bottom: 20px;
+}
+.conversation blockquote .icon {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 6px;
+    right: 11px;
+}
+.conversation ul {
+    list-style: none;  
+    padding-left: 27px;  
+}
+.conversation ul li {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #312C5C;  
+    position: relative;   
+}
+.conversation ul li + li {
+    margin-top: 10px;
+}
+.conversation ul li:before {
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: url(../images/ok3.svg);
+    left: -20px;
+    top: 0px;
+}
+.conversation_list {
+    position: relative;
+    padding-bottom: 24px;
+}
+.conversation_list + .conversation_list {
+    margin-top: 18px;
+}
+.conversation_list:before {
+    position: absolute;
+    content: "";    
+    background: #D4D1EB;
+    width: calc(100% + 40px);
+    height: 1px;
+    bottom: 0;
+    left: -20px;
+}
+.conversation_list:last-child {
+    padding-bottom: 0;
+}
+.conversation_list:last-child:before {
+    display: none;
 }
