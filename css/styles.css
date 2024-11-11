@@ -41453,3 +41453,207 @@ a.back_link_right{
 .conversation_list:last-child:before {
     display: none;
 }
+.conversation_list .icon {
+    width: 20px;
+    height: 20px;
+}
+.conversation_list-title {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 14px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #181818;
+}
+.conversation_list.yellow .icon {
+    width: 16px;
+    height: 20px;
+}
+.conversation_list.green ul li:before {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #52CA26;
+    left: -15px;
+    top: 4px;
+} 
+.conversation_list.red ul li:before {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #D11A1A;
+    left: -15px;
+    top: 4px;
+} 
+.conversation_list.yellow ul li:before {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #FFC526;
+    left: -15px;
+    top: 4px;
+} 
+.reaction .video-player {
+    border-radius: 15px;  
+    width: 100%;  
+    display: block;
+    height: 100%;
+    margin-bottom: 27px;
+}
+.reaction .video-player img {
+    width: 100%;
+}
+.reaction_video {
+    position: relative;
+    z-index: 0;
+    margin-bottom: 27px;
+}
+.reaction .reaction_video .icon {
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+.reaction blockquote {
+    padding: 14px 60px 14px 16px;
+    border-radius: 5px;
+    background-color: color-mix(in srgb, var(--main_color) 5%, #fff);
+    border-left: 4px solid var(--main_color);
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #443E73;
+    position: relative;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.reaction blockquote .icon {
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top: 6px;
+    right: 11px;
+}
+.reaction_item + .reaction_item {
+    margin-top: 20px;
+}
+.reaction_item-answer {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #443E73;
+    margin-left: 22px;
+}
+.reaction_item-answer:before {
+    position: absolute;
+    content: "";
+    width: 9px;
+    height: 22px;
+    background: url(../images/arrow123.svg);
+    top: -10px;
+    left: -12px;
+}
+.reaction_item-answer .icon {
+    width: 24px;
+    height: 24px;
+}
+
+.objection_item-client {
+    background: var(--main_color);
+    padding: 10px 10px 17px 10px;
+    border-radius: 18px;
+    display: inline-block;
+    color: #fff;
+}
+.objection_item-answer {
+    background-color: color-mix(in srgb, var(--main_color) 5%, #fff);
+    padding: 10px 10px 17px 10px;
+    border-radius: 18px;
+    display: inline-block;
+    color: #fff;
+    max-width: 487px;
+}
+.objection_item-client .objection_item-head {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 10px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+.objection_item-client .objection_item-text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.objection_item-client .objection_item-head .icon,
+.objection_item-answer .objection_item-head .icon {
+    width: 24px;
+    height: 24px;
+}
+.objection_item + .objection_item {
+    margin-top: 10px;
+}
+.objection_item-answer .objection_item-head {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 10px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #443E73;
+}
+.objection_item-answer .objection_item-text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #443E73;
+}
+.momentous_box {
+    padding: 20px 18px;
+    border-radius: 6px;
+    background: var(--main_color);
+}
+.momentous_title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;  
+    margin-bottom: 20px;
+}
+.momentous_text {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
