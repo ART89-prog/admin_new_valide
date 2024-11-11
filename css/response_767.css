@@ -1385,7 +1385,6 @@
         flex-direction: column;
     }
     .analytics-enabled_icon {
-        margin-right: 0px;
         margin-bottom: 12px;
     }
     .analytics-enabled_info {
@@ -3454,9 +3453,6 @@
     }
 
 
-    .passing_items {
-        column-count: 1;
-    }
     .passing-head {
         flex-direction: column;
         gap: 32px;
@@ -3465,5 +3461,8 @@
         margin-top: 8px;
     }
 
+    .passing_item{
+        width: 100%;
+    }
 
 }
