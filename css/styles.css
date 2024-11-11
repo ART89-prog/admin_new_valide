@@ -41659,3 +41659,129 @@ a.back_link_right{
     line-height: 16px;
     color: #FFFFFF;
 }
+
+.preparation p {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #312C5C;   
+}
+.preparation p + p {
+    margin-top: 20px;
+}
+
+
+.acquaintance p {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #312C5C;    
+    margin-bottom: 15px;  
+}
+.acquaintance p + p {
+    margin-top: 20px;
+}
+.acquaintance ul {
+    list-style: none;
+    padding-left: 27px;
+}
+.acquaintance ul li {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--text_page1);
+    position: relative;
+}
+.acquaintance ul li:before {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #FF5C00;
+    left: -15px;
+    top: 4px;
+}
+.acquaintance ul li + li {
+    margin-top: 10px;
+}
+
+.scheme p {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #312C5C;    
+    margin-bottom: 15px;  
+}
+.scheme p + p {
+    margin-top: 20px;
+}
+.scheme ol {
+    list-style: none;
+    counter-reset: section1;
+    padding-left: 34px;
+}
+.scheme ol li {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--text_page1);
+    position: relative;   
+}
+.scheme ol li + li {
+    margin-top: 23px;
+}
+.scheme ol li:before {
+    position: absolute;
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--main_color);
+    left: -27px;
+    top: -3px;
+    counter-increment: section1;
+    content: counters(section1,".") " ";
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.scheme ol li:after {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: calc(100% + 10px);
+    background: var(--main_color);
+    left: -17px;
+    top: 14px;
+}
+.scheme ol li:last-child:after {
+    display: none;
+}
+.scheme_box {
+    padding: 18px;
+    background: #F3F2FC;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.scheme_box p {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #312C5C;
+}
+.scheme_box p b {
+    font-weight: 700;
+}
