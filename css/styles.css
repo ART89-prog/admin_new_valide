@@ -41278,13 +41278,7 @@ a.back_link_right{
 
 
 
-.text-page_block {
-    margin-top: 40px;
-    padding: 25px 20px;
-    border-radius: 15px;
-    background: #fff;
-    box-shadow: 0 0 20px rgba(0, 0, 0, .05);
-}
+
 .text-page_title {
     font-family: 'Ubuntu';
     font-weight: 700;
@@ -41314,27 +41308,29 @@ a.back_link_right{
     color: var(--text_page1);
     margin-bottom: 15px;
 }
-.reassurance ul {
+.text_block .reassurance ul {
     list-style: none;  
     padding-left: 27px;  
 }
-.reassurance ol {
+.text_block .reassurance ol {
     counter-reset: section;
     padding-left: 34px;  
     list-style: none;
 }
-.reassurance ul li {
+.text_block .reassurance ul li {
     font-family: 'Ubuntu';
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     color: var(--text_page1);  
-    position: relative;   
+    position: relative;  
+    overflow: visible; 
+    padding-left: 0;
 }
-.reassurance ul li + li {
+.text_block .reassurance ul li + li {
     margin-top: 10px;
 }
-.reassurance ul li:before {
+.text_block .reassurance ul li:before {
     position: absolute;
     content: "";
     width: 8px;
@@ -41343,22 +41339,25 @@ a.back_link_right{
     background: var(--main_color);
     left: -15px;
     top: 4px;
+    border: none;
 }
 .text-page_list + .text-page_list {
     margin-top: 20px;
 }
-.reassurance ol li {
+.text_block .reassurance ol li {
     font-family: 'Ubuntu';
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     color: var(--text_page1);
     position: relative;   
+    overflow: visible;
+    padding-left: 0;
 }
-.reassurance ol li + li {
+.text_block .reassurance ol li + li {
     margin-top: 10px;
 }
-.reassurance ol li:before {
+.text_block .reassurance ol li:before {
     position: absolute;
     content: "";
     width: 13px;
@@ -41378,6 +41377,7 @@ a.back_link_right{
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none;    
 }
 .conversation_audio {
     margin-bottom: 25px;
@@ -41388,7 +41388,7 @@ a.back_link_right{
 .conversation_audio.audio_media .media-range {
     background-color: color-mix(in srgb, var(--main_color) 35%, #fff);
 }
-.conversation blockquote {
+.text_block .conversation blockquote {
     padding: 14px 60px 14px 16px;
     border-radius: 5px;
     background-color: color-mix(in srgb, var(--main_color) 5%, #fff);
@@ -41401,6 +41401,7 @@ a.back_link_right{
     color: var(--text_page2);
     position: relative;
     margin-bottom: 20px;
+    margin-top: 0;
 }
 .conversation blockquote .icon {
     width: 42px;
@@ -41420,6 +41421,8 @@ a.back_link_right{
     line-height: 16px;
     color: var(--text_page1); 
     position: relative;   
+    overflow: visible;
+    padding-left: 0;
 }
 .conversation ul li + li {
     margin-top: 10px;
@@ -41432,6 +41435,7 @@ a.back_link_right{
     background: url(../images/ok3.svg);
     left: -20px;
     top: 0px;
+    border: none;
 }
 .conversation_list {
     position: relative;
@@ -41694,6 +41698,8 @@ a.back_link_right{
     line-height: 16px;
     color: var(--text_page1);
     position: relative;
+    overflow: visible;
+    padding-left: 0;
 }
 .acquaintance ul li:before {
     position: absolute;
@@ -41704,6 +41710,7 @@ a.back_link_right{
     background: #FF5C00;
     left: -15px;
     top: 4px;
+    border: none;
 }
 .acquaintance ul li + li {
     margin-top: 10px;
@@ -41732,11 +41739,13 @@ a.back_link_right{
     line-height: 16px;
     color: var(--main_color);
     position: relative;   
+    overflow: visible;
+    padding-left: 0;
 }
 .scheme ol li + li {
     margin-top: 23px;
 }
-.scheme ol li:before {
+.text_block .scheme ol li:before {
     position: absolute;
     content: "";
     width: 22px;
@@ -41756,6 +41765,7 @@ a.back_link_right{
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none;
 }
 .scheme ol li:after {
     position: absolute;
@@ -41820,6 +41830,9 @@ a.back_link_right{
     margin-top: -4px;
     flex-shrink: 0;
 }
+.principle ul {
+    list-style: none;
+}
 .principle ul li {
     display: flex;
     align-items: flex-start;
@@ -41829,6 +41842,9 @@ a.back_link_right{
     font-size: 14px;
     line-height: 16px;
     color: #312C5C;
+}
+.text_block .principle ul li:before {
+    display: none;
 }
 .principle ul li + li {
     margin-top: 20px;
@@ -41848,6 +41864,9 @@ a.back_link_right{
 .pinning ul {
     margin-bottom: 15px;
 }
+.text_block .pinning ul li:before {
+    display: none;
+}
 .pinning ul li {
     display: flex;
     align-items: flex-start;
@@ -41857,6 +41876,7 @@ a.back_link_right{
     font-size: 14px;
     line-height: 16px;
     color: #312C5C;
+    overflow: visible;
 }
 .pinning ul li + li {
     margin-top: 20px;
