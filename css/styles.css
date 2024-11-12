@@ -42066,3 +42066,115 @@ a.back_link_right{
 .dynamic_item + .dynamic_item {
     margin-top: 20px;
 }
+
+.surveys .accordion_item .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.surveys .accordion_item-title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1px;
+    margin-bottom: 5px; 
+}
+.surveys .accordion_item-text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #59619C;
+}
+.surveys .accordion_item .head:before {
+    display: none;
+}
+.surveys .accordion_item .head {
+    padding: 18px;
+}
+.surveys .accordion_item-left {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.surveys .accordion_item-icon {
+    width: 48px;
+    height: 48px;
+}
+.surveys .accordion_item .data {
+    padding: 18px;
+}
+.surveys .accordion_item .data .accordion-block_item {
+    padding: 21px 18px;
+    background: #F7F6FF;
+    border-radius: 20px;
+}
+.surveys .accordion-block_item-bottom {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+.surveys .accordion-block_item-comment {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.surveys .accordion-block_item-comment .icon {
+    width: 24px;
+    height: 24px;
+}
+.surveys .accordion-block_item-comment span {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+.surveys .accordion-block_item-bottom-text {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #625BA1;
+    padding: 6px;
+    border-radius: 59px;
+    background-color: color-mix(in srgb, var(--main_color) 15%, #fff);
+}
+.surveys .accordion-block_item-title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.3px;
+    color: #35324E;
+    margin-bottom: 15px;
+}
+.surveys .accordion-block_item-text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6C718F;
+    margin-bottom: 15px;
+}
+.surveys .accordion-block_item + .accordion-block_item {
+    margin-top: 18px;
+}
+.surveys .faq_btn {
+    padding: 10px 12px;
+    background: var(--main_color);    
+    border-radius: 59px;
+}
+.surveys .accordion_item .faq_btn:first-child span {
+    color: #fff;
+}
+.surveys .accordion_item .faq_btn:first-child .faq_btn-icon {
+    background: #fff;
+}
+.surveys .accordion_item .faq_btn:last-child span {
+    color: #fff;
+}
+.surveys .accordion_item .faq_btn:last-child .faq_btn-icon {
+    background: #fff;
+}
