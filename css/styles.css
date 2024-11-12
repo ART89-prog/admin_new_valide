@@ -42192,11 +42192,22 @@ a.back_link_right{
     margin-top: 0px;
 }
 .skill-bars .bar .info {
-    margin-bottom: 5px;
+    margin-bottom: 9px;
+    display: flex;
+    justify-content: space-between;
 }
 .skill-bars .bar .info span {
     opacity: 0;
     animation: showText 0.5s 1s linear forwards;
+}
+.progress-line_text {
+    margin-left: auto;
+    margin-right: 46px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #87CC15;
 }
 @keyframes showText {
 100% {
@@ -42227,20 +42238,17 @@ a.back_link_right{
     background: var(--main_color);
     animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
+.bar:nth-child(2n) .progress-line span {
+    background: #87CC15;
+}
 .bar .progress-line.item1 span {
     width: 75%;
 }
-.bar .progress-line.css span {
-    width: 60%;
+.bar .progress-line.item2 span {
+    width: 43%;
 }
-.bar .progress-line.jquery span {
-    width: 85%;
-}
-.bar .progress-line.python span {
-    width: 50%;
-}
-.bar .progress-line.mysql span {
-    width: 75%;
+.bar .progress-line.item3 span {
+    width: 12%;
 }
 .bar .info {
     position: relative;
@@ -42282,16 +42290,142 @@ a.back_link_right{
 .bar .info.item1 span::after {
     content: "75%";
 }
-.progress-line.css span::after {
-    content: "60%";
+.bar .info.item2 span::after {
+    content: "43%";
 }
-.progress-line.jquery span::after {
-    content: "85%";
+.bar .info.item3 span::after {
+    content: "12%";
 }
-.progress-line.python span::after {
-    content: "50%";
+.skill-bars_button {
+    background: #625BA126;
+    padding: 12px 15px;
+    border-radius: 55px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #625BA1;
+    text-decoration: none;
+    display: inline-block;
 }
-.progress-line.mysql span::after {
-    content: "75%";
+.skill-bars_items {
+    position: relative;
+}
+.skill-bars_items:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 36px);
+    left: -18px;
+    bottom: 0;
+    height: 1px;
+    background: #CACACA;    
+}
+.skill-bars_items {
+    padding-bottom: 28px;
+}
+.skill-bars_items {
+    margin-top: 28px;
+}
+.skill-bars_items-title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 18px;
+    color: #000000; 
 }
   
+
+.alternative {
+    padding: 18px;
+    background: #fff;
+    border-radius: 20px;
+}
+.alternative_top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.alternative_title {
+    width: calc(100% - 180px);
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.3px;
+    color: #1D1D1D;
+}
+.alternative_label {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 59px;
+    background: #CD3057;
+}
+.alternative_text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #515780;
+    margin-bottom: 20px;
+}
+.alternative .uploaded-files_item-top {
+    margin-bottom: 0;
+}
+.alternative.uploaded-files_item-info {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: #1D1D1D;
+}
+.alternative .uploaded-files_item-bottom {
+    padding-top: 0;
+}
+.alternative_images {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+.alternative_images img {
+    border-radius: 15px;
+    width: 83px;
+    height: 83px;
+}
+
+.skill-bars {
+    padding: 24px 18px;
+    background: #fff;
+    border-radius: 20px;   
+}
+.skill-bars_title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.3px;
+    color: #1D1D1D;
+    padding-bottom: 20px;
+    position: relative;
+}
+.skill-bars_title:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 36px);
+    left: -18px;
+    bottom: 0;
+    height: 1px;
+    background: #CACACA;
+}
+.skill-bars_item {
+    margin-top: 28px;
+}
+
+.voting.comments .comment .data {
+    padding: 0;
+    border: none;
+}
