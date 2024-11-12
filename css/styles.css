@@ -41914,3 +41914,17 @@ a.back_link_right{
 .experienced p + p {
     margin-top: 20px;
 }
+
+.surveys .close_new_message .icon {
+    width: 26px;
+    height: 26px;
+    margin-top: 5px;
+    flex-shrink: 0;
+    margin-right: 0;
+}
+.surveys .page_title {
+    margin-bottom: 20px;
+}
+.surveys .message_new {
+    padding: 7px 12px;
+}
