@@ -41922,9 +41922,6 @@ a.back_link_right{
     flex-shrink: 0;
     margin-right: 0;
 }
-.surveys .page_title {
-    margin-bottom: 20px;
-}
 .surveys .message_new {
     padding: 7px 12px;
 }
@@ -41932,6 +41929,7 @@ a.back_link_right{
 .surveys_items {
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
 .surveys_items > * {
     display: flex;
@@ -41945,6 +41943,7 @@ a.back_link_right{
 .surveys_item .icon {
     width: 48px;
     height: 48px;
+    flex-shrink: 0;
 }
 .surveys_item-title {
     font-family: 'Ubuntu';
@@ -42001,6 +42000,7 @@ a.back_link_right{
     letter-spacing: -0.3px;
     color: #1D1D1D;
     margin-bottom: 12px;
+    width: calc(100% - 180px);
 }
 .dynamic_item-label {
     font-family: 'Ubuntu';
@@ -42008,8 +42008,10 @@ a.back_link_right{
     font-size: 12px;
     line-height: 20px;
     color: #FFFFFF;
-    padding: 6px 8px;
+    padding: 0px 8px;
     border-radius: 59px;
+    height: 20px;
+    text-align: center;
 }
 .dynamic_item-label.red {
     background: #CD3057; 
@@ -42097,6 +42099,7 @@ a.back_link_right{
     display: flex;
     align-items: center;
     gap: 18px;
+    width: calc(100% - 150px);
 }
 .surveys .accordion_item-icon {
     width: 48px;
@@ -42360,9 +42363,11 @@ a.back_link_right{
     font-size: 12px;
     line-height: 20px;
     color: #FFFFFF;
-    padding: 2px 8px;
+    padding: 0px 8px;
     border-radius: 59px;
     background: #CD3057;
+    height: 20px;
+    text-align: center;
 }
 .alternative_text {
     font-family: 'Ubuntu';
@@ -42428,4 +42433,139 @@ a.back_link_right{
 .voting.comments .comment .data {
     padding: 0;
     border: none;
+}
+
+.voter-list {
+    margin-top: 16px;
+}
+.voter-list_title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #515780;
+    margin-bottom: 10px;
+}
+.voter-list_items {
+    display: flex;
+    gap: 10px;
+}
+.voter-list_items > * {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.voter-list_item-photo {
+    width: 33px;
+    height: 33px;
+    flex-shrink: 0;
+}
+.voter-list_item-photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.voter-list_item-name {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: #1D1D1D;
+}
+.voter-list_item-text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #515780;
+}
+.voter-list_desc a {
+    padding: 12px 15px;
+    background: var(--main_color);
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.voter-list_desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-voter-list {
+    max-width: 397px;
+    width: 100%;
+    border-radius: 15px;
+    background: #fff;
+    padding: 20px 15px;
+    height: 519px;
+    overflow-y: scroll;
+    display: none;
+}
+.modal-voter-list::-webkit-scrollbar {
+    width: 10px !important;
+    background-color: #f9f9fd;
+}
+.modal-voter-list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #18aaaa;
+}
+.modal-voter-list::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: #f9f9fd;
+}
+.modal-voter_title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 17px;
+    position: relative;
+}
+.modal-voter_title:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 30px);
+    left: -15px;
+    bottom: 0;
+    height: 1px;
+    background: #CACACA;
+}
+.modal-list_item-photo {
+    width: 44px;
+    height: 44px;
+}
+.modal-list_item-photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.modal-list_item-name {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+}
+.modal-voter-list ul {
+    list-style: none;
+}
+.modal-voter-list ul li {
+    display: flex;
+    align-items: center;
+    padding: 11px;
+    background: #F3F2FC;
+    gap: 15px;
+}
+.modal-voter-list ul li {
+    margin-top: 7px;
 }
