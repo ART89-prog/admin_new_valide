@@ -42178,3 +42178,120 @@ a.back_link_right{
 .surveys .accordion_item .faq_btn:last-child .faq_btn-icon {
     background: #fff;
 }
+
+
+.alternative .uploaded-files_item-bottom::before {
+    display: none;
+}
+
+
+.skill-bars .bar {
+    margin: 20px 0;
+}
+.skill-bars .bar:first-child {
+    margin-top: 0px;
+}
+.skill-bars .bar .info {
+    margin-bottom: 5px;
+}
+.skill-bars .bar .info span {
+    opacity: 0;
+    animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText {
+100% {
+    opacity: 1;
+    }
+}
+.skill-bars .bar .progress-line {
+    height: 12px;
+    width: 100%;
+    background: #F3F2FC;
+    position: relative;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 12px;
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+@keyframes animate {
+100% {
+    transform: scaleX(1);
+    }
+}
+.bar .progress-line span {
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    background: var(--main_color);
+    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+.bar .progress-line.item1 span {
+    width: 75%;
+}
+.bar .progress-line.css span {
+    width: 60%;
+}
+.bar .progress-line.jquery span {
+    width: 85%;
+}
+.bar .progress-line.python span {
+    width: 50%;
+}
+.bar .progress-line.mysql span {
+    width: 75%;
+}
+.bar .info {
+    position: relative;
+}
+.bar .info .bar_title {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #515780;
+}
+.bar .info .bar_title b {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    color: #1D1D1D;
+}
+.bar .info span::after {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    letter-spacing: -0.3px;
+    color: #1D1D1D;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2 {
+100% {
+    opacity: 1;
+    }
+}
+.bar .info.item1 span::after {
+    content: "75%";
+}
+.progress-line.css span::after {
+    content: "60%";
+}
+.progress-line.jquery span::after {
+    content: "85%";
+}
+.progress-line.python span::after {
+    content: "50%";
+}
+.progress-line.mysql span::after {
+    content: "75%";
+}
+  
