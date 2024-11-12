@@ -3510,6 +3510,9 @@
     .surveys_items > * {
         padding: 12px;
     }
+    .learning-paths_info {
+        padding: 16px;
+    }
 
 
 }

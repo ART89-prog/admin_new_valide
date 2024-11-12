@@ -32613,26 +32613,40 @@ bottom: 20px;
 }
 .learning-paths_top {
     display: flex;
+    gap: 15px;
+    padding-bottom: 16px;
+    position: relative;
+    margin-bottom: 16px;
+}
+.learning-paths_top:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 40px);
+    height: 1px;
+    bottom: 0;
+    left: -20px;
+    background: #ECEAFF;
+}
+.learning-paths_info {
     background: #fff;
-    padding: 20px;
-    border-radius: 15px;
+    padding: 24px;
+    border-radius: 15px;    
+}
+.learning-paths_text p {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: #625E88;
+}
+.learning-paths_text p + p {
+    margin-top: 16px;
 }
 
-
-.learning-paths_top-icon {
-    width: 61px;
-    height: 61px;
-    margin-right: 17px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    background: #cccef7;
-    flex-shrink: 0;
-}
 .learning-paths_top .icon {
-    width: 36px;
-    height: 36px;
+    width: 49px;
+    height: 49px;
+    flex-shrink: 0;
 }
 .learning-paths_top-title {
     font-size: 18px;
