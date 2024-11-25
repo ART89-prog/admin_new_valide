@@ -42714,9 +42714,39 @@ a.back_link_right{
     color: #1A1B2F;
     margin-bottom: 4px;
 }
-.evaluation-simulator_item .icon {
-    width: 33px;
-    height: 33px;
+.rating-area2 {
+	overflow: hidden;
+	width: 211px;
+}
+.rating-area2:not(:checked) > input {
+	display: none;
+}
+.rating-area2:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 42px;
+}
+.rating-area2:not(:checked) > label:before {
+	content: '★';
+}
+.rate-area2 > label:active {
+	position: relative;
+}
+.rating-area2:not(:checked) > label:before {
+    content: '';
+    display: block;
+    background: url(../images/star-black2.svg);
+    width: 28px;
+    height: 27px;
+}
+.rating-area2 > input:checked ~ label:before {
+    background: url(../images/star10.svg);
+}
+.rating-area2:not(:checked) > label:hover:before,
+.rating-area2:not(:checked) > label:hover ~ label:before {
+    background: url(../images/star10.svg);
 }
 
 
