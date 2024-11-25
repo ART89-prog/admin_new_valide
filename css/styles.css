@@ -6103,7 +6103,8 @@ aside .menu .sub_menu a.active
     transition: opacity .2s linear;
 
     opacity: 0;
-    background: url(../images/ic_check_blue.svg) 50%/10px 8px no-repeat;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='var(--main_color)' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+
 }
 
 
@@ -6120,13 +6121,26 @@ aside .menu .sub_menu a.active
     height: 10px;
 
     border-radius: 50%;
-    background: #0800c7;
+    background: var(--main_color);
 }
 
 
 .test_data .step .answers input:checked + label .name:after
 {
     opacity: 1;
+}
+
+.test_data .step .answers input[type="checkbox"]:checked + label .name:after{
+    opacity: 1;
+    left: 12px;
+    top: 12px;
+    width: 5px;
+    height: 10px;
+    border: solid var(--main_color);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    bottom: initial;
+    background: none;
 }
 
 
@@ -8406,6 +8420,8 @@ aside .menu .sub_menu a.active
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
+
+    margin: 5px;
 }
 
 .dialog .add_audio .btns .btn + .btn
@@ -8430,18 +8446,17 @@ aside .menu .sub_menu a.active
 
 .dialog .exp
 {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 130%;
 
     margin-top: 10px;
 
-    opacity: .5;
+    /*opacity: .5;*/
 }
 
 
 .dialog .time
 {
-    color: rgb(53 51 82 / 50%);
     font-size: 19px;
     line-height: 135%;
 
@@ -40324,6 +40339,11 @@ bottom: 20px;
     font-size: 18px;
     line-height: 21px;
     color: #1A1B2F;
+    margin-right: auto;
+}
+
+.trainer_ai_footer:has(.trainer_ai_stop) .trainer_ai_time{
+    margin-right: 20px;
 }
 
 .trainer_ai_stop{
@@ -40360,7 +40380,7 @@ bottom: 20px;
     padding: 20px;
     display: flex;
     gap:20px;    
-    align-items: flex-start;
+    align-items: stretch;
 }
 
 .trainer_ai_body_left{
@@ -40375,6 +40395,7 @@ bottom: 20px;
     max-width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
+    height: 100%;
 }
 
 .trainer_ai_body_left video{
@@ -40421,6 +40442,7 @@ bottom: 20px;
     font-size: 20px;
     line-height: 23px;
     color: #FFFFFF;
+    height: 100%;
 }
 
 .trainer_ai_body_right .play_text .load{
@@ -41374,8 +41396,8 @@ a.back_link_right{
 .text_block .reassurance ol li:before {
     position: absolute;
     content: "";
-    width: 13px;
-    height: 13px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background: var(--main_color);
     left: -20px;
@@ -41596,6 +41618,7 @@ a.back_link_right{
 .reaction_item-answer .icon {
     width: 24px;
     height: 24px;
+    flex-shrink: 0;
 }
 
 .objection_item-client {
@@ -41821,6 +41844,7 @@ a.back_link_right{
 .substantial_box .icon {
     width: 38px;
     height: 38px;
+    flex-shrink: 0;
 }
 .substantial_title {
     font-family: 'Ubuntu';
@@ -41965,12 +41989,12 @@ a.back_link_right{
     font-size: 14px;
     line-height: 19px;
     color: #7D7BB8;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 .surveys_item-text {
     font-family: 'Ubuntu';
     font-weight: 700;
-    font-size: 34px;
+    font-size: 27px;
     line-height: 19px;
     letter-spacing: -1.3px;
     color: #1D1D1D;
@@ -42016,6 +42040,10 @@ a.back_link_right{
     margin-bottom: 12px;
     width: calc(100% - 180px);
 }
+.dynamic_item-title a{
+	color: #1D1D1D;
+	text-decoration: none;	
+}
 .dynamic_item-label {
     font-family: 'Ubuntu';
     font-weight: 500;
@@ -42045,6 +42073,9 @@ a.back_link_right{
     display: flex;
     gap: 11px;
     align-items: center;
+}
+.dynamic_item-bottom + .dynamic_item-bottom{
+    margin-top: 15px;
 }
 .dynamic_item-comment {
     display: flex;
@@ -42126,6 +42157,8 @@ a.back_link_right{
     padding: 21px 18px;
     background: #F7F6FF;
     border-radius: 20px;
+    display: block;
+    text-decoration: none;
 }
 .surveys .accordion-block_item-bottom {
     display: flex;
@@ -42254,19 +42287,20 @@ a.back_link_right{
     transform-origin: left;
     background: var(--main_color);
     animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    width: attr(data-parent);
 }
-.bar:nth-child(2n) .progress-line span {
+.bar.active .progress-line span {
     background: #87CC15;
-}
+}/*
 .bar .progress-line.item1 span {
-    width: 75%;
+    width: attr(data-parent);
 }
 .bar .progress-line.item2 span {
-    width: 43%;
+    width: attr(data-parent);
 }
 .bar .progress-line.item3 span {
-    width: 12%;
-}
+    width: attr(data-parent);
+}*/
 .bar .info {
     position: relative;
 }
@@ -42304,14 +42338,8 @@ a.back_link_right{
     opacity: 1;
     }
 }
-.bar .info.item1 span::after {
-    content: "75%";
-}
-.bar .info.item2 span::after {
-    content: "43%";
-}
-.bar .info.item3 span::after {
-    content: "12%";
+.bar .info span::after {
+    content: attr(data-procent);
 }
 .skill-bars_button {
     background: #625BA126;
@@ -42412,8 +42440,9 @@ a.back_link_right{
 }
 .alternative_images img {
     border-radius: 15px;
-    width: 83px;
-    height: 83px;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
 }
 
 .skill-bars {
@@ -42520,7 +42549,6 @@ a.back_link_right{
     background: #fff;
     padding: 20px 15px;
     height: 519px;
-    overflow-y: scroll;
     display: none;
 }
 .modal-voter-list::-webkit-scrollbar {
@@ -42572,7 +42600,24 @@ a.back_link_right{
 }
 .modal-voter-list ul {
     list-style: none;
+    overflow-y: scroll;    
+    scrollbar-width: thin;
 }
+
+.modal-voter-list ul::-webkit-scrollbar {
+    width: 10px !important;
+    background-color: #f9f9fd;
+}
+.modal-voter-list ul::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #18aaaa;
+}
+.modal-voter-list ul::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: #f9f9fd;
+}
+
 .modal-voter-list ul li {
     display: flex;
     align-items: center;
@@ -42582,4 +42627,21 @@ a.back_link_right{
 }
 .modal-voter-list ul li {
     margin-top: 7px;
+}
+
+.separator{
+    background: var(--bg);
+    height: 20px;
+    width: calc(100% + 44px);
+    margin-left: -22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.passing-head .page_title{
+	flex-wrap:nowrap;
+}
+
+.content_flex .content .surveys > * + * {
+    margin-top: 40px;
 }
