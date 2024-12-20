@@ -163,8 +163,8 @@
     .test_data
     {
         width: calc(100% + 44px);
-        margin-right: -22px;
-        margin-left: -22px;
+        /*margin-right: -22px;
+        margin-left: -22px;*/
     }
 
 
@@ -1739,6 +1739,7 @@
 
     .title_faq{
         flex-direction: column;
+        gap:10px;
     }
 
     .accordion_item .head{
@@ -2172,7 +2173,15 @@
         align-items: flex-start;
     }
 
+    .trainer_ai_stop{
+        margin-left: 0;
+    }
 
+    .trainer_ai_button .icon{
+        margin-left: 10px;
+    }
     
-
+    .courses_not_complete_item{
+        width: calc(100%)
+    }
 }

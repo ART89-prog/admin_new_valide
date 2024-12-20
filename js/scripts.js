@@ -2,6 +2,17 @@ WW = window.innerWidth || document.clientWidth || document.getElementsByTagName(
 WH = window.innerHeight || document.clientHeight || document.getElementsByTagName('body')[0].clientHeight
 $(() => {
 
+	
+	$(".show_courses_not_complete").click(function (e) {
+		$(".show_courses_not_complete").toggleClass("active");
+		$(".courses_not_complete_list").toggleClass("active");
+		if($(".show_courses_not_complete").hasClass("active")){
+			$(".show_courses_not_complete span").text("Скрыть курсы")
+		}
+		else{
+			$(".show_courses_not_complete span").text("Показать курсы")
+		}
+	});
 	// if($(".loading").length>0){
 	// 	setTimeout(() => {
 	// 		$(".loading").removeClass("loading");
@@ -31,6 +42,19 @@ $(() => {
 		$(".trainer_ai_textedit").toggleClass("hide");
 		$(".trainer_ai_record").addClass("hide");
 		$(".js-trainer_ai_button-record").removeClass("active");
+	});
+
+	$(".rating-area2 > label:nth-child(n+5)").click(function (e) {
+		console.log($(this).parent().data("modal"));
+		Fancybox.show([{
+			src: $(this).parent().data("modal"),
+			type: 'inline'
+		}])
+	});
+	
+	$(".trainer_ai_hint_title").click(function (e) {	
+		$(this).next().show();
+		$(this).find("span").text("Подсказка");
 	});
 
 

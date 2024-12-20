@@ -3531,5 +3531,37 @@
         font-size: 20px;
     }
 
+    .event-feed_item-bottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .event-feed_item-right{
+        margin-left: initial;
+    }
+
+    .event-feed_item-images a{
+        height: 120px;
+    }
+
+    .you_boss{
+        flex-wrap: wrap;
+    }
+
+    .you_boss_text{
+        width: calc(100% - 55px);
+    }
+
+    .you_boss button{
+        width: calc(100% - 55px);
+    }
+
+    .ii_button{
+        margin-left: 0;
+    }
+
+    .courses_not_complete_item{
+        width: calc(100% / 2 - 6px)
+    }
 
 }
