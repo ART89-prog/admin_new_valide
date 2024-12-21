@@ -43327,7 +43327,6 @@ a.back_link_right{
 .chat_head {
     display: flex;
     gap: 10px;
-    margin-bottom: 20px;
 }
 .chat_head .icon {
     width: 39px;
@@ -43450,6 +43449,7 @@ a.back_link_right{
 }
 .chat_box input:checked ~ label {
     background: var(--main_color);
+    height: 100%;
 }
 .chat_box .custom-checkbox:checked+label::before {
     border-color: #fff;
@@ -43490,6 +43490,9 @@ a.back_link_right{
     border: 1px solid #AEABD1;
     border-radius: 8px;
     width: 100%;
+}
+.chat_box .line .checkbox input {
+    display: none;
 }
 .chat_box .line textarea {
     font-family: 'Ubuntu';
