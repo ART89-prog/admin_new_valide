@@ -43653,18 +43653,18 @@ a.back_link_right{
     position: relative;
 }
 
-.chat .uploaded-files_item-info {
+.chat_upload .uploaded-files_item-info {
     display: flex;
     gap: 12px;
     align-items: center;
     margin-bottom: 16px;
     margin-left: 0;
 }
-.chat .uploaded-files_item-top {
+.chat_upload .uploaded-files_item-top {
     display: flex;
     flex-direction: column;
 }
-.chat .uploaded-files_item-name {
+.chat_upload .uploaded-files_item-name {
     font-family: 'Ubuntu';
     font-weight: 700;
     font-size: 14px;
@@ -43672,7 +43672,7 @@ a.back_link_right{
     letter-spacing: -0.3px;
     color: #1D1D1D;  
 }
-.chat .uploaded-files_item-text {
+.chat_upload .uploaded-files_item-text {
     font-family: 'Ubuntu';
     font-weight: 400;
     font-size: 11px;
