@@ -3570,6 +3570,16 @@
     }
 
 
+    .mission_head .select-right {
+        position: relative;
+    }
+    .mission_top-items > * {
+        width: 100%;
+    }
+    .mission_item {
+        width: 100%;
+    }
+
 
 
 

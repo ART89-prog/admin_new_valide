@@ -400,17 +400,28 @@ $(() => {
 
 
 
-	$('.mission_more-btn').click(function(e){
+	$('.mission1 .mission_more-btn').click(function(e){
 		e.preventDefault()
-		$('.mission_item.hide').slideToggle(200, function(){
+		$('.mission1 .mission_item.hide').slideToggle(200, function(){
 			if ($(this).is(':hidden')) {
-				$('.mission_more-btn').html('Показать все');
+				$('.mission1 .mission_more-btn').html('Показать все');
 			} else {
-				$('.mission_more-btn').html('Свернуть');
+				$('.mission1 .mission_more-btn').html('Свернуть');
 			}							
 		});
 	});
 
+
+	$('.mission2 .mission_more-btn').click(function(e){
+		e.preventDefault()
+		$('.mission2 .mission_item.hide').slideToggle(200, function(){
+			if ($(this).is(':hidden')) {
+				$('.mission2 .mission_more-btn').html('Показать все');
+			} else {
+				$('.mission2 .mission_more-btn').html('Свернуть');
+			}							
+		});
+	});
 		
 
 

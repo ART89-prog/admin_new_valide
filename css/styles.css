@@ -43830,6 +43830,8 @@ a.back_link_right{
     border-radius: 14px;
     padding: 16px;
     height: auto;
+    display: flex;
+    flex-direction: column;
 }
 .mission_item-label {
     padding: 6px 6px 6px 16px;
@@ -43842,6 +43844,7 @@ a.back_link_right{
     border-radius: 59px;
     margin-bottom: 16px;
     display: inline-block;
+    width: max-content;
 }
 .mission_item-label:before {
     position: absolute;
