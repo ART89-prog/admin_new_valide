@@ -43986,3 +43986,127 @@ a.back_link_right{
     left: -20px;
     top: 0;
 }
+
+
+.outcomes_title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000;
+    opacity: 0.8;
+    margin-bottom: 7px;
+}
+.outcomes {
+    padding: 20px 20px 23px 20px;
+    border-radius: 20px;
+    background: #fff;
+}
+.outcomes_text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000;
+    margin-bottom: 25px;
+}
+.outcomes_text p + p {
+    margin-top: 20px;
+}
+.outcomes_items {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.outcomes_items > * {
+    width: calc(100%/2 - 10px);
+    background: #faf2ff;
+    border-radius: 9px;
+    padding: 18px;
+    position: relative;
+}
+.outcomes_item-top {
+    padding-bottom: 15px;
+    position: relative;
+    width: calc(100% - 60px);
+}
+.outcomes_item-top:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 36px);
+    height: 1px;
+    background: #E0DEF4;
+    left: -18px;
+    bottom: 0;    
+}
+.outcomes_item-title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    margin-bottom: 13px;
+}
+.outcomes_item-text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1C2038;
+}
+.outcomes_item-bottom {
+    margin-top: 18px;
+}
+.outcomes_item-subtitle {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #7178AD;
+    margin-bottom: 10px;
+}
+.outcomes_item-number {
+    width: 45px;
+    height: 45px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #5EC62D;
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    background: rgba(96, 199, 48, 0.15);
+}
+.outcomes_bottom {
+
+}
+.outcomes_bottom-head {
+}
+.outcomes_bottom-head-info {
+}
+.outcomes_bottom-title {
+}
+.outcomes_bottom-text {
+}
+.mission_items {
+}
+.mission_item {
+}
+.blau {
+}
+.mission_item-label {
+}
+.mission_item-title {
+}
+.mission_item-text {
+}
+.green {
+}
