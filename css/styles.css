@@ -43070,6 +43070,8 @@ a.back_link_right{
     line-height: 16px;
     margin-left: auto;
     font-weight: 500;
+    width: 146px;
+    flex-shrink: 0;
 }
 
 .ii_button .icon{
@@ -43271,7 +43273,8 @@ a.back_link_right{
 }
 
 .courses_not_complete_item_line{
-    height: 12px;
+    height: 14px;
+    line-height: 14px;
     width: 100%;
     background: #F3F2FC;
     position: relative;
@@ -43391,7 +43394,7 @@ a.back_link_right{
     width: 100%;
 }
 .custom-checkbox_text {
-    padding: 11px 42px 16px 12px;
+    padding: 15px;
     font-family: 'Ubuntu';
     font-weight: 400;
     font-size: 11px;
@@ -43423,7 +43426,7 @@ a.back_link_right{
 .chat_box .checkbox {
     height: 100%;
 }
-.custom-checkbox+label::before {
+.chat_box .custom-checkbox+label::before {
     content: '';
     display: inline-block;
     width: 16px;
@@ -43460,6 +43463,14 @@ a.back_link_right{
     background-size: 100%;
     border: none;
 }
+
+.chat_box .custom-checkbox[type="radio"]:checked+label::before{
+    background: none;
+    border: 3px solid #fff;
+    width: 16px;
+    height: 16px;
+}
+
 .chat_box .custom-checkbox:not(:disabled):not(:checked)+label:hover::before {
     border-color:  #DFDFDF;
 }
@@ -43483,8 +43494,6 @@ a.back_link_right{
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
-    color: #7874A3;
-    opacity: 0.6; 
     padding: 15px 14px;
     background: #FFFFFF;
     border: 1px solid #AEABD1;
@@ -43499,8 +43508,6 @@ a.back_link_right{
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
-    color: #7874A3;
-    opacity: 0.6; 
     padding: 15px 14px;
     background: #FFFFFF;
     border: 1px solid #AEABD1;
@@ -43653,18 +43660,18 @@ a.back_link_right{
     position: relative;
 }
 
-.chat_upload .uploaded-files_item-info {
+.chat .uploaded-files_item-info {
     display: flex;
     gap: 12px;
     align-items: center;
     margin-bottom: 16px;
     margin-left: 0;
 }
-.chat_upload .uploaded-files_item-top {
+.chat .uploaded-files_item-top {
     display: flex;
     flex-direction: column;
 }
-.chat_upload .uploaded-files_item-name {
+.chat .uploaded-files_item-name {
     font-family: 'Ubuntu';
     font-weight: 700;
     font-size: 14px;
@@ -43672,7 +43679,7 @@ a.back_link_right{
     letter-spacing: -0.3px;
     color: #1D1D1D;  
 }
-.chat_upload .uploaded-files_item-text {
+.chat .uploaded-files_item-text {
     font-family: 'Ubuntu';
     font-weight: 400;
     font-size: 11px;
