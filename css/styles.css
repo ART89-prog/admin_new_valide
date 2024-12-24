@@ -43821,8 +43821,9 @@ a.back_link_right{
     display: flex;
     flex-wrap: wrap;
     gap: 23px;
+    margin-bottom: 20px;
 }
-.mission_items > * {
+.mission_item {
     width: calc(100%/3 - 20px);
     background: #FFFFFF;
     border: 1px solid #CDC9ED;
@@ -43953,4 +43954,32 @@ a.back_link_right{
 .mission_item.violet .mission_item-label {
     background: #6D17E5;
     display: inline-block;
+}
+.mission_more-btn {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    padding: 10px 12px;
+    border-radius: 16px;
+    background: var(--main_color);
+    order: 2;
+    text-decoration: none;
+    display: inline-block;        
+}
+.mission_item.hide {
+    display: none;
+}
+.mission_more {
+    position: relative;
+    padding-top: 20px;
+}
+.mission_more:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 40px);
+    height: 1px;
+    background: #E0DEF4;
+    left: -20px;
+    top: 0;
 }

@@ -397,6 +397,23 @@ $(() => {
 		$(this).parent().prev().find(".details_item-link-yellow").html('<span>Подробнее</span><svg class="icon"><use xlink:href="/images/sprite.svg#link-more"></use></svg>').addClass("active");
 	});
 
+
+
+
+	$('.mission_more-btn').click(function(e){
+		e.preventDefault()
+		$('.mission_item.hide').slideToggle(200, function(){
+			if ($(this).is(':hidden')) {
+				$('.mission_more-btn').html('Показать все');
+			} else {
+				$('.mission_more-btn').html('Свернуть');
+			}							
+		});
+	});
+
+		
+
+
 	// Видео плеер
 	/*if ('function' === typeof MediaPlayer) {
 		[].forEach.call(document.querySelectorAll('audio[controls], video[controls]'), function (media) {
