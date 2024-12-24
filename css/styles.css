@@ -43824,7 +43824,7 @@ a.back_link_right{
     margin-bottom: 20px;
 }
 .mission_item {
-    width: calc(100%/3 - 20px);
+    width: calc(100%/3 - 16px);
     background: #FFFFFF;
     border: 1px solid #CDC9ED;
     border-radius: 14px;
