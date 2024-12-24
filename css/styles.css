@@ -43828,6 +43828,7 @@ a.back_link_right{
     border: 1px solid #CDC9ED;
     border-radius: 14px;
     padding: 16px;
+    height: auto;
 }
 .mission_item-label {
     padding: 6px 6px 6px 16px;
@@ -43839,6 +43840,7 @@ a.back_link_right{
     color: #FFFFFF;
     border-radius: 59px;
     margin-bottom: 16px;
+    display: inline-block;
 }
 .mission_item-label:before {
     position: absolute;
@@ -43852,37 +43854,103 @@ a.back_link_right{
     background: #fff;
 }
 .mission_item-title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
+    margin-bottom: 14px;
 }
 .mission_item-text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #585683;
+    margin-bottom: 20px;
 }
 .mission_item-btn-box {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-bottom: 18px;
+    margin-top: auto;
 }
 .mission_item-btn {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    padding: 10px 12px;
+    border-radius: 16px;
+    background: var(--main_color);
+    order: 2;
+    text-decoration: none;
 }
 .mission_item-status {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: #A71010;
 }
-.icon {
+.mission_item-status .icon {
+    width: 17px;
+    height: 17px;
 }
 .mission_item-bottom {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding-top: 16px;
+}
+.mission_item-bottom:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 32px);
+    height: 1px;
+    left: -16px;
+    top: 0;
+    background: #E0DEF4;
 }
 .mission_item-photo {
-}
-.mission_item-info {
+    width: 36px;
+    height: 36px;
 }
 .mission_item-name {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: #6C6797;
+}
+.mission_item-name b {
+    font-weight: 700;
+    color: #000;
 }
 .mission_item-time {
-}
-.green {
-}
-.violet {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: #6C6797;
 }
 .mission_item.blau .mission_item-label {
     background: #1B9CEC;
 }
 .mission_item.green .mission_item-label {
-    background: #1B9CEC;
+    background: #419F2E;
 }
 .mission_item.violet .mission_item-label {
-    background: #1B9CEC;
+    background: #6D17E5;
+    display: inline-block;
 }
