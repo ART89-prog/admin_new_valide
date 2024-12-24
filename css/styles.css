@@ -44086,27 +44086,58 @@ a.back_link_right{
     background: rgba(96, 199, 48, 0.15);
 }
 .outcomes_bottom {
-
+    background: #faf2ff;
+    border-radius: 9px;
+    padding: 18px;
+    position: relative;
 }
 .outcomes_bottom-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 18px;
+    margin-bottom: 23px;
+    position: relative;
 }
-.outcomes_bottom-head-info {
+.outcomes_bottom-head:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 36px);
+    height: 1px;
+    left: -18px;
+    bottom: 0;
+    background: #E0DEF4;  
 }
 .outcomes_bottom-title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    margin-bottom: 10px;
 }
 .outcomes_bottom-text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1C2038;
 }
-.mission_items {
+.outcomes .mission_item-text {
+    margin-bottom: 0;
 }
-.mission_item {
-}
-.blau {
-}
-.mission_item-label {
-}
-.mission_item-title {
-}
-.mission_item-text {
-}
-.green {
+.outcomes_bottom-head a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 500;
+    line-height: 14px;
+    padding: 10px 12px;
+    border-radius: 16px;
+    background: var(--main_color);
+    order: 2;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
 }
