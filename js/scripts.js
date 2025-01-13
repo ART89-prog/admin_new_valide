@@ -425,6 +425,13 @@ $(() => {
 		
 
 
+	$('.tool_more').click(function(e){
+		e.preventDefault()
+		$('.tool_hide').addClass('active');
+		$('.tool_more').css('display', 'none');		
+	});
+
+
 	// Видео плеер
 	/*if ('function' === typeof MediaPlayer) {
 		[].forEach.call(document.querySelectorAll('audio[controls], video[controls]'), function (media) {

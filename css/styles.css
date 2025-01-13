@@ -13306,9 +13306,6 @@ section.total {
     padding:20px;
 }
 
-.nav_slick button{
-   
-}
 
 .nav_slick button svg{
     width: 51px;
@@ -44780,4 +44777,130 @@ a.back_link_right{
     display: inline-block;
     text-decoration: none;
     margin-top: 17px;
+}
+
+
+.tool {
+    padding: 22px 22px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.tool_top {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.tool_top:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 40px);
+    height: 1px;
+    background: #DAD7F2;
+    bottom: 0;
+    left: -20px;
+}
+.tool_title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    color: #1D1D1D;
+    margin-bottom: 10px;
+}
+.tool_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #585683;
+    display: inline-block;
+}
+.tool_text .tool_more {
+    color: #1693E1;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: inline-block;
+}
+.tool_object {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.tool_object:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 40px);
+    height: 1px;
+    background: #DAD7F2;
+    bottom: 0;
+    left: -20px;
+}
+.tool_object-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #1D1D1D;
+    margin-bottom: 15px;
+}
+.tool_object-item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #413F6F;
+}
+.tool_object-item + .tool_object-item {
+    margin-top: 10px;
+}
+.tool_object-item span {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 6px;
+    background: #655F95;
+    border-radius: 6px; 
+    display: inline-block;
+}
+.tool_object-photo {
+    display: flex;
+    gap: 22px;
+}
+.tool_object-photo-img {
+    width: 109px;
+    height: 109px;
+}
+.tool_object-photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+.tool_hide {
+    display: none;
+}
+.tool_hide.active {
+    display: block;
+}
+
+.navigation {
+    padding: 20px 20px 25px;
+    background: #FFFFFF;
+    border-radius: 20px;  
+}
+.navigation_title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #1D1D1D;   
+    margin-bottom: 12px;
+}
+.navigation_link a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    color: #1693E1;  
+    border-bottom: 1px dashed #1693E1;
+    display: inline-block;
+}
+.navigation_link a + a {
+    margin-left: 14px;
 }
