@@ -3615,5 +3615,28 @@
         width: 100%;
     }
 
+    .board_item-name {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .board_item-top {
+        align-items: flex-start;
+    }
+    .board_item-photo {
+        width: 70px;
+        height: 70px;
+    }
+    .navigation_link {
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .navigation_link a + a {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .navigation_link a {
+        border-bottom: none;
+    }
+
 
 }
