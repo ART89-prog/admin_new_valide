@@ -457,7 +457,7 @@ button
 
     width: calc(100% - var(--sidebar_width));
     padding: 52px 40px 0;
-    overflow: hidden;
+    overflow: clip;
     transition: 0.2s;
 }
 
@@ -1560,6 +1560,18 @@ aside .menu .item .icon14 > *
 aside .menu .item .icon999
 {
     height: 32px;
+}
+
+aside .menu .item .icon9999
+{
+    height: 32px;
+    width: 32px;
+}
+
+aside .menu .item .icon9999 svg
+{
+    height: 32px;
+    width: 32px;
 }
 
 aside .menu .item .icon + span
@@ -3746,6 +3758,8 @@ aside .menu .sub_menu a.active
 }
 
 
+
+
 .files .row
 {
     margin-bottom: -30px;
@@ -4463,6 +4477,8 @@ aside .menu .sub_menu a.active
 
     border-radius: 15px;
     background: #fff;
+    position: sticky;
+    top: 10px;
 }
 
 
@@ -27693,7 +27709,7 @@ form .form_btns input[type=file] + label,
     font-weight: 700;
     font-size: 11px;
     line-height: 10px;
-    color:var(--main_color);
+    color:var(--c);
 }
 
 .pie:before, .pie:after {
@@ -29655,6 +29671,7 @@ bottom: 20px;
 	height: 230px;
 	border-radius: 8px;
 	object-fit: cover;
+    max-width: 100%;
 }
 
 .step_stage_img .full_screen{
@@ -44001,6 +44018,8 @@ a.back_link_right{
     padding: 20px 20px 23px 20px;
     border-radius: 20px;
     background: #fff;
+    margin-top: 20px;
+    color: #000;
 }
 .outcomes_text {
     font-family: 'Ubuntu';
@@ -44029,7 +44048,7 @@ a.back_link_right{
 .outcomes_item-top {
     padding-bottom: 15px;
     position: relative;
-    width: calc(100% - 60px);
+    /*width: calc(100% - 60px);*/
 }
 .outcomes_item-top:before {
     position: absolute;
@@ -44140,4 +44159,46 @@ a.back_link_right{
     text-decoration: none;
     display: block;
     white-space: nowrap;
+}
+
+.event-feed_item-button{
+    background: var(--main_color);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 55px;
+    transition: all .4s;
+    display: inline-block;
+    line-height: normal;
+    opacity: 1;
+    margin-right: 0;
+    letter-spacing: inherit;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.event-feed_item-images + .files{
+	margin-top: 20px;
+}
+
+.outcomes_item-balls{
+	display: flex;
+	gap:15px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.outcomes_item-balls-to{
+	color:#D04345;
+	background: #D0434526;
+	padding: 5px;
+	border-radius:5px;
+}
+
+.outcomes_item-balls-be{
+	color:#5EC62D;
+	background: #60C73026;
+	padding: 5px;
+	border-radius:5px;
 }
