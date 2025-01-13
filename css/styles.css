@@ -44214,10 +44214,11 @@ a.back_link_right{
 }
 .repair_top-items {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 }
 .repair_top-items > * {
-    width: calc(100%/3 - 12px);
+    width: calc(100%/3 - 16px);
     gap: 18px;
     display: flex;
     align-items: center;
@@ -44254,8 +44255,7 @@ a.back_link_right{
     color: #FFFFFF;
 }
 
-.repair_wrap {
-}
+
 .repair_wrap-title {
     font-weight: 700;
     font-size: 24px;
@@ -44266,10 +44266,11 @@ a.back_link_right{
 }
 .repair_items {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 }
 .repair_items > * {
-    width: calc(100%/3 - 12px);
+    width: calc(100%/3 - 16px);
     padding: 17px 14px 16px;
     background: #fff;
     border-radius: 15px;
@@ -44282,6 +44283,10 @@ a.back_link_right{
     color: #020027;
     margin-bottom: 12px;
 }
+.repair_item-labels {
+    display: flex;
+    flex-direction: column;
+}
 .repair_item-label {
     padding: 6px;
     font-weight: 500;
@@ -44290,32 +44295,305 @@ a.back_link_right{
     color: #655F95;
     background: #FFFFFF;
     border: 1px solid #655F95;
+    border-radius: 6px;
+    display: inline-block; 
+    width: fit-content;
 }
 .repair_item-label + .repair_item-label {
     margin-top: 9px;
 }
-.repair_item-label:last-child {
-    margin-bottom: 17px;
-}
 .repair_item-link {
     background: #0601B7;
     border-radius: 55px;
-    padding: 12px;
+    padding: 9px 12px;
     font-weight: 500;
     font-size: 13px;
     line-height: 15px;
-    color: #FFFFFF;    
+    color: #FFFFFF;  
+    display: inline-block;  
+    text-decoration: none;
+    margin-top: 17px;
 }
 .repair_item-bottom {
     margin-top: 17px;
     padding-top: 12px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    position: relative;
+}
+.repair_item-bottom:before {
+    position: absolute;
+    content: "";
+    background: #E0DEF4;
+    width: calc(100% + 28px);
+    height: 1px;
+    left: -14px;
+    top: 0;
 }
 .repair_item-avatar {
+    width: 36px;
+    height: 36px;
 }
-.repair_item-info {
+.repair_item-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 .repair_item-name {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: #1D1D1D;   
 }
 .repair_item-post {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: #6C6797;
 }
 
+
+
+
+.breadcrumbs {
+    margin-left: 50px;
+    margin-top: 12px;
+}
+.breadcrumbs a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4B4F75;
+}
+.breadcrumbs .current {
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4B4F75;
+}
+.region_top {
+    margin-top: 25px;
+    margin-bottom: 25px; 
+}
+.region_top-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.region_top-items > * {
+    width: calc(100%/3 - 16px);
+    gap: 18px;
+    display: flex;
+    align-items: center;
+    padding: 18px;
+    background: var(--main_color);
+    border-radius: 20px;
+}
+.region_top-item-icon {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.region_top-item-icon svg {
+    width: 34px;
+    height: 34px;
+}
+.region_top-item-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.region_top-item-text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    letter-spacing: -2.3px;
+    color: #FFFFFF;
+}
+.region_wrap-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1px;
+    color: #1D1D1D;
+    margin-bottom: 25px;
+}
+.region_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.region_items > * {
+    width: calc(100%/3 - 16px);
+    padding: 17px 14px 16px;
+    background: #fff;
+    border-radius: 15px;
+}
+.region_item-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.3px;
+    color: #020027;
+    margin-bottom: 12px;
+}
+.region_item-labels {
+    display: flex;
+    gap: 10px;
+}
+.region_item-label {
+    padding: 6px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #655F95;
+    background: #FFFFFF;
+    border: 1px solid #655F95;
+    border-radius: 6px;
+    display: inline-block; 
+    width: fit-content;
+}
+.region_item-label + .repair_item-label {
+    margin-top: 9px;
+}
+.region_item-link {
+    background: #0601B7;
+    border-radius: 55px;
+    padding: 9px 12px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;  
+    display: inline-block;  
+    text-decoration: none;
+    margin-top: 17px;
+}
+.region_item-bottom {
+    margin-top: 17px;
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    position: relative;
+}
+.region_item-bottom:before {
+    position: absolute;
+    content: "";
+    background: #E0DEF4;
+    width: calc(100% + 28px);
+    height: 1px;
+    left: -14px;
+    top: 0;
+}
+.region_item-avatar {
+    width: 36px;
+    height: 36px;
+}
+.region_item-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.region_item-name {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: #1D1D1D;   
+}
+.region_item-post {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: #6C6797;
+}
+
+
+
+.machine .page_title {
+    margin-bottom: 6px;
+}
+.machine {
+    padding: 23px 20px 29px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+.machine_title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1px;
+    color: #1D1D1D;
+    margin-bottom: 25px;
+}
+.machine_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.machine_items > * {
+    width: calc(100%/3 - 16px);
+    padding: 22px 15px 26px;
+    background: #FFFFFF;
+    border: 1px solid #CDC9ED;
+    border-radius: 14px;
+    background: #fff;
+    border-radius: 15px;
+}
+.machine_item-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.3px;
+    color: #020027;
+    margin-bottom: 12px;
+}
+.machine_item-labels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.machine_item-label {
+    padding: 6px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #655F95;
+    background: #FFFFFF;
+    border: 1px solid #655F95;
+    border-radius: 6px;
+    display: inline-block; 
+    width: fit-content;
+    white-space: nowrap;
+}
+.machine_item-label + .repair_item-label {
+    margin-top: 9px;
+}
+.machine_item-link {
+    background: #0601B7;
+    border-radius: 55px;
+    padding: 9px 12px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;  
+    display: inline-block;  
+    text-decoration: none;
+    margin-top: 17px;
+}

@@ -3589,6 +3589,24 @@
     }
 
 
+    .repair_top-items > * {
+        width: 100%;
+    }
+    .repair_items > * {
+        width: 100%;
+    }
+
+    .region_top-items > * {
+        width: 100%;
+    }
+    .region_items > * {
+        width: 100%;
+    }
+
+    .region .breadcrumbs {
+        margin-left: 40px;
+    }
+
 
 
 
