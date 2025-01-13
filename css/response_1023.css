@@ -546,6 +546,11 @@
     }
 
 
+    .machine_items > * {
+        width: 100%;
+    }
+
+
 
 
 }

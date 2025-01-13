@@ -3603,11 +3603,17 @@
         width: 100%;
     }
 
-    .region .breadcrumbs {
+    .breadcrumbs {
         margin-left: 40px;
     }
 
 
+    .question-ai .line {
+        flex-wrap: wrap;
+    }
+    .question-ai .line .field {
+        width: 100%;
+    }
 
 
 }
