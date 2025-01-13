@@ -44202,3 +44202,120 @@ a.back_link_right{
 	padding: 5px;
 	border-radius:5px;
 }
+
+
+
+.repair .page_title {
+    margin-bottom: 6px;
+}
+.repair_top {
+    margin-top: 25px;
+    margin-bottom: 25px; 
+}
+.repair_top-items {
+    display: flex;
+    gap: 24px;
+}
+.repair_top-items > * {
+    width: calc(100%/3 - 12px);
+    gap: 18px;
+    display: flex;
+    align-items: center;
+    padding: 18px;
+    background: var(--main_color);
+    border-radius: 20px;
+}
+.repair_top-item-icon {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.repair_top-item-icon svg {
+    width: 34px;
+    height: 34px;
+}
+.repair_top-item-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.repair_top-item-text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    letter-spacing: -2.3px;
+    color: #FFFFFF;
+}
+
+.repair_wrap {
+}
+.repair_wrap-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1px;
+    color: #1D1D1D;
+    margin-bottom: 25px;
+}
+.repair_items {
+    display: flex;
+    gap: 24px;
+}
+.repair_items > * {
+    width: calc(100%/3 - 12px);
+    padding: 17px 14px 16px;
+    background: #fff;
+    border-radius: 15px;
+}
+.repair_item-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.3px;
+    color: #020027;
+    margin-bottom: 12px;
+}
+.repair_item-label {
+    padding: 6px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #655F95;
+    background: #FFFFFF;
+    border: 1px solid #655F95;
+}
+.repair_item-label + .repair_item-label {
+    margin-top: 9px;
+}
+.repair_item-label:last-child {
+    margin-bottom: 17px;
+}
+.repair_item-link {
+    background: #0601B7;
+    border-radius: 55px;
+    padding: 12px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;    
+}
+.repair_item-bottom {
+    margin-top: 17px;
+    padding-top: 12px;
+}
+.repair_item-avatar {
+}
+.repair_item-info {
+}
+.repair_item-name {
+}
+.repair_item-post {
+}
+
