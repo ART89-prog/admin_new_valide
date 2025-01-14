@@ -336,31 +336,82 @@
 												</div>														
 											</div>													
 											<div class="data" style="display: none;">
-												
+												<div class="bearing_box">
+													<div class="bearing_title">Карта ремонта №1</div>
+													<div class="bearing_items">
+														<div class="bearing_item">
+															<span>Проблема:</span> Износ подшипников прикатных роликов
+														</div>
+														<div class="bearing_item">
+															<span>Узел:</span> Ролики прикатчика TBM-85
+														</div>
+														<div class="bearing_item">
+															<span>Тип неисправности:</span> Механический износ
+														</div>
+														<div class="bearing_item">
+															<span>Сложность ремонта:</span>  Средняя
+														</div>
+														<div class="bearing_item">
+															<span>Срочность:</span> Высокая (влияет на качество)
+														</div>
+													</div>
+													<div class="bearing_title">Признаки неисправности</div>
+													<ul>
+														<li>Повышенная температура корпуса (>45°С)</li>
+														<li>Вибрация >4.5 мм/с</li>
+														<li>Нехарактерный гул</li>
+														<li>Люфт в опоре</li>
+														<li>Брак по непрокату</li>
+													</ul>	
+												</div>												
 											</div>
 										</div>
-
+										
+										
+										
+										
+										
 										
 										<div class="accordion_item">
 											<div class="head">
-												<div class="title">Справочник ремонтов ТБМ-300</div>
+												<div class="title"> <img src="images/bearing2.svg" alt=""> Фото и Видео</div>
 												<div class="faq_btns">
 													<div class="faq_btn">
 														<span>Развернуть</span>
-														<div class="faq_btn-icon">
-															<img src="images/faq_btn2.svg" alt="">
+														<div class="faq_btn-icon1">
+															<img src="images/btn102.svg" alt="">
 														</div>
 													</div>
 													<div class="faq_btn">
 														<span>Свернуть</span>
-														<div class="faq_btn-icon">
-															<img src="images/faq_btn1.svg" alt="">
+														<div class="faq_btn-icon1">
+															<img src="images/btn101.svg" alt="">
 														</div>																
 													</div>															
-												</div>	
-											</div>													
+												</div>														
+											</div>														
 											<div class="data" style="display: none;">
+												<div class="bearing_box-item">
+													<div class="message_img">
+														<a href="images/tmp/lisa.jpg" data-fancybox>
+															<img src="images/tmp/lisa.jpg" alt="">
+														</a>
+													</div>	
+													<div class="bearing_box-text">В процессе замены подшипников можно использовать только индукционный нагреватель, нельзя греть феном или огнем из-за риска перегрева и деформации</div>
+												</div>
+												<div class="bearing_box-item">
+													<div class="video_message">
+														<button class="thumb modal_btn" data-content="#video_modal">
+															<img src="images/video_message_thumb100.png" alt="">
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_video_play"></use></svg>
+														</button>
+													</div>	
+													<div class="bearing_box-text">В процессе замены подшипников можно использовать только индукционный нагреватель, нельзя греть феном или огнем из-за риска перегрева и деформации</div>
+												</div>
+
+
 												
+
 											</div>
 										</div>
 
@@ -485,7 +536,13 @@
 			</div>
 		</div>
 
-
+		<section class="modal" id="video_modal">
+			<video class="video-player video_new" width="100%" controlsList="nodownload" controls crossorigin="anonymous">
+			    <source src="https://thepaciellogroup.github.io/AT-browser-tests/video/ElephantsDream.mp4" type="video/mp4">
+			    <source src="https://thepaciellogroup.github.io/AT-browser-tests/video/ElephantsDream.webm" type="video/webm">
+			    <track src="https://thepaciellogroup.github.io/AT-browser-tests/video/subtitles-en.vtt" label="English subtitles" kind="captions" srclang="en" default></track>
+			</video>
+		</section>
 
 		<section class="modal modal-video" id="video_modal5" style="display: none;">
 			<video class="video-player video_new" controlslist="nodownload" controls="" crossorigin="anonymous">
