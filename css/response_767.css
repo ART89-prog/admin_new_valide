@@ -3639,4 +3639,24 @@
     }
 
 
+    .bearing .tabs_container .tabs {
+        flex-direction: row;
+        margin-left: 0;
+    }
+    .bearing .accordion_item .head {
+        flex-direction: column;
+    }
+    .bearing .tabs_container .tabs button {
+        width: 50%;
+    }
+    .bearing .faq_btns {
+        display: none;
+    }
+    .bearing .accordion2 .data {
+        display: block !important;
+    }
+    .bearing-nav_title-btn {
+        display: flex;
+    }
+
 }

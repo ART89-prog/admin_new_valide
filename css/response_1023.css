@@ -561,6 +561,16 @@
         width: 100%;
     }
 
+    .bearing_box {
+        flex-direction: column-reverse;
+    }
+    .bearing-nav {
+        width: 100%;
+    }
+    .bearing_left {
+        width: 100%;
+    }
+
 
 
 }
