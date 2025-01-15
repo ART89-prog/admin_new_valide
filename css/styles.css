@@ -44300,7 +44300,7 @@ a.back_link_right{
     margin-top: 9px;
 }
 .repair_item-link {
-    background: #0601B7;
+    background: var(--main_color);
     border-radius: 55px;
     padding: 9px 12px;
     font-weight: 500;
@@ -44467,7 +44467,7 @@ a.back_link_right{
     margin-top: 9px;
 }
 .region_item-link {
-    background: #0601B7;
+    background: var(--main_color);
     border-radius: 55px;
     padding: 9px 12px;
     font-weight: 500;
@@ -44583,7 +44583,7 @@ a.back_link_right{
     margin-top: 9px;
 }
 .machine_item-link {
-    background: #0601B7;
+    background: var(--main_color);
     border-radius: 55px;
     padding: 9px 12px;
     font-weight: 500;
@@ -44674,7 +44674,7 @@ a.back_link_right{
     resize: none;
 }
 .question-ai button {
-    background: #0601B7;
+    background: var(--main_color);
     border-radius: 55px;
     padding: 9px 12px;
     font-weight: 500;
@@ -44767,7 +44767,7 @@ a.back_link_right{
     gap: 14px;
 }
 .form-question-ai_buttons a {
-    background: #0601B7;
+    background: var(--main_color);
     border-radius: 55px;
     padding: 9px 12px;
     font-weight: 500;
@@ -44777,6 +44777,9 @@ a.back_link_right{
     display: inline-block;
     text-decoration: none;
     margin-top: 17px;
+}
+.form-question-ai_buttons .button {
+    background: var(--main_color);
 }
 
 
@@ -44872,6 +44875,7 @@ a.back_link_right{
     width: 100%;
     height: 100%;
     border-radius: 6px;
+    object-fit: cover;
 }
 .tool_hide {
     display: none;
@@ -45004,7 +45008,7 @@ a.back_link_right{
     font-weight: 700;
 }
 .board_item-btn {
-    background: #0601B7;
+    background: var(--main_color);
     border-radius: 55px;
     padding: 9px 12px;
     font-weight: 500;
@@ -45227,7 +45231,15 @@ a.back_link_right{
     position: relative;
     max-width: 88px;
 }
-.bearing .message_img a:after{
+.bearing .message_img a {
+    position: relative;
+    height: 80px;
+    display: block;
+}
+.bearing .message_img a:after {
+    display: none;
+}
+.bearing .message_img .icon {
     content:"";
     display: block;
     width: 23px;
@@ -45235,13 +45247,13 @@ a.back_link_right{
     position: absolute;
     top: 3px;
     right: 7px;
-    background: url("../images/zoom100.svg") no-repeat;    
-    border-radius: 6px;
 }
 .bearing .message_img img{
     max-width: 100%;
     border-radius: 6px;
-    display: block;    
+    display: block;  
+    height: 100%;  
+    object-fit: cover;
 }
 .bearing_box-text {
     font-weight: 400;
