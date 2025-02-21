@@ -2250,10 +2250,12 @@
 
     .job-description_items > * {
         width: 100%;
+        padding: 16px;
     }
     .job-description_items {
         padding: 15px;
     }
+
 
 
 
