@@ -3659,4 +3659,9 @@
         display: flex;
     }
 
+
+    .improvement_files {
+        padding: 12px 14px;
+    }
+
 }

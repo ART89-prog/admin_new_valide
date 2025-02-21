@@ -227,6 +227,19 @@ $(() => {
 		});
 	});
 
+	$('.improvement_settings-title a').click(function (e) {
+		e.preventDefault()
+		$('.improvement_settings .line').slideToggle(300, function () {
+			if ($(this).is(':hidden')) {
+				$('.improvement_settings-title a').html('Показать');
+				$(".improvement_settings-title").addClass("active");
+			} else {
+				$('.improvement_settings-title a').html('Скрыть');
+				$(".improvement_settings-title").removeClass("active");
+			}
+		});
+	});
+
 
 	$('.event-feed .idea-block_item-link').click(function (e) {
 		e.preventDefault()
