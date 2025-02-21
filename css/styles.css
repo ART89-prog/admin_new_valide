@@ -45761,442 +45761,90 @@ aside .menu .item .icon141 > * {
 
 
 
-
-.improvement_head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
+.job-description .page_title {
+    margin-bottom: 20px;
 }
-.bb {
-    position: relative;
-    padding-bottom: 24px;
-    margin-bottom: 24px;
+.job-description_box + .job-description_box {
+    margin-top: 25px;
 }
-.bb:before {
-    position: absolute;
-    content: "";
-    left: -40px;
-    bottom: 0;
-    width: calc(100% + 80px);
-    height: 1px;
-    background: #DDDDDD;
-}
-.improvement_head .block_title-big {
+.job-description_box_title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
     font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1px;
+    margin-bottom: 12px;
+    color: #000;
+    opacity: 0.8;
 }
-.improvement_author {
+.job-description_items {
+    padding: 33px 20px 28px;
+    background: #FFFFFF;
+    border-radius: 20px;
     display: flex;
-    align-items: center;
-    gap: 8px;
+    column-gap: 23px;
+    row-gap: 30px;
+    flex-wrap: wrap;
 }
-.improvement_author-avatar {
-    width: 37px;
-    height: 37px;
-    position: relative;
-}
-.improvement_author-avatar img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;    
-}
-.improvement_author-avatar .icon {
-    width: 16px;
-    height: 16px;
-    position: absolute;
-    top: -4px;
-    right: -4px;
-}
-.improvement_author-name {
-    font-family: 'Ubuntu';
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 18px;
-    font-weight: 700;
-    color: #474141;
-}
-.improvement_author-summa {
+.job-description_items > * {
+    background: #FFFFFF;
+    border: 1px solid #CDC9ED;
+    border-radius: 14px;
+    width: calc(100%/3 - 16px);
+    padding: 22px 16px 17px;
     display: flex;
-    align-items: center;
-    gap: 4px;
-    font-size: 14px;
-    line-height: 21px;
-    color: #818181;
-    font-weight: 500;
+    flex-direction: column;
 }
-
-
-.improvement_image-title {
+.job-description_item-title {
     font-family: 'Ubuntu';
     font-weight: 700;
-    font-size: 22px;
-    line-height: 25px;
-    letter-spacing: -0.45px;
-    color: #474141;  
-    margin-bottom: 8px;
-}
-.improvement_image-text {
-    font-family: 'Ubuntu';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    color: #818181;
+    font-size: 18px;
+    line-height: 19px;
+    color: #1D1D1D;
     margin-bottom: 10px;
 }
-.improvement_image-img {
-    position: relative;
-    width: 76px;
-    height: 76px;
-}
-.improvement_image-img img {
-    width: 100%;
-    height: 100%;
-    border-radius: 18px;
-    object-fit: cover;
-}
-.improvement_image-img button {
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    top: -8px;
-    right: -8px;    
-}
-
-
-.improvement_choice-title {
-    font-family: 'Ubuntu';
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 18px;
-    letter-spacing: -0.45px;
-    color: #474141;
-    margin-bottom: 12px;
-}
-.improvement_choice-text {
+.job-description-text {
     font-weight: 400;
     font-size: 14px;
-    line-height: 21px;
-    color: #4D4D4D;
-    margin-bottom: 12px;
-}
-.improvement_choice-images {
-    display: flex;
-    align-items: center;
-    gap: 7px;
-}
-.improvement_choice-images-before {
-    width: 104px;
-    height: 104px;
-}
-.improvement_choice-images-before img {
-    width: 100%;
-    height: 100%;
-    border-radius: 18px;
-    object-fit: cover;
-    filter: blur(5px);
-}
-
-
-.improvement_choice-arrow .icon {
-    width: 23px;
-    height: 23px;
-}
-.improvement_choice-images-after {
-    width: 104px;
-    height: 104px;
-}
-.improvement_choice-images-after img {
-    width: 100%;
-    height: 100%;
-    border-radius: 18px;
-    object-fit: cover;    
-}
-.improvement_choice .nice-select {
-    font-family: 'Ubuntu';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    color: #474141;
-    height: 45px;
-    background: #F8F8FF;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    padding: 7px 55px 7px 15px;
-    width: 257px;
-    margin-bottom: 20px;
-    border: 1px solid #C3BDDE;
-}
-.improvement_choice .nice-select:after {
-    border-bottom: 2px solid var(--main_color);
-    border-right: 2px solid var(--main_color);
-    margin-top: -6px;
-}
-.improvement_choice .nice-select .option {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.improvement_choice .nice-select .list {
-    padding: 0px;
-    top: calc(100% + 5px);
-    left: 0;
-    border-radius: 8px;
-    z-index: 10;
-}
-
-
-.improvement_size-title {
-    margin-bottom: 12px;
-    font-family: 'Ubuntu';
-    font-weight: 700;
-    font-size: 16px;
     line-height: 18px;
-    letter-spacing: -0.45px;
-    color: #474141;
+    color: #585683;
+    margin-bottom: 10px;
 }
-.improvement_size .line {
-    gap: 10px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.improvement_size .line input {
-    display: none;
-}
-.improvement_size .line label {
-    padding: 13px 11px;
-    font-family: 'Ubuntu';
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 18px;
-    text-align: center;
-    color: #474141;
-    position: relative;
-    display: flex;
-    cursor: pointer;
-    justify-content: flex-start;
+.job-description_item-btn {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-    position: relative;
-    cursor: pointer;
-    transition: all .4s;
-}
-.improvement_size .line label:before {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 45px;
-    height: 45px;
-    content: '';
-    border: 1px solid #C3BDDE;
-    border-radius: 4px;
-    background: #F8F8FF;
-    z-index: -1;
-}
-.improvement_size .line label:after {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    background: linear-gradient(97.29deg, #10B982 0%, #13AB92 100%);
-    opacity: 0;
-    display: block;
-    width: 100%;
-    height: 100%;
-    border-radius: 4px;
-    z-index: -1;
-    border: none;
-}
-.improvement_size .line input:checked + label:after {
-    opacity: 1;
-}
-.improvement_size .line input:checked ~ label {
-    color: #fff;
-}
-.improvement_size .line label:hover {
-    color: #fff;
-    background: linear-gradient(97.29deg, #10B982 0%, #13AB92 100%);
-    border-radius: 4px;
-    border: none;
-}
-.improvement_form button[type="submit"] {
-    background: var(--main_color);
-    padding: 16px 20px;
-    min-width: 158px;
-    font-family: 'Ubuntu';
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 18px;
-    color: #FFFFFF;
-    height: 51px;
+    padding: 9px 12px;
+    background: #0601B7;
     border-radius: 55px;
-    margin-left: auto;
-    display: flex;
-}
-.improvement_form {
-    margin-bottom: 24px;
-}
-
-
-.improvement_files {
-    padding: 28px 24px;
-    background: linear-gradient(270deg, #FFFFFF 0%, #F0EEF9 100%);
-    border-radius: 24px;
-}
-.improvement_files .block_top {
-    margin-bottom: 14px;
-}
-
-
-.improvement_choice-images {
-    display: flex;
-    gap: 16px;
-}
-.improvement_choice-images-img {
-    width: 104px;
-    height: 104px;
-}
-.improvement_choice-images-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 18px;
-}
-
-.improvement_textarea .line {
-    flex-direction: column;
-}
-.improvement_textarea .line .field {
-    display: flex;
-    flex-direction: column;
-}
-.improvement_textarea .line .field label {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 18px;
-    letter-spacing: -0.45px;
-    color: #474141;
-    margin-bottom: 12px;
-}
-.improvement_textarea .line .field textarea {
-    resize: none;
-    padding: 15px;
-    border: #FFFFFF;
-    border: 1px solid #CBCAD3;
-    border-radius: 7px;
-    font-family: 'Ubuntu';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #484848;
-    opacity: 0.54;  
-    height: 105px;
-}
-.improvement_textarea .line + .line {
-    margin-top: 20px;
-}
-
-.improvement_settings .line {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 14px;
-}
-.improvement_settings .line .field {
-    display: flex;
-    flex-direction: column;
-}
-.improvement_settings .line .field:last-child {
-    width: 100%;
-}
-.improvement_settings .line .field label {
-    font-family: 'Ubuntu';
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 18px;
-    letter-spacing: -0.45px;
-    color: #474141;
-    margin-bottom: 12px;   
-}
-.improvement_settings .line .field input {
-    background: #FFFFFF;
-    border: 1px solid #CBCAD3;
-    border-radius: 7px;
-    width: 75px;
-    height: 45px;
-    padding: 15px;
-}
-
-.improvement_settings-title {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 24px;
-}
-.improvement_settings-title.active {
-    margin-bottom: 0;
-}
-.improvement_settings-title span {
-    font-family: 'Ubuntu';
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: -0.45px;
-    color: #474141;
-}
-.improvement_settings-title a {
-    background: var(--main_color);
-    padding: 10px;
+    text-decoration: none;
     font-family: 'Ubuntu';
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
-    height: 30px;
-    border-radius: 10px;
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    text-decoration: none; 
+    margin-bottom: 16px;
 }
-.improvement_settings .nice-select {
+.job-description_item-bottom {
+    margin-top: auto;
+    padding-top: 12px;
+    position: relative;
+}
+.job-description_item-bottom:before {
+    position: absolute;
+    content: "";
+    background: #E0DEF4;
+    width: calc(100% + 32px);
+    height: 1px;
+    left: -16px;
+    top: 0;
+}
+.job-description_item-date {
     font-family: 'Ubuntu';
-    font-weight: 500;
+    font-weight: 700;
     font-size: 14px;
-    line-height: 24px;
-    color: #474141;
-    height: 45px;
-    background: #F8F8FF;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    padding: 7px 55px 7px 15px;
-    margin-bottom: 20px;
-    border: 1px solid #C3BDDE;
-}
-.improvement_settings .nice-select:after {
-    border-bottom: 2px solid var(--main_color);
-    border-right: 2px solid var(--main_color);
-    margin-top: -6px;
-}
-.improvement_settings .nice-select .option {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.improvement_settings .nice-select .list {
-    padding: 0px;
-    top: calc(100% + 5px);
-    left: 0;
-    border-radius: 8px;
-    z-index: 10;
-}
-.improvement_settings-img {
-    width: 245px;
-    height: 140px;
-}
-.improvement_settings-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: #6C6797;
 }
