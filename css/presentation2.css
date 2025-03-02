@@ -3067,6 +3067,100 @@
     opacity: 0.1;
 }
 
+.presentation61 .presentation_left {
+    text-align: center;
+}
+.presentation61 .presentation_right {
+    max-width: 35%;
+    padding: 77px 71px 77px 71px;
+}
+.presentation61 .icon {
+    width: 101px;
+    height: 101px;
+    fill: #08527F;
+}
+.presentation61 .presentation_author span {
+    color: #090909;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    font-family: "SF Pro Display";
+}
+.presentation61 .presentation_text p {
+    font-family: "SF Pro Display";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #090909;
+}
+.presentation61 .presentation_author {
+    position: relative;
+    margin-top: 65px;
+}
+.presentation61 .presentation_author:before {
+    position: absolute;
+    content: "";
+    width: 151px;
+    height: 12px;
+    background: var(--bg3);
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.presentation61.presentation-two .presentation_right .presentation_img{
+    height: 100%;
+}
+.presentation61.presentation-two .presentation_right .presentation_img img{
+    object-fit: cover;
+    height: 100%;
+}
+.presentation61 .presentation_wrap:before {
+    position: absolute;
+    content: "";
+    width: 624px;
+    height: 624px;
+    border-radius: 100%;
+    border: 168px solid color-mix(in oklab, var(--bg3), white 14%);
+    right: -9%;
+    top: 45%;
+    z-index: 0;
+}
+
+.presentation62.presentation-two .presentation_wrap {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.86)), url(../images/photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -111;
+    position: relative;
+}
+.presentation62 .presentation_text {
+    margin-bottom: 0;
+    z-index: 666;
+    position: relative;
+}
+.presentation62 .presentation_left {
+    padding: 260px 122px 139px 74px;
+    z-index: 555;
+    position: relative;
+}
+
+
+.presentation63.presentation-two .presentation_left {
+    padding: 0px;
+}
+.presentation63.presentation-two .presentation_left .presentation_img{
+    height: 100%;
+}
+.presentation63.presentation-two .presentation_left .presentation_img img{
+    object-fit: cover;
+    height: 100%;
+}
+
+
+
 
 
 
