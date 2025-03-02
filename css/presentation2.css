@@ -2819,7 +2819,8 @@
 .presentation52.presentation-two .presentation_right .presentation_img{
     height: 100%;
 }
-.presentation52.presentation-two .presentation_right .presentation_img{
+.presentation52.presentation-two .presentation_right .presentation_img img{
+    object-fit: cover;
     height: 100%;
 }
 .presentation_title span {
@@ -2854,6 +2855,96 @@
     top: 73%;
     z-index: 0;
 }
+
+.presentation54.presentation-two .presentation_right {
+    padding: 0;
+}
+.presentation54.presentation-two .presentation_right .presentation_img{
+    height: 100%;
+}
+.presentation54.presentation-two .presentation_right .presentation_img img{
+    object-fit: cover;
+    height: 100%;
+}
+
+
+.presentation55 .presentation_wrap:before {
+    position: absolute;
+    content: "";
+    width: 1050px;
+    height: 1050px;
+    border-radius: 100%;
+    border: 168px solid color-mix(in oklab, var(--bg3), white 14%);
+    right: -23%;
+    top: -50%;
+    z-index: 0;
+}
+
+.presentation56 .icon {
+    width: 106px;
+    height: 106px;
+    fill: #08527F;
+}
+.presentation:nth-child(2n) .presentation_wrap .presentation_right .icon {
+    fill: #fff;
+}
+.presentation56 .presentation_right {
+    width: 100%;
+    max-width: 70%;
+}
+.presentation56 .presentation_author {
+    margin-top: 55px;
+}
+.presentation56 .presentation_wrap:before {
+    position: absolute;
+    content: "";
+    width: 624px;
+    height: 624px;
+    border-radius: 100%;
+    border: 168px solid color-mix(in oklab, var(--bg3), white 14%);
+    right: -28%;
+    top: -12%;
+    z-index: 0;
+}
+
+.presentation57 .icon {
+    width: 106px;
+    height: 106px;
+    fill: #08527F;
+}
+.presentation57.presentation-two .presentation_left {
+    padding: 0;
+    max-width: 30%;
+}
+.presentation57.presentation-two .presentation_right {
+    padding: 53px;
+    max-width: 70%;
+}
+.presentation57.presentation-two .presentation_left .presentation_img{
+    height: 100%;
+}
+.presentation57.presentation-two .presentation_left .presentation_img img{
+    object-fit: cover;
+    height: 100%;
+}
+.presentation57 .presentation_wrap:before {
+    position: absolute;
+    content: "";
+    width: 624px;
+    height: 624px;
+    border-radius: 100%;
+    border: 168px solid color-mix(in oklab, var(--bg3), white 14%);
+    right: -28%;
+    top: -12%;
+    z-index: 0;
+}
+
+
+
+
+
+
+
 
 
 /**/
