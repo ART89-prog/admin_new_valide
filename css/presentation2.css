@@ -2809,6 +2809,53 @@
 }
 
 
+.presentation52 .presentation_img img {
+    height: 100%;
+    object-fit: cover;
+}
+.presentation52.presentation-two .presentation_right {
+    padding: 0;
+}
+.presentation52.presentation-two .presentation_right .presentation_img{
+    height: 100%;
+}
+.presentation52.presentation-two .presentation_right .presentation_img{
+    height: 100%;
+}
+.presentation_title span {
+    color: #08527F;
+}
+.presentation-two ol li {
+    overflow: visible;
+}
+.presentation-two ol li:before {
+    top: -7px;
+}
+
+.presentation53 .presentation_wrap:after {
+    position: absolute;
+    content: "";
+    width: 261px;
+    height: 261px;
+    border-radius: 100%;
+    border: 78px solid color-mix(in oklab, var(--bg3), white 14%);
+    right: 0%;
+    top: -20%;
+    z-index: 0;
+}
+.presentation53 .presentation_wrap:before {
+    position: absolute;
+    content: "";
+    width: 235px;
+    height: 235px;
+    border-radius: 100%;
+    border: 78px solid color-mix(in oklab, var(--bg3), white 14%);
+    right: 33%;
+    top: 73%;
+    z-index: 0;
+}
+
+
 /**/
 .slick-slide:nth-child(2n) .presentation-two .presentation_wrap:before,
 .slick-slide:nth-child(2n) .presentation-two .presentation_wrap:after  {
