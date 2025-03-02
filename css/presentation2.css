@@ -3136,15 +3136,31 @@
     z-index: -111;
     position: relative;
 }
+.presentation62 .presentation_title {
+    color: #fff;
+    position: relative;
+}
 .presentation62 .presentation_text {
     margin-bottom: 0;
     z-index: 666;
-    position: relative;
+    position: relative;    
+}
+.presentation62 .presentation_text p {
+    color: #fff;
 }
 .presentation62 .presentation_left {
     padding: 260px 122px 139px 74px;
     z-index: 555;
-    position: relative;
+}
+.presentation62 .presentation_title:before {
+    position: absolute;
+    content: "";
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 13px solid #fff;
+    top: -135px;
+    left: 0;
 }
 
 
