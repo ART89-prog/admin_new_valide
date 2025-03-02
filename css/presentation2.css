@@ -2881,8 +2881,8 @@
 }
 
 .presentation56 .icon {
-    width: 106px;
-    height: 106px;
+    width: 101px;
+    height: 101px;
     fill: #08527F;
 }
 .presentation:nth-child(2n) .presentation_wrap .presentation_right .icon {
@@ -2908,8 +2908,8 @@
 }
 
 .presentation57 .icon {
-    width: 106px;
-    height: 106px;
+    width: 101px;
+    height: 101px;
     fill: #08527F;
 }
 .presentation57.presentation-two .presentation_left {
@@ -2940,8 +2940,132 @@
 }
 
 
+.presentation58 .presentation_right {
+    background: #fff;
+    padding: 200px 80px;
+}
+.presentation58 .presentation_left {
+    padding: 200px 80px;
+}
+.presentation58 .presentation_left .presentation_text {
+    text-align: center;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 50px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+.presentation58 .presentation_right .presentation_text {
+    color: #000;
+    text-align: center;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 50px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+}
+.presentation58.presentation-two .presentation_wrap {
+    justify-content: space-between;
+}
+.presentation58 .presentation_wrap:before {
+    position: absolute;
+    content: "";
+    width: 624px;
+    height: 624px;
+    border-radius: 100%;
+    border: 168px solid color-mix(in oklab, var(--bg3), white 14%);
+    left: -22%;
+    top: -43%;
+    z-index: 0;
+}
+.presentation58 .presentation_wrap:after {
+    position: absolute;
+    content: "";
+    width: 624px;
+    height: 624px;
+    border-radius: 100%;
+    border: 168px solid color-mix(in oklab, var(--bg3), white 14%);
+    right: -22%;
+    bottom: -43%;
+    z-index: 0;
+    opacity: 0.1;
+}
 
 
+.presentation59.presentation-two .presentation_left {
+    padding: 0;
+}
+.presentation59.presentation-two .presentation_left .presentation_img{
+    height: 100%;
+}
+.presentation59.presentation-two .presentation_left .presentation_img img{
+    object-fit: cover;
+    height: 100%;
+}
+.presentation59 .icon {
+    width: 101px;
+    height: 101px;
+    fill: #fff;
+}
+.presentation59.presentation-two .presentation_right {
+    padding: 62px 45px;
+}
+.presentation59.presentation-two .presentation_right-box {
+    padding: 37px 74px 72px 47px;
+    background: var(--bg3);
+}
+.presentation59.presentation-two .presentation_title {
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+
+.presentation60_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.presentation60_item {
+    width: calc(100%/2 - 12px);
+    padding-left: 31px;
+    position: relative;
+}
+.presentation60_item:before {
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 100%;
+    background: var(--bg3);
+    top: 0;
+    left: 0;
+}
+.presentation60_item-procent {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: #292929;
+    margin-bottom: 7px;
+}
+.presentation60_item-text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #173A60;
+}
+.presentation60 .presentation_wrap:after {
+    position: absolute;
+    content: "";
+    width: 1116px;
+    height: 1116px;
+    border-radius: 100%;
+    border: 168px solid color-mix(in oklab, var(--bg3), white 14%);
+    right: -26%;
+    bottom: -94%;
+    z-index: 0;
+    opacity: 0.1;
+}
 
 
 
