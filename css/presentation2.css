@@ -2985,7 +2985,7 @@
     left: -22%;
     top: -43%;
     z-index: 0;
-    opacity: 1;
+    opacity: 0.1;
 }
 .presentation58.presentation-two:nth-child(2n + 1) .presentation_wrap:after {
     position: absolute;
@@ -3001,6 +3001,7 @@
 }
 .presentation58.presentation:nth-child(2n) .presentation_left {
     background: #fff;
+    position: relative;
 }
 .presentation58.presentation:nth-child(2n) .presentation_left .presentation_text {
     color: #000;
@@ -3017,8 +3018,8 @@
     border: 168px solid color-mix(in oklab, var(--bg3), white 14%);
     left: -22%;
     top: -43%;
-    z-index: 0;
-    opacity: 1;
+    z-index: 7;
+    opacity: 0.1;
 }
 .presentation58.presentation-two:nth-child(2n) .presentation_wrap:after {
     position: absolute;
@@ -3881,6 +3882,9 @@
         padding: 40px 30px;
         max-width: 100%;
     }
+    .presentation60.presentation-two .presentation_left {
+        padding: 30px;
+    }
 
 
 
@@ -4282,6 +4286,12 @@
     }
     .presentation56 .presentation_author {
         margin-top: 0;
+    }
+    .presentation64.presentation-two .presentation_right,
+    .presentation63.presentation-two .presentation_right,
+    .presentation57.presentation-two .presentation_right,
+    .presentation56 .presentation_right {
+        padding: 20px;
     }
 
 
