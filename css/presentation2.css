@@ -2866,6 +2866,9 @@
     object-fit: cover;
     height: 100%;
 }
+.landing .presentation:nth-child(2n) .presentation_title span {
+    color: #73c9fd;
+}
 
 
 .presentation55 .presentation_wrap:before {
@@ -2940,11 +2943,15 @@
 }
 
 
-.presentation58 .presentation_right {
-    background: #fff;
+.presentation58 .presentation_left {
+    background: var(--bg3);
     padding: 200px 80px;
 }
-.presentation58 .presentation_left {
+.presentation58.presentation-two:nth-child(2n + 1) .presentation_wrap:before {
+    opacity: 1;
+}
+.presentation58 .presentation_left,
+.presentation58 .presentation_right {
     padding: 200px 80px;
 }
 .presentation58 .presentation_left .presentation_text {
@@ -2968,7 +2975,7 @@
 .presentation58.presentation-two .presentation_wrap {
     justify-content: space-between;
 }
-.presentation58 .presentation_wrap:before {
+.presentation58.presentation-two:nth-child(2n + 1) .presentation_wrap:before {
     position: absolute;
     content: "";
     width: 624px;
@@ -2978,8 +2985,9 @@
     left: -22%;
     top: -43%;
     z-index: 0;
+    opacity: 1;
 }
-.presentation58 .presentation_wrap:after {
+.presentation58.presentation-two:nth-child(2n + 1) .presentation_wrap:after {
     position: absolute;
     content: "";
     width: 624px;
@@ -2991,6 +2999,40 @@
     z-index: 0;
     opacity: 0.1;
 }
+.presentation58.presentation:nth-child(2n) .presentation_left {
+    background: #fff;
+}
+.presentation58.presentation:nth-child(2n) .presentation_left .presentation_text {
+    color: #000;
+}
+.presentation58.presentation:nth-child(2n) .presentation_right .presentation_text {
+    color: #fff;
+}
+.presentation58.presentation-two:nth-child(2n) .presentation_wrap:before {
+    position: absolute;
+    content: "";
+    width: 624px;
+    height: 624px;
+    border-radius: 100%;
+    border: 168px solid color-mix(in oklab, var(--bg3), white 14%);
+    left: -22%;
+    top: -43%;
+    z-index: 0;
+    opacity: 1;
+}
+.presentation58.presentation-two:nth-child(2n) .presentation_wrap:after {
+    position: absolute;
+    content: "";
+    width: 624px;
+    height: 624px;
+    border-radius: 100%;
+    border: 168px solid color-mix(in oklab, var(--bg3), white 14%);
+    right: -22%;
+    bottom: -43%;
+    z-index: 0;
+    opacity: 1;
+}
+
 
 
 .presentation59.presentation-two .presentation_left {
@@ -3065,6 +3107,9 @@
     bottom: -94%;
     z-index: 0;
     opacity: 0.1;
+}
+.presentation60.presentation-two .presentation_left {
+    padding: 69px;
 }
 .landing .presentation:nth-child(2n) .presentation60_item-procent {
     color: #fff;
@@ -3177,6 +3222,9 @@
     border: 13px solid #fff;
     top: -135px;
     left: 0;
+}
+.landing .presentation62.presentation:nth-child(2n) {
+    background: none;
 }
 
 
