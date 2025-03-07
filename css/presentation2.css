@@ -3496,6 +3496,9 @@
 .presentation67.presentation:nth-child(2n + 1) .presentation_left .presentation_text p {
     color: #fff;
 }
+.presentation67.presentation:nth-child(2n) .presentation_left .presentation_text {
+    margin-bottom: 0;
+}
 
 
 
@@ -3511,6 +3514,89 @@
     flex-direction: column;
     justify-content: space-between;
 }
+.presentation68.presentation .presentation_left .presentation_title {
+    line-height: 1.15;
+}
+.presentation68.presentation:nth-child(2n + 1) .presentation_left {
+    background: var(--bg3);
+}
+.presentation68.presentation:nth-child(2n + 1) .presentation_left .presentation_text {
+    margin-bottom: 0;
+}
+.presentation68.presentation:nth-child(2n + 1) .presentation_left .presentation_title {
+    color: #fff;
+}
+.presentation68.presentation:nth-child(2n + 1) .presentation_left .presentation_text p {
+    color: #fff;
+}
+.presentation68.presentation-two .presentation_right {
+    padding: 58px 106px 49px 35px;
+}
+.presentation68 .presentation_right-info_title {
+    font-family: 'SF Pro Display';
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    color: #292929;
+    margin-bottom: 20px;
+}
+.presentation68 .presentation_right-info_title span {
+    color: #08527F;
+}
+.presentation68 .presentation_right-info_text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.18;
+    color: #173A60;
+    margin-bottom: 20px;
+}
+.presentation68 .presentation_right-info_img {
+    width: 100%;
+    height: 238px;
+}
+.presentation68 .presentation_right-info_img img {
+    aspect-ratio: 479/238;
+    object-fit: cover;
+}
+.presentation68.presentation:nth-child(2n) .presentation_left .presentation_text {
+    margin-bottom: 0;
+}
+.presentation68.presentation:nth-child(2n) .presentation_right-info_title {
+    color: #fff;
+}
+.presentation68.presentation:nth-child(2n) .presentation_right-info_title span {
+    color: #73c9fd;
+}
+.presentation68.presentation:nth-child(2n) .presentation_right-info_text {
+    color: #fff;
+}
+
+
+.presentation {
+}
+.presentation-two {
+}
+.presentation69 {
+}
+.presentation_wrap {
+}
+.presentation69 .presentation_left {
+    padding: 94px 17px 34px 143px;
+}
+.presentation69 .presentation_left-info_img img {
+    aspect-ratio: 460/412;
+    object-fit: cover;
+}
+.presentation_right {
+}
+.presentation_right-info {
+}
+.presentation_right-info_title {
+}
+.presentation_right-info_text {
+}
+
 
 
 
