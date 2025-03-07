@@ -4193,24 +4193,17 @@
 
 
 
-.presentation {
-}
-.presentation-two {
-}
-.presentation80 {
-}
-.presentation_wrap {
-}
 .presentation80_left {
     flex-shrink: 0;
 }
 .presentation80_left-img {
-    
+    height: 100%;
 }
 .presentation80_left-img img {
     clip-path: polygon(0 0, 78% 0, 100% 100%, 0% 100%);
     width: 442px;
     height: 100%;
+    object-fit: cover;
 }
 .presentation80_right {
     padding: 79px 63px 73px 0;
@@ -4270,59 +4263,153 @@
 
 
 
-.presentation {
-}
-.presentation-two {
-}
-.presentation81 {
-}
+
 .presentation81 .presentation_wrap {
-    padding: 59px 46px 72px 69px;
+    padding: 59px 26px 72px 69px;
 }
 .presentation81_left {
-    /* width: 100%;
-    max-width: 100%; */
+    width: 100%;
+    max-width: 100%;
 }
 .presentation81_left-img {
     display: flex;
+    flex-direction: column;
     position: relative;
-    /* max-width: 50%; */
 }
 .presentation81_left-img img {
-    aspect-ratio: 325/217;
+    width: 325px;
+    height: 217px;
     object-fit: cover;
-    position: absolute;
-}
-.presentation81_left-img img:nth-child(1) {
-    top: 0;
-    left: 0;
+    border: 4px solid #fff;
 }
 .presentation81_left-img img:nth-child(2) {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-left: 138px;
+    margin-top: -108px;
 }
 .presentation81_left-img img:nth-child(3) {  
-   bottom: 0;
-   right: 0;
+    margin-left: 252px;
+    margin-top: -108px;
 }
 .presentation81_right {
     max-width: 50%;
 }
 .presentation81_right-title {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 1;
+    letter-spacing: -1px;
+    color: #292929;
+    margin-bottom: 35px;
 }
-.presentation81_items {
+.presentation81_right-title span {
+    color: #08527F;
 }
-.presentation81_item {
+.presentation81_item + .presentation81_item {
+    margin-top: 20px;
 }
 .presentation81_item-title {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 1.481;
+    color: #292929;
+    margin-bottom: 9px;
 }
 .presentation81_item-text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.181;
+    color: #173A60;
+}
+.presentation81:nth-child(2n) .presentation81_right-title {
+    color: #fff;
+}
+.presentation81:nth-child(2n) .presentation81_right-title span {
+    color: #73c9fd;
+}
+.presentation81:nth-child(2n) .presentation81_item-title {
+    color: #fff;
+}
+.presentation81:nth-child(2n) .presentation81_item-text {
+    color: #fff;
 }
 
 
 
 
+
+.presentation82 .presentation_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 33px 69px 39px;
+}
+.presentation82 .presentation_wrap > * {
+    width: calc(100%/2 - 10px);
+}
+.presentation82_left {
+    padding: 0;
+}
+.presentation82_left-img img {
+    aspect-ratio: 561/235;
+    object-fit: cover;
+}
+.presentation82_left-title {
+    padding: 16px 26px;
+    background: var(--bg3);
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 1.428;
+    color: #FFFFFF;
+    margin-bottom: 33px;
+}
+.presentation82_left-text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.181;
+    color: #173A60;
+}
+.presentation82_left-text p + p {
+    margin-top: 20px;
+}
+.presentation82.presentation-two .presentation82_right {
+    padding: 0;
+}
+.presentation82_right-img img {
+    aspect-ratio: 561/235;
+    object-fit: cover;
+}
+.presentation82_right-title {
+    padding: 16px 26px;
+    background: var(--bg3);
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 1.428;
+    color: #FFFFFF;
+    margin-bottom: 33px;
+}
+.presentation82_right-text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.181;
+    color: #173A60;
+}
+.presentation82_right-text p + p {
+    margin-top: 20px;
+}
+.presentation82:nth-child(2n) .presentation82_left-title {
+    background: #fff;
+    color: var(--bg3);
+}
+.presentation82:nth-child(2n) .presentation82_right-title {
+    background: #fff;
+    color: var(--bg3);
+}
+.presentation82:nth-child(2n) .presentation82_right-text {
+    color: #fff;
+}
+.presentation82:nth-child(2n) .presentation82_left-text {
+    color: #fff;
+}
 
 
 
