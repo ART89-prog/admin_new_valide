@@ -3748,12 +3748,6 @@
 
 
 
-.presentation {
-}
-.presentation-two {
-}
-.presentation72 {
-}
 .presentation72 .presentation_wrap {
     flex-direction: column;
 }
@@ -3802,6 +3796,73 @@
 .presentation72:nth-child(2n) .presentation72_post {
     color: #fff;
 }
+
+
+
+.presentation73 .presentation_wrap {
+    padding: 50px 150px 50px 170px;
+    flex-direction: column;
+    position: relative;
+}
+.presentation73.presentation-two:nth-child(2n + 1) .presentation_wrap:before {
+    position: absolute;
+    content: "";
+    width: 8.1%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: var(--bg3);
+    opacity: 1;
+}
+.presentation73_title {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 1;
+    letter-spacing: -1px;    
+    color: #292929;   
+    margin-bottom: 25px;   
+}
+.presentation73_title span {
+    color: #08527F;
+}
+.presentation73_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 66px;
+}
+.presentation73_items > * {
+    width: calc(100%/2 - 33px);
+}
+.presentation73_item-photo img {
+    aspect-ratio: 447/217;
+    object-fit: cover;
+}
+.presentation73_item-title {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 1.428;
+    color: #292929;
+    margin-top: 20px;
+}
+.presentation73_item-text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.181;
+    color: #173A60;
+}
+.presentation73:nth-child(2n) .presentation73_item-title {
+    color: #fff;
+}
+.presentation73:nth-child(2n) .presentation73_item-text {
+    color: #fff;
+}
+.presentation73:nth-child(2n) .presentation73_title {
+    color: #fff;
+}
+.presentation73:nth-child(2n) .presentation73_title span {
+    color: #73c9fd;
+}
+
 
 
 
