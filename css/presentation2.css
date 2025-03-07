@@ -3333,7 +3333,7 @@
 
 
 
-/**/
+
 .slick-slide:nth-child(2n) .presentation-two .presentation_wrap:before,
 .slick-slide:nth-child(2n) .presentation-two .presentation_wrap:after  {
     opacity: 0.1;
@@ -3424,8 +3424,113 @@
     color: var(--bg3);
 }
 
-/**/    
 
+
+
+/* Новые слайды начало */
+
+
+.presentation67.presentation ol li {
+    list-style-type: none;
+    padding-left: 72px;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--text);
+}
+.presentation67.presentation ol li:before {
+    counter-increment: list;
+    content: counter(list);
+    width: 52px;
+    height: 52px;
+    background: var(--bg2);
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    text-align: center;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 42px;
+    font-family: "SF Pro Display";
+}
+.presentation67.presentation ol li+li {
+    margin-top: 40px;
+}
+.presentation67 .presentation_left {
+    background: #fff;
+}
+.presentation67.presentation:nth-child(2n) .presentation_left {
+    background: var(--bg3);
+}
+.presentation67.presentation .presentation_left {
+    padding: 58px 47px 59px 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.presentation67.presentation .presentation_right {
+    padding: 46px 167px 52px 81px;
+}
+.presentation67.presentation-two ol li:before {
+    top: 0px;
+}
+.presentation67.presentation .presentation_left .presentation_title {
+    line-height: 1.15;
+}
+.presentation67.presentation:nth-child(2n + 1) .presentation_left {
+    background: var(--bg3);
+}
+.presentation67.presentation:nth-child(2n + 1) .presentation_left .presentation_text {
+    margin-bottom: 0;
+}
+.presentation67.presentation:nth-child(2n + 1) .presentation_left .presentation_title {
+    color: #fff;
+}
+.presentation67.presentation:nth-child(2n + 1) .presentation_left .presentation_text p {
+    color: #fff;
+}
+
+
+
+.presentation68 .presentation_left {
+    background: #fff;
+}
+.presentation68.presentation:nth-child(2n) .presentation_left {
+    background: var(--bg3);
+}
+.presentation68.presentation .presentation_left {
+    padding: 58px 47px 59px 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.presentation79 .presentation_right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 15px;
+    padding: 53px 69px 52px 61px;
+}
+
+
+
+
+
+
+
+
+
+/* Новые слайды конец*/
 
 
 @container presentations (max-width: 1100px) {
