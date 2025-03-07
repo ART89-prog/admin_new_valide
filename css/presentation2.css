@@ -3866,6 +3866,213 @@
 
 
 
+.presentation74 .presentation_wrap {
+    flex-direction: column;
+    padding: 50px 69px 39px;
+}
+.presentation74_title {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 1;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.presentation74_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    counter-reset: list2;
+}
+.presentation74_items > * {
+    position: relative;
+    width: calc(100%/3 - 27px);
+    padding: 30px 30px 48px;
+    background: linear-gradient(145.25deg, #FFFFFF 63.71%, #08527F 101.12%);
+}
+.presentation74_item-title {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 1.428;
+    color: #292929;
+    margin-bottom: 15px;
+    margin-top: 60px;
+}
+.presentation74_item-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.181;
+    color: #173A60;
+}
+.presentation74 .presentation74_item:before {
+    counter-increment: list2;
+    content: "0" counter(list2);
+    color: #fff;
+    text-align: start;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -1px;
+    color: #08527F;
+}
+.presentation74:nth-child(2n + 1) .presentation74_title {
+    color: #292929;
+}
+
+
+
+.presentation75 .presentation_wrap {
+    flex-direction: column;
+}
+.presentation75_title {
+    padding: 28px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 1;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    background: var(--bg3);
+}
+.presentation75_items {
+    gap: 127px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 69px 82px;
+    counter-reset: list3;
+}
+.presentation75_items > * {
+    width: calc(100%/3 - 85px);
+    position: relative;
+}
+.presentation75_item-title {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 1.428;
+    text-align: center;
+    color: #292929;
+    margin-bottom: 15px;
+    padding-top: 100px;
+}
+.presentation75_item-text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.181;
+    text-align: center;
+    color: #173A60;
+}
+.presentation75 .presentation75_item:before {
+    counter-increment: list3;
+    content: counter(list3);
+    position: absolute;
+    color: #fff;
+    text-align: start;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -1px;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg3);
+    left: 50%;
+    transform: translateX(-50%);
+}
+.presentation75:nth-child(2n) .presentation75_item:before {
+    color: var(--bg3);
+    background: #fff;
+}
+.presentation75:nth-child(2n) .presentation75_item-title {
+    color: #fff;
+}
+.presentation75:nth-child(2n) .presentation75_item-text {
+    color: #fff;
+}
+
+
+
+.presentation {
+}
+.presentation-two {
+}
+.presentation76 {
+}
+.presentation_wrap {
+}
+.presentation76_left {
+    padding: 50px 350px 450px 69px;
+}
+.presentation76_left-title {
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: #FFFFFF;  
+}
+.presentation76_right {
+    padding: 215px 69px;
+}
+.presentation76_right-title {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 1;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.presentation76_right-text {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 1.428;
+    color: #FFFFFF;
+}
+
+
+
+
+.presentation {
+}
+.presentation-two {
+}
+.presentation77 {
+}
+.presentation_wrap {
+}
+.presentation77_left {
+}
+.presentation77_left-title {
+}
+.presentation77_left-text {
+}
+.presentation77_right {
+}
+.presentation77_right-img {
+}
+
+
+
+
+/* Rectangle 5415 */
+
+position: absolute;
+width: 14.97px;
+height: 309.89px;
+left: 724.57px;
+top: 266.05px;
+
+background: rgba(255, 255, 255, 0.2);
+transform: rotate(10.32deg);
+
+
+
+
+
+
 .presentation79 .presentation_right {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
