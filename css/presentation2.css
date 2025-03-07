@@ -3713,6 +3713,7 @@
     color: #292929;
     margin-bottom: 40px;
     text-transform: uppercase;
+    z-index: 5;
 }
 .presentation71_title span {
     color: #08527F;
@@ -3720,8 +3721,9 @@
 .presentation71_text {
     font-weight: 800;
     font-size: 28px;
-    line-height: 1.4px;
+    line-height: 1.428;
     color: #292929;
+    z-index: 5;
 }
 .presentation71 .presentation_wrap:after {
     position: absolute;
@@ -3730,20 +3732,25 @@
     height: 544px;
     border-radius: 100%;
     border: 70px solid color-mix(in oklab, var(--bg3), white 14%);
-    right: 20%;
-    top: 30%;
+    right: 28%;
+    top: -65%;
     transform: translate(272px, 272px);
     z-index: 0;
     opacity: 0.1;
 }
+.presentation71:nth-child(2n) .presentation_wrap:after {
+    opacity: 1;
+}
 .presentation71:nth-child(2n) .presentation71_title {
     color: #fff;
+    z-index: 5;
 }
 .presentation71:nth-child(2n) .presentation71_title span {
-    color: #73c9fd;
+    color: #73c9fd;    
 }
 .presentation71:nth-child(2n) .presentation71_text {
     color: #fff;
+    z-index: 5;
 }
 
 
@@ -4006,6 +4013,8 @@
     font-size: 96px;
     line-height: 40px;
     letter-spacing: -1px;
+    z-index: 5;
+    position: relative;
 }
 .presentation76:nth-child(2n) .presentation76_left-title {    
     color: #FFFFFF;  
@@ -4020,6 +4029,7 @@
     letter-spacing: -1px;
     color: #292929;
     margin-bottom: 20px;
+    position: relative;
 }
 .presentation76:nth-child(2n) .presentation76_right-title {
     font-weight: 800;
@@ -4028,17 +4038,37 @@
     letter-spacing: -1px;
     color: #FFFFFF;
     margin-bottom: 20px;
+    z-index: 5;
 }
 .presentation76_right-text {
     font-weight: 800;
     font-size: 28px;
     line-height: 1.428;
     color: #292929;
+    position: relative;
+    z-index: 5;
 }
 .presentation76:nth-child(2n) .presentation76_right-text {
     color: #FFFFFF;
+    z-index: 5;
+    position: relative;
 }
-
+.presentation76 .presentation_wrap:after {
+    position: absolute;
+    content: "";
+    width: 792px;
+    height: 792px;
+    border-radius: 100%;
+    border: 168px solid color-mix(in oklab, var(--bg3), white 14%);
+    left: -43%;
+    top: -77%;
+    transform: translate(396px, 396px);
+    z-index: 0;
+    opacity: 0.1;
+}
+.presentation76:nth-child(2n) .presentation_wrap:after {
+    opacity: 1;
+}
 
 
 
@@ -4052,6 +4082,8 @@
     letter-spacing: -1px;
     color: #FFFFFF;
     margin-bottom: 130px;
+    z-index: 5;
+    position: relative;
 }
 .presentation77_left-text {
     font-weight: 800;
@@ -4074,7 +4106,7 @@
     position: absolute;
     content: "";
     background: rgba(255, 255, 255, 0.2);
-    transform: rotate(13deg);
+    transform: skew(-12deg, 0deg);
     left: 31px;
     bottom: 27px;
 }
@@ -4090,6 +4122,19 @@
 }
 .presentation77:nth-child(2n + 1) .presentation77_left-text {
     color: #292929;
+}
+.presentation77 .presentation_wrap:before {
+    position: absolute;
+    content: "";
+    width: 492px;
+    height: 492px;
+    border-radius: 100%;
+    border: 168px solid color-mix(in oklab, var(--bg3), white 14%);
+    left: -38%;
+    top: -70%;
+    transform: translate(246px, 246px);
+    z-index: 0;
+    opacity: 1;
 }
 
 
@@ -4113,6 +4158,8 @@
     letter-spacing: -1px;
     color: #292929;
     margin-bottom: 20px;
+    z-index: 5;
+    position: relative;
 }
 .presentation78_left-title span {
     color: #08527F;
@@ -4122,6 +4169,8 @@
     font-size: 28px;
     line-height: 1.428;
     color: #292929;
+    z-index: 5;
+    position: relative;
 }
 .presentation78_right {
     padding: 0 50px 59px 20px;
@@ -4141,7 +4190,19 @@
 .presentation78:nth-child(2n) .presentation78_left-text {
     color: #fff;
 }
-
+.presentation78 .presentation_wrap:before {
+    position: absolute;
+    content: "";
+    width: 492px;
+    height: 492px;
+    border-radius: 100%;
+    border: 168px solid color-mix(in oklab, var(--bg3), white 14%);
+    left: -26%;
+    top: -30%;
+    transform: translate(246px, 246px);
+    z-index: 0;
+    opacity: 1;
+}
 
 
 
@@ -4155,6 +4216,7 @@
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 15px;
     padding: 82px 69px 82px 45px;
+    z-index: 5;
 }
 .presentation79_left {
     padding: 82px 45px 82px 69px;
@@ -4207,6 +4269,19 @@
 }
 .presentation79:nth-child(2n) .presentation79_left-text {
     color: #fff;
+}
+.presentation79 .presentation_wrap:before {
+    position: absolute;
+    content: "";
+    width: 492px;
+    height: 492px;
+    border-radius: 100%;
+    border: 108px solid color-mix(in oklab, var(--bg3), white 14%);
+    right: 15%;
+    top: -50%;
+    transform: translate(246px, 246px);
+    z-index: 0;
+    opacity: 1;
 }
 
 
@@ -4350,8 +4425,19 @@
 .presentation81:nth-child(2n) .presentation81_item-text {
     color: #fff;
 }
-
-
+.presentation81 .presentation_wrap:before {
+    position: absolute;
+    content: "";
+    width: 526px;
+    height: 526px;
+    border-radius: 100%;
+    border: 168px solid color-mix(in oklab, var(--bg3), white 14%);
+    left: -24%;
+    bottom: 12%;
+    transform: translate(263px, 263px);
+    z-index: 0;
+    opacity: 1;
+}
 
 
 
@@ -4428,10 +4514,6 @@
 .presentation82:nth-child(2n) .presentation82_left-text {
     color: #fff;
 }
-
-
-
-
 
 
 
@@ -4677,6 +4759,62 @@
     }
 
 
+    /* Новые слайды начало */
+
+    .presentation67.presentation:nth-child(2n + 1) .presentation_left {
+        padding: 30px;
+    }
+    .presentation67.presentation:nth-child(2n) .presentation_left {
+        padding: 30px;
+    }
+    .presentation67.presentation .presentation_right {
+        padding: 30px;
+    }
+    .presentation68.presentation .presentation_left {
+        padding: 30px;
+    }
+    .presentation68.presentation .presentation_right {
+        padding: 30px;
+    }
+    .presentation69.presentation-two .presentation_right {
+        padding: 30px;
+    }
+    .presentation70_items {
+        gap: 20px;
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+    .presentation70_items > * {
+        width: calc(100% / 3 - 14px);
+        padding: 15px;
+    }
+    .presentation71 .presentation_wrap {
+        padding: 150px 30px;
+    }
+    .presentation73 .presentation_wrap {
+        padding: 30px 30px 30px 90px;
+    }
+    .presentation73_items {
+        gap: 20px;
+    }
+    .presentation73_items > * {
+        width: calc(100% / 2 - 10px);
+    }
+    .presentation74 .presentation_wrap {
+        padding: 30px 20px;
+    }
+    .presentation74_items {
+        gap: 10px;
+    }
+    .presentation74_items > * {
+        width: calc(100% / 3 - 7px);
+        padding: 15px;
+    }
+
+
+
+
+    /* Новые слайды конец */
 
 
 
