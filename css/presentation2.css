@@ -4143,12 +4143,13 @@
 
 
 .presentation78 {
-    padding: 0 70px 70px 70px;
+    
     background: var(--bg3);    
 }
 .presentation78 .presentation_wrap {
     align-items: flex-end;
     background: #fff;
+    padding: 0 70px 70px 70px;
 }
 .presentation78_left {
     padding: 60px 0px 60px 38px;
@@ -4364,30 +4365,34 @@
     padding: 59px 26px 72px 69px;
 }
 .presentation81_left {
-    width: 100%;
-    max-width: 100%;
+    max-width: 50%;
 }
 .presentation81_left-img {
     display: flex;
     flex-direction: column;
     position: relative;
 }
-.presentation81_left-img img {
+.presentation81_left-image {
     width: 325px;
-    height: 217px;
+    height: 217px;    
+}
+.presentation81_left-image img {
     object-fit: cover;
     border: 4px solid #fff;
+    width: 100%;
+    height: 100%;
 }
-.presentation81_left-img img:nth-child(2) {
+.presentation81_left-image:nth-child(2) {
     margin-left: 138px;
     margin-top: -108px;
 }
-.presentation81_left-img img:nth-child(3) {  
+.presentation81_left-image:nth-child(3) {  
     margin-left: 252px;
     margin-top: -108px;
 }
 .presentation81_right {
-    max-width: 50%;
+    z-index: 5;
+    padding-left: 20px;
 }
 .presentation81_right-title {
     font-weight: 800;
@@ -4780,7 +4785,7 @@
         padding: 30px;
     }
     .presentation69.presentation-two .presentation_right {
-        padding: 30px;
+        padding: 30px 30px 30px 10px;
     }
     .presentation70_items {
         gap: 20px;
@@ -4832,13 +4837,93 @@
     .presentation78 .presentation_wrap {
         flex-direction: row;
     }
-    .presentation78 {
-        padding: 0 30px 30px 30px;
-    }
+    
     .presentation78_left {
         padding: 30px 0px 30px 30px;
     }
-
+    .presentation78_right {
+        padding: 0 20px 20px 20px;
+    }
+    .presentation79_left {
+        padding: 30px;
+    }
+    .presentation79_right {
+        padding: 30px;
+    }
+    .presentation78 .presentation_wrap {
+        padding: 0;
+    }
+    .presentation80_items {
+        padding: 20px;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: -100px;
+    }
+    .presentation80_items > * {
+        width: 100%;
+    }
+    .presentation80_right {
+        padding: 30px 30px 30px 0;
+        margin-left: -70px;
+    }
+    .presentation81 .presentation_wrap {
+        padding: 30px;
+    }
+    .presentation81_left-image {
+        width: 180px;
+        height: 142px;
+        border: 3px solid #fff;
+    }
+    .presentation81_left-image:nth-child(2) {
+        margin-left: 60px;
+        margin-top: -64px;
+    }
+    .presentation81_left-image:nth-child(3) {
+        margin-left: 120px;
+        margin-top: -70px;
+    }
+    .presentation77_right-img {
+        margin-right: -200px;
+    }
+    .presentation70_items {
+        margin-top: 0;
+    }
+    .presentation82 .presentation_wrap {
+        padding: 30px;
+    }
+    .presentation76_right {
+        padding: 150px 69px;
+    }
+    .presentation69 .presentation_right-info_title,
+    .presentation70_title,
+    .presentation72_text,
+    .presentation73_title,
+    .presentation74_title,
+    .presentation75_title,
+    .presentation76_right-title,
+    .presentation77_left-title,
+    .presentation78_left-title,
+    .presentation79_left-title,
+    .presentation80_right-title,
+    .presentation81_right-title,
+    .presentation76:nth-child(2n) .presentation76_right-title {
+        font-size: 30px;
+    }
+    .presentation69 .presentation_right-info_text,
+    .presentation77_left-text,
+    .presentation79_left-text,
+    .presentation72_name,
+    .presentation73_item-title,
+    .presentation74_item-title,
+    .presentation76_right-text,
+    .presentation78_left-text,
+    .presentation80_item-title,
+    .presentation82_left-title,
+    .presentation81_item-title {
+        font-size: 24px;
+        z-index: 5;
+        position: relative;
+    }
 
 
     /* Новые слайды конец */
@@ -5083,8 +5168,32 @@
     }
 
 
+    /* Новые слайды начало */
+
+    .presentation78 {
+        padding: 0;
+    }
+    .presentation79_left {
+        padding: 20px;
+        z-index: 55;
+    }
+
+
+
+
+
+    /* Новые слайды конец */
+
+
 
 }
+
+
+
+
+
+
+
 @container presentations (max-width: 700px) {
     .presentation_wrap {
         flex-direction: column-reverse;
@@ -5253,6 +5362,112 @@
         padding: 60px 30px;
     }
 
+
+    /* Новые слайды начало */
+
+    .presentation68.presentation:nth-child(2n + 1) .presentation_left {
+        z-index: 55;
+    }
+    .presentation69.presentation-two .presentation_right {
+        padding: 20px 20px 0 20px;
+    }
+    .presentation70_items > * {
+        width: 100%;
+    }
+    .presentation71_title {
+        font-size: 46px;
+    }
+    .presentation73 .presentation_wrap {
+        padding: 20px 20px 20px 65px;
+    }
+    .presentation73_items > * {
+        width: 100%;
+    }
+    .presentation77_right:before {
+        transform: skew(-13deg, 0deg);
+    }
+    .presentation80_right {
+        margin-left: 0;
+    }
+    .presentation80_items {
+        margin-left: 0;
+    }
+    .presentation74_items > * {
+        width: 100%;
+    }
+    .presentation74_item-title {
+        margin-top: 20px;
+    }
+    .presentation75_items > * {
+        width: 100%;
+    }
+    .presentation75_item + .presentation75_item {
+        margin-top: 20px;
+    }
+    .presentation75_item-title {
+        padding-top: 80px;
+    }
+    .presentation76 .presentation_wrap {
+        flex-direction: column;
+    }
+    .presentation77_left-title {
+        margin-bottom: 20px;
+    }
+    .presentation71 .presentation_wrap {
+        padding: 100px 30px;
+    }
+    .presentation76_right {
+        padding: 80px 30px;
+    }
+    .presentation72_name {
+        margin-bottom: 8px;
+    }
+    .presentation82 .presentation_wrap > * {
+        width: 100%;
+    }
+    .presentation81_right {
+        padding-left: 0;
+    }
+    .presentation67.presentation ol li+li {
+        margin-top: 20px;
+    }
+    .presentation-two .presentation_right {
+        padding: 0px 0 30px 30px;
+    }
+    .presentation76_left-title {
+        line-height: 1;
+        font-size: 76px;
+    }
+    .presentation82 .presentation_wrap {
+        padding: 20px;
+    }
+    .presentation82_right-title {
+        padding: 8px 15px;
+        margin-bottom: 18px;
+        font-size: 24px;
+    }
+    .presentation78 .presentation_wrap {
+        flex-direction: column;
+    }
+    .presentation78_left {
+        padding: 20px;
+    }
+    .presentation78_right {
+        max-width: 100%;
+    }
+    .presentation77_left {
+        padding: 0px 20px 20px 20px;
+    }
+    .presentation80_right {
+        padding: 20px;
+    }
+    .presentation80_item-title {
+        margin-bottom: 3px;
+    }
+
+
+
+    /* Новые слайды конец */
 
 }
 @container presentations (max-width: 600px) {
