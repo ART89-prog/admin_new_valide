@@ -5180,18 +5180,20 @@
 
     .presentation69 .presentation_right-info_text,
     .presentation82_right-title,
-    .presentation67 .presentation_left .presentation_text p
+    .presentation67 .presentation_left .presentation_text p,
     .presentation72_name,
     .presentation82_right-title,
     .presentation73_item-title
     .presentation74_item-title,
     .presentation75_item-title,
-    .presentation76_right-text,
-    .presentation78_left-text,
+    .presentation76_right-text,    
     .presentation80_item-title,
+    .presentation74_item-title,
     .presentation82_left-title,
-    .presentation81_item-title,
-    .presentation68 .presentation_right-info_text {
+    .presentation73_item-title,
+    .presentation68 .presentation_right-info_title,    
+    .presentation71_text,
+    .presentation81_item-title {
         font-size: 22px;
         z-index: 5;
         position: relative;
@@ -5200,9 +5202,17 @@
     .presentation80_item-text,
     .presentation82_right-text,
     .presentation76_right-text,
+    .presentation78_left-text,
     .presentation82_left-text,
+    .presentation75_item-text,
     .presentation79_left-text,
+    .presentation73_item-text,
+    .presentation74_item-text,
     .presentation70_item-text,
+    .presentation72_post,
+    .presentation67.presentation:nth-child(2n + 1) .presentation_left .presentation_text,
+    .presentation68 .presentation_right-info_text,
+    .presentation70_item-name,
     .presentation77_left-text {
         font-size: 18px;
     }
@@ -5213,6 +5223,9 @@
     }
     .presentation79_right {
         padding: 20px;
+    }
+    .presentation68 .presentation_right-info_img {
+        height: auto;
     }
 
 
