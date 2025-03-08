@@ -4923,21 +4923,7 @@
     .presentation76:nth-child(2n) .presentation76_right-title {
         font-size: 30px;
     }
-    .presentation69 .presentation_right-info_text,
-    .presentation77_left-text,
-    .presentation79_left-text,
-    .presentation72_name,
-    .presentation73_item-title,
-    .presentation74_item-title,
-    .presentation76_right-text,
-    .presentation78_left-text,
-    .presentation80_item-title,
-    .presentation82_left-title,
-    .presentation81_item-title {
-        font-size: 24px;
-        z-index: 5;
-        position: relative;
-    }
+
 
 
     /* Новые слайды конец */
@@ -5192,8 +5178,42 @@
         z-index: 55;
     }
 
+    .presentation69 .presentation_right-info_text,
+    .presentation82_right-title,
+    .presentation67 .presentation_left .presentation_text p
+    .presentation72_name,
+    .presentation82_right-title,
+    .presentation73_item-title
+    .presentation74_item-title,
+    .presentation75_item-title,
+    .presentation76_right-text,
+    .presentation78_left-text,
+    .presentation80_item-title,
+    .presentation82_left-title,
+    .presentation81_item-title,
+    .presentation68 .presentation_right-info_text {
+        font-size: 22px;
+        z-index: 5;
+        position: relative;
+    }
+    .presentation81_item-text,
+    .presentation80_item-text,
+    .presentation82_right-text,
+    .presentation76_right-text,
+    .presentation82_left-text,
+    .presentation79_left-text,
+    .presentation70_item-text,
+    .presentation77_left-text {
+        font-size: 18px;
+    }
 
-
+    .presentation82_left-title,
+    .presentation82_right-title {
+        margin-bottom: 10px;
+    }
+    .presentation79_right {
+        padding: 20px;
+    }
 
 
     /* Новые слайды конец */
@@ -5389,7 +5409,7 @@
         width: 100%;
     }
     .presentation71_title {
-        font-size: 46px;
+        font-size: 40px;
     }
     .presentation73 .presentation_wrap {
         padding: 20px 20px 20px 65px;
@@ -5458,7 +5478,6 @@
     .presentation82_right-title {
         padding: 8px 15px;
         margin-bottom: 18px;
-        font-size: 24px;
     }
     .presentation78 .presentation_wrap {
         flex-direction: column;
@@ -5718,6 +5737,35 @@
     .presentation56 .presentation_right {
         padding: 20px;
     }
+
+
+    /* Новые слайды начало */
+
+    .presentation69 .presentation_right-info_title,
+    .presentation70_title,
+    .presentation72_text,
+    .presentation73_title,
+    .presentation74_title,
+    .presentation75_title,
+    .presentation76_right-title,
+    .presentation77_left-title,
+    .presentation78_left-title,
+    .presentation79_left-title,
+    .presentation80_right-title,
+    .presentation81_right-title,
+    .presentation76:nth-child(2n) .presentation76_right-title {
+        font-size: 26px;
+    }
+
+
+
+
+
+
+
+
+
+    /* Новые слайды конец */
 
 
 
