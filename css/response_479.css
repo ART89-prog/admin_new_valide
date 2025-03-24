@@ -2267,6 +2267,7 @@
     }
     .denied {
         flex-direction: column-reverse;
+        flex: 0;
     }
 
 
