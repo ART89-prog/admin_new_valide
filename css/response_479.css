@@ -2258,5 +2258,18 @@
 
 
 
+    .denied .code svg {
+        width: 100%;
+        height: auto;
+    }
+    .denied {
+        padding: 30px 20px;
+    }
+    .denied {
+        flex-direction: column-reverse;
+    }
+
+
+
 
 }
