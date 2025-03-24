@@ -41476,6 +41476,7 @@ a.back_link_right{
     padding: 20px 18px;
     background-color: color-mix(in srgb, var(--main_color) 15%, #fff);
     border-radius: 6px;
+    margin-top: 10px;
 }
 .text-page_subtitle {
     font-family: 'Ubuntu';
@@ -41851,6 +41852,15 @@ a.back_link_right{
     border-radius: 6px;
     background: var(--main_color);
 }
+
+.text_block .momentous_box ul li{
+    color:#fff;
+}
+
+.text_block .momentous_box ul li:before{
+    border-color:#fff;
+}
+
 .momentous_title {
     font-family: 'Ubuntu';
     font-weight: 700;
@@ -44617,6 +44627,11 @@ a.back_link_right{
     flex-wrap: wrap;
     gap: 24px;
 }
+.machine_item img{
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
 .machine_items > * {
     width: calc(100%/3 - 16px);
     padding: 22px 15px 26px;
@@ -44667,7 +44682,9 @@ a.back_link_right{
     text-decoration: none;
     margin-top: 17px;
 }
-
+.machine_item_desc{
+    margin-top: 10px;
+}
 
 .question-ai {
     padding: 20px;
@@ -45263,8 +45280,8 @@ a.back_link_right{
 .bearing .video_message {
     position: relative;
     overflow: hidden;
-    width: 107px;
-    height: 80px;
+    width: 200px;
+    height: 160px;
     max-width: calc(100%);
     border-radius: 6px;
     margin-top: 15px;
@@ -45273,8 +45290,8 @@ a.back_link_right{
     position: relative;
     display: block;
     overflow: hidden;
-    width: 107px;
-    padding-bottom: 80px;
+    width: 200px;
+    padding-bottom: 160px;
     background: url(../images/ic_no_video.png) 50% no-repeat #696969;
     border-radius: 10px;
 }
@@ -45301,11 +45318,11 @@ a.back_link_right{
 .bearing .message_img{
     margin-top: 10px;
     position: relative;
-    max-width: 88px;
+    max-width: 200px;
 }
 .bearing .message_img a {
     position: relative;
-    height: 80px;
+    height: 200px;
     display: block;
 }
 .bearing .message_img a:after {
