@@ -45954,10 +45954,6 @@ aside .menu .item .icon141 > * {
     line-height: 23px;
     color: #FFFFFF;
 }
-.denied .code img {
-    display: block;
-    max-width: 100%;
-}
 .denied_contact-items {
     display: flex;
     gap: 37px;
