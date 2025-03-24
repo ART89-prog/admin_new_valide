@@ -2265,10 +2265,7 @@
     .denied {
         padding: 30px 20px;
     }
-    .denied {
-        flex-direction: column-reverse;
-        flex: 0;
-    }
+    
 
 
 

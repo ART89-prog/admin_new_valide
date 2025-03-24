@@ -45911,8 +45911,6 @@ aside .menu .item .icon141 > * {
 
 
 
-.denied_info {
-}
 .denied_title {
     margin-bottom: 30px;
     font-weight: 700;
@@ -45920,16 +45918,6 @@ aside .menu .item .icon141 > * {
     line-height: 1;
     letter-spacing: -0.3px;
 }
-.denied_desc {
-}
-.denied_contact {
-}
-.denied_contact-title {
-}
-
-.link {
-}
-
 .denied {
     display: flex;
     width: 1448px;
@@ -45939,8 +45927,6 @@ aside .menu .item .icon141 > * {
     flex: 1 0 auto;
     justify-content: space-between;
     align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
 }
 .denied_info {
     width: 702px;
@@ -45957,7 +45943,7 @@ aside .menu .item .icon141 > * {
 .denied .link {
     color: #fff;
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 45px;
     padding: 22px 20px;
     vertical-align: top;
     text-decoration: none;
