@@ -3702,6 +3702,13 @@
         width: 100%;
         align-items: flex-start;
     }
+    .your-mentor_contact {
+        font-size: 15px;
+    }
+    .your-mentor_name {
+        font-size: 18px;
+        line-height: 1.3;
+    }
 
 
 }
