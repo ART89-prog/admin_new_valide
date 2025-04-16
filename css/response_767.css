@@ -3674,5 +3674,16 @@
 
 
 
+    .mentor_item-contacts > * {
+        width: 100%;
+    }
+    .mentor_item {
+        padding: 14px;
+    }
+    .mentor_item-top:before {
+        width: calc(100% + 28px);
+        left: -14px;
+    }
+
 
 }

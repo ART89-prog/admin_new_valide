@@ -46097,6 +46097,7 @@ aside .menu .item .icon141 > * {
     line-height: 18px;
     color: #3D3C53;
     text-decoration: none;
+    white-space: nowrap;
 }
 .mentor_item-contact .icon {
     width: 24px;
@@ -46107,7 +46108,8 @@ aside .menu .item .icon141 > * {
     display: flex;
     gap: 19px;
 }
-.mentor_bottom-item {
+.mentor_bottom > * {
+    width: calc(100%/2 - 10px);
     padding: 22px;
     background: #EAEAEA;
     border-radius: 16px;
