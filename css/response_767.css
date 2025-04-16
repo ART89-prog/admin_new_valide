@@ -3686,4 +3686,22 @@
     }
 
 
+
+    .your-mentor {
+        padding: 14px;
+    }
+    .your-mentor_contacts {
+        flex-direction: column;
+        gap: 6px;
+    }
+    .your-mentor_label {
+        top: -10px;
+        right: 10px;
+    }
+    .your-mentor_author {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+
 }
