@@ -13,7 +13,7 @@
     padding: 32px;
     border-radius: 20px;
     position: relative;
-    margin-top: 12px;
+    margin-top: 48px;
 }
 .text-page1_label {
     padding: 8px 9px;
@@ -1295,4 +1295,380 @@
 }
 .text-page18_item.red ul li + li {
     margin-top: 10px;
+}
+
+
+.text-page19 {
+    padding: 0;
+}
+.text-page19_title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #383838;
+    margin-bottom: 24px;
+}
+.text-page19_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.text-page19_items > * {
+    width: calc(100%/2 - 8px);
+    padding: 20px;    
+    border-radius: 12px;
+}
+.text-page19_circle .icon {
+    width: 18px;
+    height: 18px;
+}
+.text-page19_item-title {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #383838;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.text-page19_item.red .text-page19_circle {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main_color3);
+}
+.text-page19_item.green .text-page19_circle {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main_color2);
+}
+.text-page19_item.green {
+    border-left: 3px solid var(--main_color2);
+    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+}
+.text-page19_item.red {
+    border-left: 3px solid var(--main_color3);
+    background-color: color-mix(in srgb, var(--main_color3) 30%, #fff);
+}
+.text-page19_item ol {
+    list-style: none;
+    counter-reset: section;
+}
+.text-page19_item.green ol li {
+    list-style: none;
+    padding-left: 28px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #383838;
+    position: relative;
+}
+.text-page19_item.green ol li:before {
+    position: absolute;
+    counter-increment: section;
+    content: counter(section) " "; 
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--main_color2);
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.text-page19_item.green ol li + li {
+    margin-top: 12px;
+}
+.text-page19_item.red ol li {
+    list-style: none;
+    padding-left: 28px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #383838;
+    position: relative;
+}
+.text-page19_item.red ol li:before {
+    position: absolute;
+    counter-increment: section;
+    content: counter(section) " "; 
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--main_color3);
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.text-page19_item.red ol li + li {
+    margin-top: 12px;
+}
+
+
+.text-page20 {
+    background: var(--main_color2);
+}
+.text-page20_title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-bottom: 24px;
+}
+.text-page20_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.text-page20_items > * {
+    width: calc(100%/2 - 8px);
+    padding: 24px;
+    background: rgba(151, 183, 6, 0.1);
+    border-radius: 12px;
+    background-color: color-mix(in srgb, var(--main_color2) 85%, #fff);
+}
+.text-page20_item:last-child {
+    width: 100%;
+}
+.text-page20_icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-bottom: 26px;
+    background-color: color-mix(in srgb, var(--main_color2) 60%, #fff);
+}
+.text-page20_item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-bottom: 8px;  
+}
+.text-page20_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+
+.text-page21 {
+    background: var(--main_color2);
+}
+.text-page21_title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.text-page21 p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+.text-page21 p + p {
+    margin-top: 12px;
+}
+
+
+.text-page22 {
+    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+}
+.text-page_block {
+}
+.text-page22_icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+}
+.text-page22_title {
+    max-width: 444px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #383838;
+}
+.text-page22_text {
+    max-width: 444px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #383838;
+}
+
+
+.text-page23 {
+    position: relative;
+    border-left: 3px solid #8FAE01;
+    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+}
+.text-page23_text {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #383838;
+    max-width: 695px;
+}
+.text-page23 .icon {
+    width: 18px;
+    height: 16px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+.text-page24 {
+    padding: 0;
+}
+.text-page24_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.text-page24_items > * {
+    width: calc(100%/2 - 8px);
+    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    background: rgba(151, 183, 6, 0.3);
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+.text-page24_item:last-child {
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+.text-page24_item:last-child .text-page24_item-text {
+    max-width: calc(50% - 16px);
+}
+.text-page24_item-number {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: var(--main_color2);
+}
+.text-page24_item-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #383838;
+}
+.text-page24_item:last-child .text-page24_item-number {
+    margin-bottom: 0;
+}
+
+
+.text-page25 {
+    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+}
+.text-page25_title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #383838;
+    margin-bottom: 24px;
+}
+.text-page25_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.text-page25_items > * {
+    width: calc(100%/2 - 8px);
+    padding: 24px;
+    background: rgba(151, 183, 6, 0.1);
+    border-radius: 12px;
+    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+}
+.text-page25_item:last-child {
+    width: 100%;
+}
+.text-page25_circle {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main_color2);
+    margin-bottom: 24px;
+}
+.text-page25_circle .icon {
+    width: 25px;
+    height: 25px;
+}
+.text-page25_text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #383838;
 }
