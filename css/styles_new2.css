@@ -2440,3 +2440,134 @@
     height: 14px;
 }
 
+
+.text-page39 {
+    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+}
+.text-page39_title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #383838;
+    margin-bottom: 16px;
+}
+.text-page39_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #383838;
+    margin-bottom: 24px;
+}
+.text-page39_items {
+    position: relative;
+}
+.text-page39_item {
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+    margin-left: 68px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.text-page39_item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #383838;
+    margin-bottom: 8px;
+}
+.text-page39_item-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #383838;
+}
+.text-page39_item + .text-page39_item {
+    margin-top: 16px;
+}
+.text-page39_item:before {
+    content: "";
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--main_color2);
+    border-radius: 50%;
+    left: -68px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+.text-page39_items:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 3px;
+    background: var(--main_color2);
+    top: 0;
+    left: 20px;
+    z-index: 10;
+}
+.text-page39_item:first-child:after {
+    position: absolute;
+    content: "";
+    height:50%;
+    width: 3px;
+    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    top: 0;
+    left: -48px;
+    z-index: 99;
+}
+.text-page39_item:last-child:after {
+    position: absolute;
+    content: "";
+    height:50%;
+    width: 3px;
+    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    bottom: 0;
+    left: -48px;
+    z-index: 99;
+}
+.text-page39_item-price {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: var(--main_color2);
+}
+.text-page39_summa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background: var(--main_color2);
+    border-radius: 12px;
+    margin-top: 16px;
+    margin-left: 68px;
+}
+.text-page39_summa-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.text-page39_summa-text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
