@@ -59,6 +59,7 @@
     width: 258px;
     height: 355px;
     z-index: -1;
+    opacity: 0.5;
 }
 
 
@@ -1533,9 +1534,9 @@
 
 
 .text-page22 {
+    position: relative;
+    overflow: hidden;
     background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
-}
-.text-page_block {
 }
 .text-page22_icon {
     width: 44px;
@@ -1569,6 +1570,16 @@
     line-height: 20px;
     letter-spacing: -0.02em;
     color: #383838;
+}
+.text-page22_icon2 {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 237px;
+    height: 210px;
+    z-index: 0;
+    opacity: 0.1;
 }
 
 
