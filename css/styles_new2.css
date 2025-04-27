@@ -6,7 +6,7 @@
 }
 
 .text-page1 {    
-    background: #8FAE01;   
+    background: var(--main_color);   
     z-index: 0;  
     overflow: hidden; 
 }
@@ -30,7 +30,7 @@
     font-size: 10px;
     line-height: 12px;
     letter-spacing: -0.02em;
-    color: #8FAE01;
+    color: var(--main_color);
 }
 .text-page1_label .icon {
     width: 16px;
@@ -58,14 +58,12 @@
     transform: translateY(-50%);
     width: 258px;
     height: 355px;
-    z-index: -1;
-    opacity: 0.5;
+    z-index: 1;
 }
 
 
-
 .text-page2 {
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page2_title {
     display: flex;
@@ -86,7 +84,7 @@
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background: var(--main_color2);
+    background: var(--main_color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,7 +116,7 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: var(--main_color2);
+    background: var(--main_color);
     left: 6px;
     top: 6px;
 }
@@ -128,7 +126,7 @@
 
 
 .text-page3 {
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page3_title {
     display: flex;
@@ -149,7 +147,7 @@
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background: var(--main_color2);
+    background: var(--main_color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -183,7 +181,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: var(--main_color2);
+    background: var(--main_color);
     left: 0px;
     top: 0px;
     display: flex;
@@ -203,7 +201,7 @@
 
 
 .text-page4 {
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page4_title {
     display: flex;
@@ -224,7 +222,7 @@
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background: var(--main_color2);
+    background: var(--main_color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -240,7 +238,7 @@
 
 
 .text-page5 {
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page5_title {
     display: flex;
@@ -261,7 +259,7 @@
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background: var(--main_color2);
+    background: var(--main_color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -298,7 +296,6 @@
 }
 .text-page5 ol li {
     list-style: none;
-    padding-left: 16px;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -324,11 +321,11 @@
     display: flex;
     align-items: center;
     gap: 23px;
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page6_number {
     padding: 20px;
-    background: var(--main_color2);
+    background: var(--main_color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -372,7 +369,7 @@
 
 
 .text-page7 {
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page7_title {
     font-weight: 700;
@@ -395,10 +392,10 @@
 
 
 .text-page8 {
-    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
     gap: 16px;
     display: flex;
-    border-left: 3px solid var(--main_color2);
+    border-left: 3px solid var(--main_color);
     padding: 22px;
 }
 .text-page8_icon {
@@ -413,7 +410,7 @@
     text-align: center;
     letter-spacing: -0.02em;
     color: #FFFFFF;
-    background: var(--main_color2);
+    background: var(--main_color);
     border-radius: 50%;
     flex-shrink: 0;
 }
@@ -455,7 +452,7 @@
     padding: 24px;
     background: rgba(151, 183, 6, 0.1);
     border-radius: 12px;
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page9_item:last-child {
     width: 100%;
@@ -474,7 +471,7 @@
     letter-spacing: -0.02em;
     color: #FFFFFF;
     margin-bottom: 26px;
-    background: var(--main_color2);
+    background: var(--main_color);
 }
 .text-page9_item-title {
     font-weight: 700;
@@ -514,7 +511,7 @@
     padding: 24px;
     background: rgba(151, 183, 6, 0.1);
     border-radius: 12px;
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page10_item:nth-child(4) {
     width: calc(100%/2 - 8px);
@@ -536,7 +533,7 @@
     letter-spacing: -0.02em;
     color: #FFFFFF;
     margin-bottom: 24px;
-    background: var(--main_color2);
+    background: var(--main_color);
 }
 .text-page10_item-title {
     font-weight: 700;
@@ -565,7 +562,7 @@
     padding: 24px;
     background: rgba(151, 183, 6, 0.1);
     border-radius: 12px;
-    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
 
     position: relative;
 }
@@ -600,7 +597,7 @@
     display: flex;
     align-items: center;
     letter-spacing: -0.02em;
-    color: var(--main_color2);
+    color: var(--main_color);
 }
 
 
@@ -626,7 +623,7 @@
     padding: 24px;
     background: rgba(151, 183, 6, 0.1);
     border-radius: 12px;
-    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
     position: relative;
 }
 .text-page12_item:last-child {
@@ -660,7 +657,7 @@
     display: flex;
     align-items: center;
     letter-spacing: -0.02em;
-    color: var(--main_color2);
+    color: var(--main_color);
 }
 .text-page12 ul {
     list-style: none;
@@ -681,7 +678,7 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: var(--main_color2);
+    background: var(--main_color);
     left: 6px;
     top: 6px;
 }
@@ -711,7 +708,7 @@
     width: calc(100%/2 - 8px);
     padding: 24px;
     border-radius: 12px;
-    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
     position: relative;
 }
 .text-page13_item:last-child {
@@ -745,7 +742,7 @@
     display: flex;
     align-items: center;
     letter-spacing: -0.02em;
-    color: var(--main_color2);
+    color: var(--main_color);
 }
 .text-page13 ol {
     list-style: none;
@@ -768,7 +765,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: var(--main_color2);
+    background: var(--main_color);
     left: 0px;
     top: 0px;
     display: flex;
@@ -788,7 +785,7 @@
 
 
 .text-page14 {
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page14_title {
     font-weight: 700;
@@ -829,7 +826,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
 }
 .text-page14_one-text {
     font-weight: 500;
@@ -847,7 +844,7 @@
 }
 .text-page14_item-two {
     position: relative;
-    background: var(--main_color2);
+    background: var(--main_color);
     border-radius: 12px;
     padding: 20px;
 }
@@ -864,7 +861,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
 }
 .text-page14_two-author-name {
     font-weight: 700;
@@ -887,7 +884,7 @@
     height: 0px;
     border-style: solid;
     border-width: 0 24px 22px 0;
-    border-color: transparent var(--main_color2) transparent transparent;
+    border-color: transparent var(--main_color) transparent transparent;
     transform: rotate(0deg);
     bottom: -22px;
     right: 20px;
@@ -907,7 +904,7 @@
 
 
 .text-page15 {
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page15_title {
     font-weight: 700;
@@ -939,7 +936,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
 }
 .text-page15_one-text {
     font-weight: 500;
@@ -1023,7 +1020,7 @@
 
 .text-page15_item-yes {
     position: relative;
-    background: var(--main_color2);
+    background: var(--main_color);
     border-radius: 12px;
     padding: 20px;
     margin-bottom: 42px;
@@ -1041,7 +1038,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
 }
 .text-page15_yes-author-name {
     font-weight: 700;
@@ -1064,7 +1061,7 @@
     height: 0px;
     border-style: solid;
     border-width: 0 24px 22px 0;
-    border-color: transparent var(--main_color2) transparent transparent;
+    border-color: transparent var(--main_color) transparent transparent;
     transform: rotate(0deg);
     bottom: -22px;
     right: 20px;
@@ -1088,7 +1085,7 @@
 }
 .text-page16_item {
     border-radius: 12px;
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page16_item + .text-page16_item {
     margin-top: 12px;
@@ -1101,12 +1098,12 @@
     color: #383838;
     padding: 20px 24px;
     border-radius: 12px;
-    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
 }
 .text-page16_item-text {
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
     padding: 16px 24px 24px;
     font-weight: 400;
     font-size: 14px;
@@ -1117,7 +1114,7 @@
 
 
 .text-page17 {
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page17_title {
     font-weight: 700;
@@ -1175,11 +1172,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--main_color2);
+    background-color: var(--main_color);
 }
 .text-page17_item.green {
-    border-left: 3px solid var(--main_color2);
-    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    border-left: 3px solid var(--main_color);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
 }
 .text-page17_item.red {
     border-left: 3px solid var(--main_color3);
@@ -1239,11 +1236,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--main_color2);
+    background-color: var(--main_color);
 }
 .text-page18_item.green {
-    border-left: 3px solid var(--main_color2);
-    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    border-left: 3px solid var(--main_color);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
 }
 .text-page18_item.red {
     border-left: 3px solid var(--main_color3);
@@ -1268,7 +1265,7 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: var(--main_color2);
+    background: var(--main_color);
     left: 6px;
     top: 6px;
 }
@@ -1355,11 +1352,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--main_color2);
+    background-color: var(--main_color);
 }
 .text-page19_item.green {
-    border-left: 3px solid var(--main_color2);
-    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    border-left: 3px solid var(--main_color);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
 }
 .text-page19_item.red {
     border-left: 3px solid var(--main_color3);
@@ -1386,7 +1383,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: var(--main_color2);
+    background: var(--main_color);
     left: 0px;
     top: 0px;
     display: flex;
@@ -1440,7 +1437,7 @@
 
 
 .text-page20 {
-    background: var(--main_color2);
+    background: var(--main_color);
 }
 .text-page20_title {
     font-weight: 700;
@@ -1460,7 +1457,7 @@
     padding: 24px;
     background: rgba(151, 183, 6, 0.1);
     border-radius: 12px;
-    background-color: color-mix(in srgb, var(--main_color2) 85%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 85%, #fff);
 }
 .text-page20_item:last-child {
     width: 100%;
@@ -1479,7 +1476,7 @@
     letter-spacing: -0.02em;
     color: #FFFFFF;
     margin-bottom: 26px;
-    background-color: color-mix(in srgb, var(--main_color2) 60%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 60%, #fff);
 }
 .text-page20_item-title {
     font-weight: 700;
@@ -1502,7 +1499,7 @@
     position: relative;
     overflow: hidden;
     z-index: 5;
-    background: var(--main_color2);
+    background: var(--main_color);
 }
 .text-page21_title {
     font-weight: 700;
@@ -1536,7 +1533,7 @@
 .text-page22 {
     position: relative;
     overflow: hidden;
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page22_icon {
     width: 44px;
@@ -1552,7 +1549,7 @@
     letter-spacing: -0.02em;
     color: #FFFFFF;
     margin-bottom: 24px;
-    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
 }
 .text-page22_title {
     max-width: 444px;
@@ -1585,8 +1582,8 @@
 
 .text-page23 {
     position: relative;
-    border-left: 3px solid var(--main_color2);
-    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    border-left: 3px solid var(--main_color);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
 }
 .text-page23_text {
     font-style: italic;
@@ -1616,7 +1613,7 @@
 }
 .text-page24_items > * {
     width: calc(100%/2 - 8px);
-    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
     background: rgba(151, 183, 6, 0.3);
     border-radius: 12px;
     padding: 24px;
@@ -1638,7 +1635,7 @@
     font-size: 40px;
     line-height: 44px;
     letter-spacing: -0.02em;
-    color: var(--main_color2);
+    color: var(--main_color);
 }
 .text-page24_item-text {
     font-weight: 400;
@@ -1653,7 +1650,7 @@
 
 
 .text-page25 {
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page25_title {
     font-weight: 700;
@@ -1673,7 +1670,7 @@
     padding: 24px;
     background: rgba(151, 183, 6, 0.1);
     border-radius: 12px;
-    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
 }
 .text-page25_item:last-child {
     width: 100%;
@@ -1685,7 +1682,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--main_color2);
+    background-color: var(--main_color);
     margin-bottom: 24px;
 }
 .text-page25_circle .icon {
@@ -1704,10 +1701,10 @@
 .text-page26 {
     padding: 0;
     border-radius: 12px;
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page26_item {
-    background-color: color-mix(in srgb, var(--main_color2) 20%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 20%, #fff);
     border-radius: 12px;
 }
 .text-page26_item-title {
@@ -1718,14 +1715,14 @@
     color: #383838;
     padding: 20px 24px;
     border-radius: 12px;
-    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
 }
 .text-page26_item-text {
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
     padding: 24px;
     border-radius: 12px;
-    background-color: color-mix(in srgb, var(--main_color2) 20%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 20%, #fff);
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -1735,7 +1732,7 @@
 .text-page26_item-info {
     border-radius: 12px;
     padding: 24px;
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page26_item-info p + p {
     margin-top: 16px;
@@ -1743,7 +1740,7 @@
 .text-page26_btn {
     width: 170px;
     height: 40px;
-    background: #97B706;
+    background: var(--main_color);
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -1758,14 +1755,14 @@
 
 
 .text-page27 {
-    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
 }
 .text-page27_item {
     padding: 24px;
     border-radius: 12px;
     position: relative;
-    border-left: 3px solid var(--main_color2);
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    border-left: 3px solid var(--main_color);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page27_item-text {
     font-style: italic;
@@ -1803,7 +1800,7 @@
 
 .text-page28 {
     padding: 0;
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page28_img {
     padding: 24px;
@@ -1822,12 +1819,12 @@
     color: #383838;
     padding: 20px;
     border-radius: 12px;
-    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
 }
 
 
 .text-page29 {
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page29_title {
     font-weight: 700;
@@ -1871,7 +1868,7 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    background: var(--main_color2);
+    background: var(--main_color);
 }
 .text-page29 .key:nth-child(2):before {
     position: absolute;
@@ -1905,14 +1902,14 @@
     width: calc(100%/3 - 16px);
 }
 .text-page29_item {
-    border-top: 1px solid var(--main_color2);
+    border-top: 1px solid var(--main_color);
 }
 .text-page29_item-title {
     font-weight: 700;
     font-size: 40px;
     line-height: 44px;
     letter-spacing: -0.02em;
-    color: var(--main_color2);
+    color: var(--main_color);
     padding-top: 16px;
     margin-bottom: 4px;
 }
@@ -1934,7 +1931,7 @@
     height: 277px;
     border-radius: 50%;
     background: conic-gradient(
-      var(--main_color2) 40%,
+      var(--main_color) 40%,
       var(--main_color4) 0 60%,
       var(--main_color3) 0
     );
@@ -1947,7 +1944,7 @@
 
 
 .text-page30 {
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page30_title {
     font-weight: 700;
@@ -2005,7 +2002,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--main_color2);
+    background: var(--main_color);
     border-radius: 50%;
     font-weight: 700;
     font-size: 18px;
@@ -2023,7 +2020,7 @@
     content: "";
     height: 100%;
     width: 3px;
-    background: var(--main_color2);
+    background: var(--main_color);
     top: 0;
     left: 20px;
     z-index: 10;
@@ -2033,7 +2030,7 @@
     content: "";
     height:50%;
     width: 3px;
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
     top: 0;
     left: -48px;
     z-index: 99;
@@ -2043,7 +2040,7 @@
     content: "";
     height:50%;
     width: 9px;
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
     bottom: 0;
     left: -49px;
     z-index: 99;
@@ -2051,7 +2048,7 @@
 
 
 .text-page31 {
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page31_title {
     font-weight: 700;
@@ -2102,7 +2099,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--main_color2);
+    background: var(--main_color);
     border-radius: 50%;
     font-weight: 700;
     font-size: 18px;
@@ -2120,7 +2117,7 @@
     content: "";
     height: 100%;
     width: 3px;
-    background: var(--main_color2);
+    background: var(--main_color);
     top: 0;
     left: 20px;
     z-index: 10;
@@ -2130,7 +2127,7 @@
     content: "";
     height:50%;
     width: 3px;
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
     top: 0;
     left: -48px;
     z-index: 99;
@@ -2140,7 +2137,7 @@
     content: "";
     height:50%;
     width: 3px;
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
     bottom: 0;
     left: -48px;
     z-index: 99;
@@ -2148,7 +2145,7 @@
 
 
 .text-page32 {
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page32_title {
     font-weight: 700;
@@ -2206,7 +2203,7 @@
     align-items: center;
     letter-spacing: -0.02em;
     color: #fff;
-    background: var(--main_color2);
+    background: var(--main_color);
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -2217,7 +2214,7 @@
 
 
 .text-page33 {
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page33_title {
     font-weight: 700;
@@ -2270,7 +2267,7 @@
     align-items: center;
     letter-spacing: -0.02em;
     color: #fff;
-    background: var(--main_color2);
+    background: var(--main_color);
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -2281,7 +2278,7 @@
 
 
 .text-page34 {    
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page34_title {
     font-weight: 700;
@@ -2310,7 +2307,7 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: var(--main_color2);
+    background: var(--main_color);
     left: 6px;
     top: 6px;
 }
@@ -2320,7 +2317,7 @@
 
 
 .text-page35 {    
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page35_title {
     font-weight: 700;
@@ -2351,7 +2348,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: var(--main_color2);
+    background: var(--main_color);
     left: 0px;
     top: 0px;
     display: flex;
@@ -2404,7 +2401,7 @@
 
 
 .text-page37 {
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page37_title {
     font-weight: 700;
@@ -2470,7 +2467,7 @@
 
 
 .text-page39 {
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page39_title {
     font-weight: 700;
@@ -2529,7 +2526,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--main_color2);
+    background: var(--main_color);
     border-radius: 50%;
     left: -68px;
     top: 50%;
@@ -2541,7 +2538,7 @@
     content: "";
     height: 100%;
     width: 3px;
-    background: var(--main_color2);
+    background: var(--main_color);
     top: 0;
     left: 20px;
     z-index: 10;
@@ -2551,7 +2548,7 @@
     content: "";
     height:50%;
     width: 3px;
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
     top: 0;
     left: -48px;
     z-index: 99;
@@ -2561,7 +2558,7 @@
     content: "";
     height:50%;
     width: 3px;
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
     bottom: 0;
     left: -48px;
     z-index: 99;
@@ -2571,7 +2568,7 @@
     font-size: 18px;
     line-height: 24px;
     letter-spacing: -0.02em;
-    color: var(--main_color2);
+    color: var(--main_color);
     white-space: nowrap;
 }
 .text-page39_summa {
@@ -2580,7 +2577,7 @@
     justify-content: space-between;
     gap: 20px;
     padding: 20px;
-    background: var(--main_color2);
+    background: var(--main_color);
     border-radius: 12px;
     margin-top: 16px;
     margin-left: 68px;
@@ -2618,7 +2615,7 @@
 .text-page40_item {
     position: relative;
     padding: 24px 24px 32px 88px;
-    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
     border-radius: 12px;
 }
 .text-page40_item + .text-page40_item {
@@ -2636,7 +2633,7 @@
     display: flex;
     align-items: center;
     letter-spacing: -0.02em;
-    color: var(--main_color2);
+    color: var(--main_color);
 }
 .text-page40_item-title {
     font-weight: 700;
@@ -2653,9 +2650,9 @@
     letter-spacing: -0.02em;
     color: #383838;
     padding: 20px 24px;
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
     border-radius: 12px;
-    border-left: 3px solid var(--main_color2);
+    border-left: 3px solid var(--main_color);
 }
 
 
@@ -2678,7 +2675,7 @@
 .text-page41_item {
     position: relative;
     padding: 32px 24px 16px 88px;
-    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
 }
 .text-page41_item:last-child {
     padding-bottom: 32px;
@@ -2698,7 +2695,7 @@
     display: flex;
     align-items: center;
     letter-spacing: -0.02em;
-    color: var(--main_color2);
+    color: var(--main_color);
 }
 .text-page41_item-title {
     font-weight: 700;
@@ -2715,9 +2712,9 @@
     letter-spacing: -0.02em;
     color: #383838;
     padding: 20px 24px;
-    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
     border-radius: 12px;
-    border-left: 3px solid var(--main_color2);
+    border-left: 3px solid var(--main_color);
     display: flex;
     flex-direction: column;
 }
@@ -2726,7 +2723,7 @@
     font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.02em;
-    color: #8FAE01; 
+    color: var(--main_color); 
     margin-bottom: 8px; 
 }
 
