@@ -2289,3 +2289,154 @@
 .text-page34 ul li + li {
     margin-top: 10px;
 }
+
+
+.text-page35 {    
+    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+}
+.text-page35_title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #383838;
+    margin-bottom: 20px;
+}
+.text-page35 ol {
+    list-style: none;
+    counter-reset: section;
+}
+.text-page35 ol li {
+    list-style: none;
+    padding-left: 28px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #383838;
+    position: relative;
+}
+.text-page35 ol li:before {
+    position: absolute;
+    counter-increment: section;
+    content: counter(section) " "; 
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--main_color2);
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.text-page35 ol li + li {
+    margin-top: 12px;
+}
+
+
+.text-page36 {
+    background-color: color-mix(in srgb, var(--main_color3) 10%, #fff);
+}
+.text-page36_title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #383838;
+    margin-bottom: 20px;
+}
+.text-page36 ul {
+    list-style: none;
+}
+.text-page36 ul li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #383838;  
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.text-page36 ul li + li {
+    margin-top: 10px;
+}
+.text-page36 ul li .icon {
+    width: 14px;
+    height: 14px;
+}
+
+
+.text-page37 {
+    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
+}
+.text-page37_title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #383838;
+    margin-bottom: 20px;
+}
+.text-page37 ul {
+    list-style: none;
+}
+.text-page37 ul li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #383838;  
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.text-page37 ul li + li {
+    margin-top: 10px;
+}
+.text-page37 ul li .icon {
+    width: 14px;
+    height: 14px;
+}
+
+
+.text-page38 {
+    background: #F7FDCB;
+}
+.text-page38_title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #383838;
+    margin-bottom: 20px;
+}
+.text-page38 ul {
+    list-style: none;
+}
+.text-page38 ul li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #383838;  
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.text-page38 ul li + li {
+    margin-top: 10px;
+}
+.text-page38 ul li .icon {
+    width: 14px;
+    height: 14px;
+}
+
