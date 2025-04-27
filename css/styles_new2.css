@@ -1614,7 +1614,6 @@
 .text-page24_items > * {
     width: calc(100%/2 - 8px);
     background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
-    background: rgba(151, 183, 6, 0.3);
     border-radius: 12px;
     padding: 24px;
     display: flex;
@@ -1879,7 +1878,7 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    background: var(--main_color4);
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
 }
 .text-page29 .key:nth-child(3):before {
     position: absolute;
@@ -1890,7 +1889,7 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    background: var(--main_color3);
+    background-color: color-mix(in srgb, var(--main_color) 50%, #fff);
 }
 .text-page29_wrap {
     display: flex;
@@ -1931,9 +1930,9 @@
     height: 277px;
     border-radius: 50%;
     background: conic-gradient(
-      var(--main_color) 40%,
-      var(--main_color4) 0 60%,
-      var(--main_color3) 0
+        color-mix(in srgb, var(--main_color) 30%, #fff) 40%,
+        color-mix(in srgb, var(--main_color) 50%, #fff) 0 60%,
+        var(--main_color) 0
     );
 }
 .text-page29 .panel {
