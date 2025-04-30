@@ -35,6 +35,7 @@
 .text-page1_label .icon {
     width: 16px;
     height: 16px;
+    flex-shrink: 0;
 }
 .text-page1_title {
     font-weight: 700;
@@ -88,6 +89,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 }
 .text-page2_text {
     font-weight: 400;
@@ -151,6 +153,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 }
 .text-page3_text {
     font-weight: 400;
@@ -226,6 +229,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 }
 .text-page4_text {
     font-weight: 400;
@@ -263,6 +267,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 }
 .text-page5 ol li + li {
     margin-top: 24px;
@@ -856,6 +861,7 @@
     margin-bottom: 8px;
 }
 .text-page14_two-author-avatar {
+    flex-shrink: 0;
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -929,6 +935,7 @@
     align-items: center;
     gap: 12px;
     margin-bottom: 8px;
+    flex-shrink: 0;
 }
 .text-page15_one-author-avatar {
     width: 32px;
@@ -980,6 +987,7 @@
     margin-bottom: 8px;
 }
 .text-page15_no-author-avatar {
+    flex-shrink: 0;
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -1021,7 +1029,7 @@
 
 .text-page15_item-yes {
     position: relative;
-    background: #8FAE01;
+    background: var(--main_color2);
     border-radius: 12px;
     padding: 20px;
     margin-bottom: 42px;
@@ -1033,13 +1041,14 @@
     margin-bottom: 8px;
 }
 .text-page15_yes-author-avatar {
+    flex-shrink: 0;
     width: 32px;
     height: 32px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: color-mix(in srgb, #8FAE01 30%, #fff);
+    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
 }
 .text-page15_yes-author-name {
     font-weight: 700;
@@ -1062,7 +1071,7 @@
     height: 0px;
     border-style: solid;
     border-width: 0 24px 22px 0;
-    border-color: transparent #8FAE01 transparent transparent;
+    border-color: transparent var(--main_color2) transparent transparent;
     transform: rotate(0deg);
     bottom: -22px;
     right: 20px;
@@ -1158,6 +1167,7 @@
     color: #383838;
 }
 .text-page17_item.red .text-page17_circle {
+    flex-shrink: 0;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -1167,17 +1177,18 @@
     background-color: var(--main_color3);
 }
 .text-page17_item.green .text-page17_circle {
+    flex-shrink: 0;
     width: 44px;
     height: 44px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #8FAE01;
+    background-color: var(--main_color2);
 }
 .text-page17_item.green {
-    border-left: 3px solid #8FAE01;
-    background-color: color-mix(in srgb, #8FAE01 30%, #fff);
+    border-left: 3px solid var(--main_color2);
+    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
 }
 .text-page17_item.red {
     border-left: 3px solid var(--main_color3);
@@ -1222,6 +1233,7 @@
     gap: 12px;
 }
 .text-page18_item.red .text-page18_circle {
+    flex-shrink: 0;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -1231,17 +1243,18 @@
     background-color: var(--main_color3);
 }
 .text-page18_item.green .text-page18_circle {
+    flex-shrink: 0;
     width: 44px;
     height: 44px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #8FAE01;
+    background-color: var(--main_color2);
 }
 .text-page18_item.green {
-    border-left: 3px solid #8FAE01;
-    background-color: color-mix(in srgb, #8FAE01 30%, #fff);
+    border-left: 3px solid var(--main_color2);
+    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
 }
 .text-page18_item.red {
     border-left: 3px solid var(--main_color3);
@@ -1266,7 +1279,7 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #8FAE01;
+    background: var(--main_color2);
     left: 6px;
     top: 6px;
 }
@@ -1338,6 +1351,7 @@
     gap: 12px;
 }
 .text-page19_item.red .text-page19_circle {
+    flex-shrink: 0;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -1347,17 +1361,18 @@
     background-color: var(--main_color3);
 }
 .text-page19_item.green .text-page19_circle {
+    flex-shrink: 0;
     width: 44px;
     height: 44px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #8FAE01;
+    background-color: var(--main_color2);
 }
 .text-page19_item.green {
-    border-left: 3px solid #8FAE01;
-    background-color: color-mix(in srgb, #8FAE01 30%, #fff);
+    border-left: 3px solid var(--main_color2);
+    background-color: color-mix(in srgb, var(--main_color2) 30%, #fff);
 }
 .text-page19_item.red {
     border-left: 3px solid var(--main_color3);
@@ -1384,7 +1399,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #8FAE01;
+    background: var(--main_color2);
     left: 0px;
     top: 0px;
     display: flex;
@@ -1618,19 +1633,13 @@
     border-radius: 12px;
     padding: 24px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;    
+    flex-direction: column; 
+    gap: 24px;
 }
-.text-page24_item:last-child {
-    flex-direction: row;
-    width: 100%;
-    align-items: center;
-}
-.text-page24_item:last-child .text-page24_item-text {
-    max-width: calc(50% - 16px);
-}
+
+
+
 .text-page24_item-number {
-    margin-bottom: 24px;
     font-weight: 700;
     font-size: 40px;
     line-height: 44px;
@@ -1668,12 +1677,12 @@
 .text-page25_items > * {
     width: calc(100%/2 - 8px);
     padding: 24px;
+    gap: 24px;
     background: rgba(151, 183, 6, 0.1);
     border-radius: 12px;
     background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
-}
-.text-page25_item:last-child {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .text-page25_circle {
     width: 44px;
@@ -1683,7 +1692,6 @@
     align-items: center;
     justify-content: center;
     background-color: var(--main_color);
-    margin-bottom: 24px;
 }
 .text-page25_circle .icon {
     width: 25px;
@@ -1843,7 +1851,7 @@
 }
 .text-page29 .panel__keys {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background: #FFFFFF;
     border-radius: 12px;
     padding: 10px 7px;
@@ -1852,7 +1860,7 @@
     width: 304px;
 }
 .text-page29 .key {
-    padding: 10px 25px;
+    padding: 10px 25px 0px;
     border-left: 1px solid #E3E4DF;
     position: relative;
 }
@@ -1940,6 +1948,9 @@
     width: 277px;
     height: 277px;
     flex-shrink: 0;
+}
+.text-page29_item + .text-page29_item {
+    margin-top: 10px;
 }
 
 
@@ -2397,11 +2408,12 @@
 .text-page36 ul li .icon {
     width: 14px;
     height: 14px;
+    flex-shrink: 0;
 }
 
 
 .text-page37 {
-    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
+    background-color: color-mix(in srgb, var(--main_color2) 10%, #fff);
 }
 .text-page37_title {
     font-weight: 700;
@@ -2430,6 +2442,7 @@
 .text-page37 ul li .icon {
     width: 14px;
     height: 14px;
+    flex-shrink: 0;
 }
 
 
@@ -2463,6 +2476,7 @@
 .text-page38 ul li .icon {
     width: 14px;
     height: 14px;
+    flex-shrink: 0;
 }
 
 
@@ -2533,6 +2547,18 @@
     transform: translateY(-50%);
     z-index: 100;
 }
+.text-page39_item:nth-child(1):before {
+    content: "📝";
+}
+.text-page39_item:nth-child(2):before {
+    content: "📈";
+}
+.text-page39_item:nth-child(3):before {
+    content: "🧑";
+}
+.text-page39_item:nth-child(4):before {
+    content: "💬";
+}
 .text-page39_items:after {
     position: absolute;
     content: "";
@@ -2595,6 +2621,7 @@
     line-height: 24px;
     letter-spacing: -0.02em;
     color: #FFFFFF;
+    white-space: nowrap;
 }
 
 
@@ -2828,17 +2855,11 @@
         flex-direction: column;
         align-items: start;
     }
-    .text-page24_item:last-child .text-page24_item-text {
-        max-width: 100%;
-    }
     .text-page32_item:nth-child(4) {
         width: 100%;
     }
     .text-page32_item:nth-child(5) {
         width: 100%;
-    }
-    .text-page24_item:last-child .text-page24_item-number {
-        margin-bottom: 24px;
     }
     .text-page39_item {
         flex-direction: column;
@@ -2847,7 +2868,21 @@
     .text-page33_item:nth-child(5) {
         width: 100%;
     }
-
+    .text-page24_item:nth-child(3n + 3) {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+    .text-page24_items > * {
+        gap: 16px;
+    }
+    .text-page26.text-page_block {
+        padding: 0;
+    }
+    .text-page39_summa {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
 
 
