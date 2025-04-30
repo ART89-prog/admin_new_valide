@@ -25,7 +25,7 @@
     background: #fff;
     flex-wrap: nowrap;
     border-radius: 50px;
-    margin-bottom: 40px;    
+    margin-bottom: 16px;    
     font-weight: 700;
     font-size: 10px;
     line-height: 12px;
@@ -275,7 +275,7 @@
     line-height: 20px;
     letter-spacing: -0.02em;
     color: #383838;
-    background: #E0E9B4;
+    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
     border-radius: 12px;
     padding: 14px;
     display: flex;
@@ -311,7 +311,7 @@
     top: 0px;
 }
 .text-page5 ol li b {
-    margin-left: 16px;
+    margin-left: 32px;
     font-weight: 400;
 }
 
@@ -319,7 +319,7 @@
 .text-page6 {
     padding: 0;
     display: flex;
-    align-items: center;
+    align-items: stretch;
     gap: 23px;
     background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
@@ -338,6 +338,7 @@
     text-align: center;
     letter-spacing: -0.02em;
     color: #FFFFFF;
+    min-height: 100%;
 }
 .text-page6_number span {
     font-style: normal;
@@ -1020,7 +1021,7 @@
 
 .text-page15_item-yes {
     position: relative;
-    background: var(--main_color);
+    background: #8FAE01;
     border-radius: 12px;
     padding: 20px;
     margin-bottom: 42px;
@@ -1038,7 +1039,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
+    background-color: color-mix(in srgb, #8FAE01 30%, #fff);
 }
 .text-page15_yes-author-name {
     font-weight: 700;
@@ -1061,7 +1062,7 @@
     height: 0px;
     border-style: solid;
     border-width: 0 24px 22px 0;
-    border-color: transparent var(--main_color) transparent transparent;
+    border-color: transparent #8FAE01 transparent transparent;
     transform: rotate(0deg);
     bottom: -22px;
     right: 20px;
@@ -1172,11 +1173,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--main_color);
+    background-color: #8FAE01;
 }
 .text-page17_item.green {
-    border-left: 3px solid var(--main_color);
-    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
+    border-left: 3px solid #8FAE01;
+    background-color: color-mix(in srgb, #8FAE01 30%, #fff);
 }
 .text-page17_item.red {
     border-left: 3px solid var(--main_color3);
@@ -1236,11 +1237,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--main_color);
+    background-color: #8FAE01;
 }
 .text-page18_item.green {
-    border-left: 3px solid var(--main_color);
-    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
+    border-left: 3px solid #8FAE01;
+    background-color: color-mix(in srgb, #8FAE01 30%, #fff);
 }
 .text-page18_item.red {
     border-left: 3px solid var(--main_color3);
@@ -1265,7 +1266,7 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: var(--main_color);
+    background: #8FAE01;
     left: 6px;
     top: 6px;
 }
@@ -1352,11 +1353,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--main_color);
+    background-color: #8FAE01;
 }
 .text-page19_item.green {
-    border-left: 3px solid var(--main_color);
-    background-color: color-mix(in srgb, var(--main_color) 30%, #fff);
+    border-left: 3px solid #8FAE01;
+    background-color: color-mix(in srgb, #8FAE01 30%, #fff);
 }
 .text-page19_item.red {
     border-left: 3px solid var(--main_color3);
@@ -1383,7 +1384,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: var(--main_color);
+    background: #8FAE01;
     left: 0px;
     top: 0px;
     display: flex;
