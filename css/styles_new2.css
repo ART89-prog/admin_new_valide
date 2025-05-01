@@ -2447,7 +2447,7 @@
 
 
 .text-page38 {
-    background: #F7FDCB;
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
 }
 .text-page38_title {
     font-weight: 700;
