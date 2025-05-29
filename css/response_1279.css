@@ -2141,6 +2141,13 @@
         width: calc(100%/2 - 15px);
     }
 
+    .training-plan_item:last-child:nth-child(odd) {
+        width: 100%;
+    }
+    .training-plan_item:last-child:nth-child(even){
+         width: calc(100% / 2 - 8px);
+    }
+
 
 }
 
