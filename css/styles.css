@@ -37805,8 +37805,7 @@ bottom: 20px;
     z-index: 100;
 }
 
-.knowledge-base {
-}
+
 .knowledge-base .page_title {
     margin-bottom: 30px;
 }
@@ -46414,4 +46413,151 @@ aside .menu .item .icon141 > * {
     padding: 9px 17px;
     background: #EEEDF8;
     border-radius: 70px;
+}
+
+
+
+.call-analysis .passing-head {
+    margin-bottom: 25px;
+}
+.call-analysis_title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+.call-analysis_item {
+    padding: 24px 16px 24px 24px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    position: relative;
+}
+.call-analysis_item + .call-analysis_item {
+    margin-top: 20px;
+}
+.call-analysis_item-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px; 
+    gap: 20px;
+}
+.call-analysis_item-title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    color: #1D1D1D;
+}
+.call-analysis_item-label {
+    padding: 6px 8px;
+    background: #EDECFF;
+    border-radius: 59px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #353C76;
+    display: inline-block;
+}
+.call-analysis_item-desc {
+    max-width: 460px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.call-analysis_item-info {
+    width: calc(100% - 120px);
+}
+.call-analysis_item-text {
+    padding: 6px;
+    background: #FFFFFF;
+    border: 1px solid #655F95;
+    border-radius: 6px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #655F95;
+    display: inline-block;
+}
+.call-analysis_button {
+    background: var(--main_color);
+    padding: 9px 12px;
+    border-radius: 40px;
+    margin-right: auto;
+    display: block;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    right: 16px;
+    bottom: 24px;
+    margin-left: 20px;
+}
+
+
+
+
+.knowledge-catalog_item-info {
+    width: calc(100% - 60px);
+}
+.knowledge-catalog_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.knowledge-catalog_items> * {
+    padding: 15px 16px 18px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    position: relative;
+    width: calc(100%/3 - 16px);
+}
+.knowledge-catalog_item-label {
+    background: #FFFFFF;
+    border: 1px solid #655F95;
+    border-radius: 6px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #655F95;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 6px;
+}
+.knowledge-catalog_item-title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.3px;
+    color: #020027;
+    margin-bottom: 10px;
+}
+.knowledge-catalog_item-text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #585683;
+}
+.knowledge-catalog_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: var(--main_color);
+    position: absolute;
+    right: 16px;
+    bottom: 18px;
+}
+.knowledge-catalog_button .icon {
+    width: 18px;
+    height: 13px;
 }
