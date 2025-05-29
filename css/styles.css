@@ -46370,3 +46370,48 @@ aside .menu .item .icon141 > * {
         transform: rotate(.5turn)
     }
 }
+
+
+
+
+.passing_items.two .passing_item {
+    padding: 16px 18px 24px;
+    border-radius: 9px;
+    background: #fff;
+    width: calc(100% / 2 - 11px);    
+}
+.passing_items.two {
+    gap: 21px;
+}
+.passing_item-button {
+    background: var(--main_color);
+    padding: 9px 12px;
+    border-radius: 40px;
+    margin-right: auto;
+    display: block;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    position: relative;
+}
+.passing_item .audio_media {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.passing_item .audio_media:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 36px);
+    height: 1px;
+    background: #E0DEF4;
+    bottom: 0;
+    left: -18px;
+}
+.passing_item .audio_media .media-toolbar {
+    padding: 9px 17px;
+    background: #EEEDF8;
+    border-radius: 70px;
+}
