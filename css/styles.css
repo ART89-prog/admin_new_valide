@@ -23033,8 +23033,6 @@ form .form_btns input[type=file] + label,
 
 
 /* plan */
-.plan {
-}
 .plan .block_top {
     margin-bottom: 20px;
 }
@@ -46740,3 +46738,93 @@ aside .menu .item .icon141 > * {
     background: var(--main_color);
 }
 
+
+
+.job {
+}
+.job-head {
+}
+.job-head_items {
+    display: flex;
+    gap: 24px;
+}
+.job-head_items > * {
+    padding: 18px;
+    gap: 18px;
+    border-radius: 20px;
+    background: #fff;
+    width: calc(100%/3 - 16px);
+    display: flex;
+    align-items: center;
+}
+.job-head_item-icon {
+    border-radius: 8px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.job-head_item.red .job-head_item-icon {
+    background: rgba(205, 32, 81, 0.2);
+}
+.job-head_item.blau .job-head_item-icon {
+     background: rgba(23, 124, 255, 0.2);
+}
+.job-head_item.green .job-head_item-icon {
+    background: rgba(65, 159, 46, 0.2);
+}
+.job-head_item-icon svg {
+    width: 34px;
+    height: 34px;
+}
+.job-head_item-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: #585683;
+    opacity: 0.8;
+    margin-bottom: 5px;
+}
+.job-head_item-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    letter-spacing: -2.3px;
+    color: #1D1D1D;
+}
+
+
+
+
+
+
+.schedule .select-right {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.schedule .nice-select {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #0A00C5;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    width: 146px;
+    height: 41px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 33px;
+    color: #484848;
+}
+.schedule .nice-select:after {
+    border-bottom: 2px solid #0500AF;
+    border-right: 2px solid #0500AF;
+}
