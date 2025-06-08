@@ -41254,7 +41254,7 @@ a.back_link_right{
     padding: 15px 15px 20px 15px;
     border-radius: 15px;
     background: #fff;
-    width: calc(100% / 3 - 10px);
+    width: calc((100% - 15px * 1) / 2);
 }
 .passing_item + .passing_item {
 
@@ -41296,15 +41296,15 @@ a.back_link_right{
 .passing_item-name {
     font-family: 'Ubuntu';
     font-weight: 700;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 16px;
+    line-height: 24px;
     color: #2D335B;
 }
 .passing_item-date {
     font-family: 'Ubuntu';
     font-weight: 400;
-    font-size: 12px;
-    line-height: 19px;
+    font-size: 16px;
+    line-height: 28px;
     color: #7178AD;
 }
 .passing_item-rating {
@@ -41328,11 +41328,15 @@ a.back_link_right{
     background:#C62D2D26;
     color:#C62D2D;
 }
+.passing_item-rating.yellow{
+    background: rgba(231, 176, 37, 0.15);
+    color: #E7B025;
+}
 .passing_item-text {
     font-family: 'Ubuntu';
     font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 16px;
+    line-height: 20px;
     color: #1C2038;
     padding-bottom: 15px;
     margin-bottom: 15px;
@@ -41351,16 +41355,16 @@ a.back_link_right{
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
-    line-height: 19px;
+    font-size: 16px;
+    line-height: 25px;
     color: #7178AD;
     margin-bottom: 5px;
 }
 .passing_item-bottom-text {
     font-family: 'Ubuntu';
     font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 16px;
+    line-height: 20px;
     color: #1C2038;
 }
 
@@ -44174,8 +44178,8 @@ a.back_link_right{
 .outcomes_item-text {
     font-family: 'Ubuntu';
     font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 16px;
+    line-height: 20px;
     color: #1C2038;
 }
 .outcomes_item-bottom {
@@ -44184,8 +44188,8 @@ a.back_link_right{
 .outcomes_item-subtitle {
     font-family: 'Ubuntu';
     font-weight: 700;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 16px;
+    line-height: 20px;
     color: #7178AD;
     margin-bottom: 10px;
 }
@@ -46496,6 +46500,7 @@ aside .menu .item .icon141 > * {
     right: 16px;
     bottom: 24px;
     margin-left: 20px;
+    text-decoration: none;
 }
 
 

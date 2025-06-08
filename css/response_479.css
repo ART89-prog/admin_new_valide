@@ -2278,6 +2278,8 @@
         margin-left: 0px;
         margin-top: 20px;
         width: 100%;
+        text-align: center;
+        text-decoration: none;
     }
     .call-analysis_item-info {
         width: 100%;
@@ -2286,7 +2288,7 @@
         max-width: 100%;
     }
     .call-analysis_item-text {
-        width: 100%;
+        
         text-align: center;
     }
 
