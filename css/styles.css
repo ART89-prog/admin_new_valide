@@ -47085,3 +47085,70 @@ aside .menu .item .icon141 > * {
     width: 24px;
     height: 24px;
 }
+.coach_items {
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+}
+.coach_items > * {
+    width: calc(100%/2 - 11px);
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 16px;
+    padding: 16px 16px 22px 16px;
+    position: relative;
+}
+.coach_item-label {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 3px 6px 3px 16px;
+    border-radius: 59px;
+}
+.coach_item-label.green {
+    background: #43A72F ;
+}
+.coach_item-label:before {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    left: 7px;
+    top: calc(50% - 3px);
+    background: #fff;
+}
+.coach_item-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 18px;
+    color: #1D1D1D;
+    margin-bottom: 16px;
+}
+.coach_item-icon {
+    width: 44px;
+    height: 44px;
+    background: rgba(11, 0, 216, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+.coach_item:nth-child(1) .coach_item-icon .icon {
+    display: block;
+    width: 28px;
+    height: 17px;
+}
+.coach_item-title {
+}
+.coach_item-text {
+}
+.coach_item-btn {
+}
