@@ -47151,34 +47151,10 @@ aside .menu .item .icon141 > * {
     fill: var(--main_color);
     color: var(--main_color);
 }
-.coach_item:nth-child(1) .coach_item-icon .icon {
+.coach_item .coach_item-icon .icon {
     display: block;
     width: 28px;
-    height: 28px;
-    color: var(--main_color);
-}
-.coach_item:nth-child(2) .coach_item-icon .icon {
-    display: block;
-    width: 28px;
-    height: 27px;
-    color: var(--main_color);
-}
-.coach_item:nth-child(3) .coach_item-icon .icon {
-    display: block;
-    width: 28px;
-    height: 24px;
-    color: var(--main_color);
-}
-.coach_item:nth-child(4) .coach_item-icon .icon {
-    display: block;
-    width: 28px;
-    height: 28px;
-    color: var(--main_color);
-}
-.coach_item:nth-child(5) .coach_item-icon .icon {
-    display: block;
-    width: 28px;
-    height: 28px;
+    max-height: 28px;
     color: var(--main_color);
 }
 .coach_item-text {
@@ -47515,7 +47491,7 @@ aside .menu .item .icon141 > * {
 }
 .attestation-head_item-icon svg {
     width: 34px;
-    height: 34px;
+    max-height: 34px;
 }
 .attestation-head_item-title {
     font-weight: 700;
