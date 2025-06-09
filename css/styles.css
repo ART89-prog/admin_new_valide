@@ -47245,19 +47245,18 @@ aside .menu .item .icon141 > * {
     border-radius: 10px;
     transform: scaleX(0);
     transform-origin: left;
-    background: #43A72F;
     animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
 .attestation-active .bar.active .progress-line span {
     background: #87CC15;
 }
-.attestation-active .attestation-active_item:nth-child(1) .bar .progress-line span {
+.attestation-active .attestation-active_item.green .bar .progress-line span {
     background: #43A72F;
 }
-.attestation-active .attestation-active_item:nth-child(2) .bar .progress-line span {
+.attestation-active .attestation-active_item.yellow .bar .progress-line span {
     background: #FEAF05;
 }
-.attestation-active .attestation-active_item:nth-child(3) .bar .progress-line span {
+.attestation-active .attestation-active_item.red .bar .progress-line span {
     background: #E83D2D;
 }
 .attestation-active .bar .progress-line {
