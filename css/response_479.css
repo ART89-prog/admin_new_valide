@@ -2292,6 +2292,10 @@
         text-align: center;
     }
 
+    .coach_items > * {
+        padding: 30px 16px 16px 16px;
+    }
+
 
 
 

@@ -47080,10 +47080,12 @@ aside .menu .item .icon141 > * {
     color: #3D3C53;
     margin-right: 17px;
     text-decoration: none;
+    white-space: nowrap;
 }
 .coach-head_contact-item svg {
     width: 24px;
     height: 24px;
+    flex-shrink: 0;
 }
 .coach_items {
     display: flex;
@@ -47110,7 +47112,10 @@ aside .menu .item .icon141 > * {
     border-radius: 59px;
 }
 .coach_item-label.green {
-    background: #43A72F ;
+    background: #43A72F;
+}
+.coach_item-label.yellow {
+    background: #D29600;
 }
 .coach_item-label:before {
     position: absolute;
@@ -47131,6 +47136,7 @@ aside .menu .item .icon141 > * {
     line-height: 18px;
     color: #1D1D1D;
     margin-bottom: 16px;
+    max-width: calc(100% - 100px);
 }
 .coach_item-icon {
     width: 44px;
@@ -47140,15 +47146,80 @@ aside .menu .item .icon141 > * {
     align-items: center;
     justify-content: center;
     border-radius: 6px;
+    flex-shrink: 0;
 }
 .coach_item:nth-child(1) .coach_item-icon .icon {
     display: block;
     width: 28px;
     height: 17px;
 }
-.coach_item-title {
+.coach_item:nth-child(2) .coach_item-icon .icon {
+    display: block;
+    width: 28px;
+    height: 27px;
+}
+.coach_item:nth-child(3) .coach_item-icon .icon {
+    display: block;
+    width: 28px;
+    height: 24px;
+}
+.coach_item:nth-child(4) .coach_item-icon .icon {
+    display: block;
+    width: 28px;
+    height: 28px;
+}
+.coach_item:nth-child(5) .coach_item-icon .icon {
+    display: block;
+    width: 28px;
+    height: 28px;
 }
 .coach_item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #535358;
+    margin-bottom: 15px;
 }
 .coach_item-btn {
+    padding: 10px 20px;
+    background: var(--main_color);
+    border-radius: 40px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.coach_item-btn.disabled {
+    opacity: 0.2;
+    pointer-events: none;
+    cursor: default;
+}
+.coach_item-status {
+    display: flex;
+    gap: 26px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.coach_item-status-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: #2F2F2F;
+}
+.coach_item-status-item span {
+    font-weight: 700;
+    font-size: 26px;
+}
+.coach_item-status:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 32px);
+    left: -16px;
+    bottom: 0;
+    height: 1px;
+    background: #CACACA;
 }

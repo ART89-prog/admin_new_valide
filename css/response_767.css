@@ -3743,6 +3743,20 @@
     .schedule_items > * {
         width: 100%;
     }
+
+    .coach-head_contact {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .coach_items > * {
+        width: 100%;
+    }
+    .coach_item-status {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
  
 
 
