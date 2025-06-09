@@ -47393,4 +47393,73 @@ aside .menu .item .icon141 > * {
 }
 
 
+.attestation-archival_title {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 1;
+    color: #1D1D1D;
+    margin-bottom: 20px;
+}
+.attestation-archival_item {
+    padding: 20px 20px 27px;
+    background: #FFFFFF;
+    border-radius: 14px;
+}
+.attestation-archival_item + .attestation-archival_item {
+    margin-top: 23px;
+}
+.attestation-archival_item-label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    position: relative;
+    padding: 3px 6px 3px 16px;
+    border-radius: 59px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.attestation-archival_item-label:before {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    left: 7px;
+    top: calc(50% - 3px);
+    background: #fff;
+}
+.attestation-archival_item-label.green {
+    background: #43A72F;
+}
+.attestation-archival_item-label.red {
+    background: #E83D2D;
+}
+.attestation-archival_item-title {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 1;
+    color: #1D1D1D;
+    margin-bottom: 15px;
+}
+.attestation-archival_item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 15px;
+    color: #585683;
+}
+.attestation-archival_item-btn {
+    padding: 10px 20px;
+    background: var(--main_color);
+    border-radius: 40px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
   

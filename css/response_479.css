@@ -2295,6 +2295,13 @@
     .coach_items > * {
         padding: 30px 16px 16px 16px;
     }
+    .attestation-active_item-labels {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .attestation-active_item-label {
+        display: inline-block;
+    }
 
 
 

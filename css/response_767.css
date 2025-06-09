@@ -3757,6 +3757,11 @@
         align-items: flex-start;
         gap: 10px;
     }
+
+    .attestation-active_item-btns {
+        margin-top: 12px;
+        justify-content: flex-start;
+    }
  
 
 
