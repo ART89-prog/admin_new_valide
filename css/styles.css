@@ -47148,12 +47148,13 @@ aside .menu .item .icon141 > * {
     justify-content: center;
     border-radius: 6px;
     flex-shrink: 0;
-    fill: var(--main_color) !important;
+    fill: var(--main_color);
 }
 .coach_item:nth-child(1) .coach_item-icon .icon {
     display: block;
     width: 28px;
     height: 28px;
+    fill: var(--main_color);
 }
 .coach_item:nth-child(2) .coach_item-icon .icon {
     display: block;
