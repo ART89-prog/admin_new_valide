@@ -3762,6 +3762,11 @@
         margin-top: 12px;
         justify-content: flex-start;
     }
+
+    .attestation-active_title {
+        flex-direction: column;
+        gap: 10px;
+    }
  
 
 

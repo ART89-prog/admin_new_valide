@@ -47363,6 +47363,7 @@ aside .menu .item .icon141 > * {
 .attestation-active_item-labels {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 12px;
     gap: 20px;
 }
@@ -47372,7 +47373,8 @@ aside .menu .item .icon141 > * {
     line-height: 16px;
     color: #FFFFFF;
     padding: 3px 6px 3px 16px;
-    border-radius: 59px;    
+    border-radius: 59px; 
+    white-space: nowrap;   
 }
 .attestation-active_item-label.blau {
     background: #1B9CEC;
@@ -47488,6 +47490,7 @@ aside .menu .item .icon141 > * {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 }
 .attestation-head_item.blau .attestation-head_item-icon {
     background: rgba(11, 0, 216, 0.2);
@@ -47544,6 +47547,7 @@ aside .menu .item .icon141 > * {
     text-align: center;
     color: var(--main_color);
     transition: all .4s;
+    white-space: nowrap;
 }
 .attestation-active_btn.active {
     background: var(--main_color);
@@ -47564,4 +47568,9 @@ aside .menu .item .icon141 > * {
     pointer-events: none;
     cursor: default;
     color: #524C8B;
+}
+.attestation-archival_item.disabled .attestation-archival_item-label,
+.attestation-archival_item.disabled .attestation-archival_item-title,
+.attestation-archival_item.disabled .attestation-archival_item-text {
+    opacity: 0.5;
 }
