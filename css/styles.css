@@ -1504,6 +1504,7 @@ aside .menu .item .icon > *
     max-width: 100%;
     height: 28px;
     max-height: 100%;
+    fill: rgba(255, 255, 255, .6);
 }
 
 aside .menu .item .icon1 > *
@@ -47147,11 +47148,12 @@ aside .menu .item .icon141 > * {
     justify-content: center;
     border-radius: 6px;
     flex-shrink: 0;
+    fill: var(--main_color) !important;
 }
 .coach_item:nth-child(1) .coach_item-icon .icon {
     display: block;
     width: 28px;
-    height: 17px;
+    height: 28px;
 }
 .coach_item:nth-child(2) .coach_item-icon .icon {
     display: block;
@@ -47392,6 +47394,7 @@ aside .menu .item .icon141 > * {
 }
 .attestation-active_item-label.red {
     background: #E83D2D;
+    padding: 3px 6px;
 }
 
 
