@@ -47607,3 +47607,125 @@ aside .menu .item .icon141 > * {
     height: 22px;
     fill: #fff;
 }
+
+
+
+
+
+.knowledge_wrap {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    padding: 24px;
+}
+.knowledge_wrap-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.knowledge_wrap-desc {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.knowledge_wrap-logo {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(173, 206, 24, 0.2);
+    border-radius: 9px;
+}
+.knowledge_wrap-logo .icon {
+    width: 24px;
+    height: 24px;
+}
+.knowledge_wrap-title {
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+}
+.knowledge_wrap-label {
+    padding: 5px 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgba(120, 116, 163, 0.1);
+    border-radius: 80px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7874A3;
+}
+.knowledge_wrap-date {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7874A3;
+}
+.knowledge_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.knowledge_items > * {
+    width: calc(100%/2 - 12px);
+    background: #F3F3FF;
+    border-radius: 8px;
+    padding: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    transition: all 0.4s;
+}
+.knowledge_item-title {
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #020027;
+}
+.knowledge_item-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7874A3;
+}
+.knowledge_item-icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0;
+}
+.knowledge_item-icon .icon {
+    width: 20px;
+    height: 20px;
+}
+.knowledge_item:hover .knowledge_item-icon {
+    opacity: 1;
+}
+.knowledge_item:hover {
+    background: #ADCE18;
+}
+.knowledge_item:hover .knowledge_item-title {
+    color: #fff;
+}
+.knowledge_item:hover .knowledge_item-text {
+    color: #fff;    
+}
+.knowledge-base > * {
+    margin-top: 24px;
+}
+
