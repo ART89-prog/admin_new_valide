@@ -47631,18 +47631,10 @@ aside .menu .item .icon141 > * {
     align-items: center;
     gap: 16px;
 }
-.knowledge_wrap-logo {
+.knowledge_wrap-logo .icon {
     width: 56px;
     height: 56px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(173, 206, 24, 0.2);
-    border-radius: 9px;
-}
-.knowledge_wrap-logo .icon {
-    width: 24px;
-    height: 24px;
+    border-radius: 9px;  
 }
 .knowledge_wrap-title {
     margin-bottom: 4px;
@@ -47717,7 +47709,7 @@ aside .menu .item .icon141 > * {
     opacity: 1;
 }
 .knowledge_item:hover {
-    background: #ADCE18;
+    background: var(--main_color);
 }
 .knowledge_item:hover .knowledge_item-title {
     color: #fff;
@@ -47748,19 +47740,10 @@ aside .menu .item .icon141 > * {
     align-items: center;
     gap: 16px;
 }
-.supervisor-panel_logo {
+.supervisor-panel_logo .icon {
     width: 56px;
     height: 56px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(173, 206, 24, 0.2);
     border-radius: 9px;
-    flex-shrink: 0;
-}
-.supervisor-panel_logo .icon {
-    width: 24px;
-    height: 24px;
 }
 .supervisor-panel_title {
     margin-bottom: 4px;
@@ -47778,7 +47761,7 @@ aside .menu .item .icon141 > * {
     text-decoration: none;
     display: block;
     padding: 16px 24px;
-    background: #ADCE18;
+    background: var(--main_color);
     border-radius: 80px;
     font-weight: 500;
     font-size: 16px;
@@ -47831,19 +47814,10 @@ aside .menu .item .icon141 > * {
     align-items: center;
     gap: 16px;
 }
-.proposal_logo {
+.proposal_logo-icon {
     width: 56px;
     height: 56px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(173, 206, 24, 0.2);
     border-radius: 9px;
-    flex-shrink: 0;
-}
-.proposal_logo-icon {
-    width: 24px;
-    height: 24px;
 }
 .proposal_box-title {
     font-weight: 700;
@@ -47881,6 +47855,7 @@ aside .menu .item .icon141 > * {
     line-height: 14px;    
     padding: 5px 8px;    
     border-radius: 80px;
+    white-space: nowrap;
 }
 .proposal_right-label.yellow {
     background: rgba(232, 175, 25, 0.1);
@@ -47950,13 +47925,13 @@ aside .menu .item .icon141 > * {
     text-align: center;
 }
 .proposal_btns a.green {
-    background: #ADCE18;
+    background: var(--main_color);
     color: #FFFFFF;
 }
 .proposal_btns a.white {
-    color: #ADCE18;
+    color: var(--main_color);
     background: #fff;
-    border: 1px solid #ADCE18;
+    border: 1px solid var(--main_color);
 }
 .proposal_btns a.red {
     color: #D53838;
@@ -47973,17 +47948,9 @@ aside .menu .item .icon141 > * {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
-.proposal_info-item_icon {
-    width: 32px;
-    height: 32px;
-    border-radius: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .proposal_info-item_icon .icon {
-    width: 20px;
-    height: 20px;    
+    width: 32px;
+    height: 32px;    
 }
 .proposal_info-item_title {
     margin-top: 8px;
@@ -47999,17 +47966,9 @@ aside .menu .item .icon141 > * {
     line-height: 16px;
     color: #7874A3;
 }
-.proposal_info-item.gray .proposal_info-item_icon {
-    background: #F3F3FF;
-}
-.proposal_info-item.gray .proposal_info-item_icon .icon{
-    stroke: #000;
-}
-.proposal_info-item.green .proposal_info-item_icon {
-    background: #EFF5D1;
-}
-.proposal_info-item.green .proposal_info-item_icon .icon{
-    stroke: #ADCE18;
+.proposal_info-item .proposal_info-item_icon .icon{
+    width: 32px;
+    height: 32px;
 }
 .proposal_accordion .accordion_item .data > * {
     margin-top: 24px;

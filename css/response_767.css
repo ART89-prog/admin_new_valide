@@ -3789,8 +3789,9 @@
     .proposal_accordion .accordion_item {
         padding: 12px;
     }
-    .proposal_right-label {
-        display: none;
+    .proposal_right {
+        align-items: flex-end;
+        flex-direction: column-reverse;
     }
     .supervisor-panel_top {
         flex-direction: column;
