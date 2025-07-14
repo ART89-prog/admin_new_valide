@@ -48281,12 +48281,12 @@ aside .menu .item .icon141 > * {
     position: relative;
 }
 .converse_item .icon {
-    width: 29px;
-    height: 29px;
+    width: 28px;
+    height: 28px;
 }
 .converse_item-check {
-    width: 29px;
-    height: 29px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
     background: #DEDBF4;
     border: 3px solid #DEDBF4;
@@ -48312,8 +48312,8 @@ aside .menu .item .icon141 > * {
 .converse_item:hover .converse_item-check:before {
     position: absolute;
     content: "";
-    width: 15px;
-    height: 15px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     background: var(--main_color);
     left: 4px;
@@ -48322,12 +48322,12 @@ aside .menu .item .icon141 > * {
 .converse_item.active .converse_item-check:before {
     position: absolute;
     content: "";
-    width: 15px;
-    height: 15px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     background: var(--main_color);
-    left: 4px;
-    top: 4px;
+    left: calc(50% - 7px);
+    top: calc(50% - 7px);
 }
 .converse_item:after {
     position: absolute;
