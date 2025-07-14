@@ -33,12 +33,6 @@ $(() => {
 	// });
 	//
 
-	$(".converse_item").click(function (e) {
-		e.preventDefault();	
-		$(this).toggleClass("active");
-	});
-
-
 	$(".js-trainer_ai_button-record").click(function (e) {
 		$(this).toggleClass("active");
 		$(".trainer_ai_record").toggleClass("hide");
