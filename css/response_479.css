@@ -2314,8 +2314,20 @@
         font-size: 16px;
     }
 
+    .go_controls_button{
+        top:-60px;
+    }
 
+    .controls_button{
+        margin-bottom:60px;
+    }
 
+    .lider_info{
+        flex-wrap:wrap;
+        gap: 5px;
+    }
 
-
+    .lider{
+        align-items: flex-start;
+    }
 }

@@ -1504,7 +1504,7 @@ aside .menu .item .icon > *
     max-width: 100%;
     height: 28px;
     max-height: 100%;
-    /*fill: rgba(255, 255, 255, .6);*/
+    fill: rgba(255, 255, 255, .6);
 }
 
 aside .menu .item .icon1 > *
@@ -7957,7 +7957,7 @@ aside .menu .sub_menu a.active
     border-radius: 10px;
 }
 
-.dialog .message .video_message .thumb img
+.dialog .message .video_message .thumb img, .dialog .message .video_message .thumb video
 {
     position: absolute;
     top: 0;
@@ -47654,6 +47654,7 @@ aside .menu .item .icon141 > * {
     font-size: 12px;
     line-height: 14px;
     color: #7874A3;
+    width: fit-content;
 }
 .knowledge_wrap-date {
     font-weight: 400;
@@ -47733,7 +47734,7 @@ aside .menu .item .icon141 > * {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-    margin-bottom: 24px;
+    /*margin-bottom: 24px;*/
 }
 .supervisor-panel_desc {
     display: flex;
@@ -47777,13 +47778,15 @@ aside .menu .item .icon141 > * {
     border-radius: 12px;
     gap: 8px;
     display: flex;
+    margin-top: 12px;
+
 }
 .supervisor-panel_warning .icon {
     width: 35px;
     height: 35px;
 }
 .supervisor-panel_info {
-    margin-top: 8px;
+    /*margin-top: 8px;*/
 }
 .supervisor-panel_info-title {
     font-weight: 500;
@@ -47972,4 +47975,283 @@ aside .menu .item .icon141 > * {
 }
 .proposal_accordion .accordion_item .data > * {
     margin-top: 24px;
+}
+
+.training_start{
+    border: 2px solid var(--main_color);
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.training_start + .training_start{
+    margin-top: 20px;
+}
+
+.training_start_status{
+    display: flex;
+    gap:10px;
+    margin-bottom: 20px;
+}
+
+.training_start_status div{
+    color:#fff;
+    background: #FF5C00;
+    border-radius: 60px;
+    padding: 5px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.training_start_status div:before{
+    content:"";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    background: #fff;
+    left: 9px;
+    top: calc(50% - 3px);
+}
+
+.training_start_status button{   
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px; 
+    color: #8484B2;
+    border-bottom: 1px dashed #8484B2;
+
+}
+
+.training_start_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.training_start_img{
+    text-align: center;
+}
+
+.training_start_img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.training_start_type{
+    background: var(--main_color);
+    border-radius: 60px;
+    color:#fff;
+    padding: 10px;
+    position: relative;
+    top: -20px;
+    border: 4px solid #fff;
+}
+
+.training_start_name{
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 19px;
+    color: #1D1D1D;
+    margin-bottom: 15px;
+}
+
+.training_start_desc{
+    text-align: center;
+}
+
+.training_start_button{
+    font-size: 17px;
+    background: var(--main_color);
+    border-radius: 60px;
+    color:#fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.training_start_status_end{
+    font-weight: bold;
+    color:#419F2E;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.training_start_status_new{
+    margin-top: 20px;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+}
+
+.training_start_status_new div{
+    font-weight: bold;
+}
+
+.training_start_status_end .icon{
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+}
+
+.video-control .icon {
+    display: none !important; /* Изначально все иконки скрыты */
+}
+
+.video-control .icon.active {
+    display: block !important;
+}
+
+.dialog .message .video_message.full{
+    width: 700px;
+}
+
+.dialog .message .video_message.full .thumb{
+    padding-bottom: 56.25%;
+}
+
+.dialog .message .video_message.full_vert .thumb{
+    padding-bottom: 177.77%;
+}
+
+
+.message_new_sep{
+    text-align: center;
+    border-bottom: 1px solid #d0d0d0;
+    width: calc(100% + 160px);
+    margin-left: -80px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.controls_button.hide{
+    display: none;
+}
+.controls_button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+}
+
+.controls_button_list{
+    display: flex;
+    gap:12px;
+}
+
+.controls_button_list button{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--main_color);
+    align-items: center;
+    border-radius: 50%;
+}
+
+.controls_button_list button .icon{
+    width: 30px;
+    height: 30px;
+}
+
+.controls_button_text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #8381A9;
+}
+
+.go_controls_button{
+    position: absolute;
+    top: -35px;
+    left:0px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.go_controls_button .icon{
+    width: 27px;
+    height: 27px;
+}
+
+.block_control{
+    position: relative;
+}
+
+.course_info .steps + .block_title{
+    margin-top: 40px;
+}
+
+.liders{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.lider{
+    background: #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+    gap:18px;
+    padding: 15px;
+    align-items: center;
+}
+
+.lider .img{
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.lider .img img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lider_name{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #020027;
+    margin-bottom: 10px;
+}
+
+.lider_post{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5D5B8B;
+}
+
+.lider_info{
+    display: flex;
+    gap:15px;
+    margin-top: 10px;
+}
+
+.lider_info div{
+    background: #FFFFFF;
+    border: 1px solid var(--main_color);
+    border-radius: 76px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--main_color);
+    padding: 5px;
+}
+
+.lider_count{
+    margin-left: auto;
+}
+
+.lider_count .c100:after{
+    background: #fff;
 }
