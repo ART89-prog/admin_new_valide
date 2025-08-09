@@ -48507,6 +48507,7 @@ aside .menu .item .icon141 > * {
 .purpose_heading svg {
     width: 56px;
     height: 56px;
+    flex-shrink: 0;
 }
 .purpose_heading-title {
     font-weight: 700;
@@ -48562,11 +48563,12 @@ aside .menu .item .icon141 > * {
     padding: 12px 12px 12px 40px;
     background: #F3F3FF;
     border-radius: 8px;
+    cursor: pointer;
 }
 .purpose_item ol li:before {
     position: absolute;
-   counter-increment: section; 
-   content: counter(section) " ";    
+    counter-increment: section; 
+    content: counter(section) " ";    
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
@@ -48624,8 +48626,82 @@ aside .menu .item .icon141 > * {
     padding: 12px;
     background: #F3F3FF;
     border-radius: 8px;
+    cursor: pointer;
+}
+.purpose_item ol li.active {
+    opacity: 0.5;
+}
+.purpose_item-box.active {
+    opacity: 0.5;
 }
 
+
+
+.purpose_modal {
+    display: none;
+    max-width: 800px;
+    width: 100%;
+    padding: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+}
+.purpose_modal-top {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.purpose_modal-top svg {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+}
+.purpose_modal-top span {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;   
+}
+.purpose_modal .tabs_container {
+    padding: 0;
+}
+.purpose_modal .tabs_container .tabs {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+.purpose_modal .tabs_container .tabs button {
+    opacity: 1;
+    margin-right: 0;
+}
+.purpose_modal .tabs_container button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    border: 1px solid var(--main_color);
+    border-radius: 80px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--main_color);
+}
+.purpose_modal .tabs_container button.active {
+    color: #fff;
+    background: var(--main_color);
+}
+.purpose_modal-text {
+    padding: 16px;
+    background: #F3F3FF;
+    border-radius: 8px; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7874A3;
+}
+.purpose_modal-text p + p {
+    margin-top: 16px;
+}
 
 
 .accordion_new_style{
