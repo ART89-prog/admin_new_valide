@@ -2309,6 +2309,13 @@
         padding: 6px 10px;
     }
 
+    .sales_item-wrap > * {
+        width: 100%;
+    }
+    .sales_item {
+        padding: 16px;
+    }
+
 
     .purpose_heead-btn {
         width: 100%;

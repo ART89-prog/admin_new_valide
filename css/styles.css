@@ -48711,16 +48711,14 @@ aside .menu .item .icon141 > * {
 .sales .page_title {
     font-weight: 700;
     font-size: 24px;
-    line-height: 1.5;
+    line-height: 1.2;
     margin-bottom: 8px;
 }
 .sales .page_sub-title {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.2;
     color: #7874A3;
-}
-.sales_items {
 }
 .sales_item + .sales_item {
     margin-top: 40px;
@@ -48743,25 +48741,89 @@ aside .menu .item .icon141 > * {
     width: 56px;
     height: 56px;
 }
-.sales_item-info {
-}
 .sales_item_title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;    
 }
 .sales_item_text {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7874A3;
+    padding: 8px;
+    background: rgba(120, 116, 163, 0.1);
+    border-radius: 80px;
+    display: inline-block;
 }
 .sales_item-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.sales_item-wrap > * {
+    width: calc(100%/4 - 6px);
 }
 .sales_item-box {
+    text-decoration: none;
+    padding: 16px;
+    background: #F3F3FF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .sales_item-box_title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #020027;
+    margin-bottom: 16px;
 }
 .sales_item-box_bottom {
+    display: flex;
+    gap: 16px;
 }
-.sales_item-view {
+.sales_item-view span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7874A3;
 }
+.sales_item-rating span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7874A3;
+}
+.sales_item-view,
 .sales_item-rating {
+    gap: 2px;
+    display: flex;
+    align-items: center;
 }
-
+.sales_item-box_bottom .icon {
+    width: 20px;
+    height: 20px;
+}
+.sales_item-view .icon {
+    stroke: #7874A3;
+}
+.sales_item-box:hover .sales_item-view .icon {
+    stroke: #fff;
+}
+.sales_item-box:hover {
+    background: var(--main_color);
+}
+.sales_item-box:hover .sales_item-box_title {
+    color: #fff;
+}
+.sales_item-box:hover .sales_item-view span {
+    color: #fff;
+}
+.sales_item-box:hover .sales_item-rating span {
+    color: #fff;
+}
 
 
 
