@@ -48704,6 +48704,67 @@ aside .menu .item .icon141 > * {
 }
 
 
+
+.sales_head {
+    margin-bottom: 40px;
+}
+.sales .page_title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+.sales .page_sub-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #7874A3;
+}
+.sales_items {
+}
+.sales_item + .sales_item {
+    margin-top: 40px;
+}
+.sales_item {
+    padding: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+}
+.sales_item-top {
+    padding: 0px 0px 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    gap: 16px;
+    display: flex;
+    align-items: center;
+}
+.sales_item-top .icon {
+    width: 56px;
+    height: 56px;
+}
+.sales_item-info {
+}
+.sales_item_title {
+}
+.sales_item_text {
+}
+.sales_item-wrap {
+}
+.sales_item-box {
+}
+.sales_item-box_title {
+}
+.sales_item-box_bottom {
+}
+.sales_item-view {
+}
+.sales_item-rating {
+}
+
+
+
+
 .accordion_new_style{
     .accordion_item .head:before{
         display: none;
