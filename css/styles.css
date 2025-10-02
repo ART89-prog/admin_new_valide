@@ -49235,3 +49235,25 @@ aside .menu .item .icon141 > * {
 .message_allow.message_continue .blue{
     display: flex;
 }
+
+
+
+
+.text-page43 {
+    background-color: color-mix(in srgb, var(--main_color) 10%, #fff);
+}
+.text-page_block {
+}
+.text-page43_wrap {
+    display: flex;
+    gap: 20px;
+}
+.text-page43_img {
+}
+.text-page43_info {
+
+}
+.text-page43_title {
+}
+.text-page43_text {
+}
